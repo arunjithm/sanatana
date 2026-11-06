@@ -1,17 +1,27 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import dynamic from 'next/dynamic';
 import type { DomainId, GraphNode, GraphEdge } from '@/types/knowledge';
 import { useGraphData } from './useGraphData';
-import { createNodeObject } from './NodeObject';
 
 const ForceGraph3D = dynamic(() => import('react-force-graph-3d'), { ssr: false });
+const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
 interface GraphCanvasProps {
   activeDomains: Set<DomainId>;
   onNodeClick: (node: GraphNode) => void;
   highlightedNodeIds?: Set<string>;
+}
+
+function getSize() {
+  if (typeof window === 'undefined') return { width: 390, height: 700 };
+  return { width: window.innerWidth, height: window.innerHeight };
+}
+
+function isMobile() {
+  if (typeof navigator === 'undefined') return false;
+  return /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || window.innerWidth < 768;
 }
 
 export default function GraphCanvas({
@@ -20,74 +30,109 @@ export default function GraphCanvas({
   highlightedNodeIds = new Set(),
 }: GraphCanvasProps) {
   const { graphData, loading } = useGraphData(activeDomains);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
-  const lowPerf =
-    typeof navigator !== 'undefined' && navigator.hardwareConcurrency < 4;
+  const [dimensions, setDimensions] = useState(getSize);
+  const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
-    const update = () => {
-      if (containerRef.current) {
-        setDimensions({
-          width: containerRef.current.offsetWidth,
-          height: containerRef.current.offsetHeight,
-        });
-      }
+    setMobile(isMobile());
+    const onResize = () => {
+      setDimensions(getSize());
+      setMobile(isMobile());
     };
-    update();
-    const ro = new ResizeObserver(update);
-    if (containerRef.current) ro.observe(containerRef.current);
-    return () => ro.disconnect();
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
   }, []);
+
+  const handleNodeClick = useCallback(
+    (node: object) => onNodeClick(node as GraphNode),
+    [onNodeClick]
+  );
+
+  const hasHighlight = highlightedNodeIds.size > 0;
+
+  const nodeColor = useCallback(
+    (node: object) => {
+      const gNode = node as GraphNode;
+      if (!hasHighlight) return gNode.color ?? '#ffffff';
+      return highlightedNodeIds.has(gNode.id)
+        ? (gNode.color ?? '#ffffff')
+        : 'rgba(255,255,255,0.15)';
+    },
+    [hasHighlight, highlightedNodeIds]
+  );
+
+  const linkColor = useCallback(
+    (link: object) => (link as GraphEdge).color ?? 'rgba(255,255,255,0.15)',
+    []
+  );
 
   if (loading) {
     return (
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#fff',
-          background: '#050510',
-        }}
-      >
-        Loading…
+      <div style={{
+        position: 'fixed', inset: 0,
+        display: 'flex', flexDirection: 'column',
+        alignItems: 'center', justifyContent: 'center',
+        background: '#050510', color: '#a78bfa',
+        fontSize: 14, gap: 12,
+      }}>
+        <div style={{ fontSize: 32 }}>🕉</div>
+        <div>Loading the Knowledge Universe…</div>
       </div>
     );
   }
 
-  const hasHighlight = highlightedNodeIds.size > 0;
+  const commonProps = {
+    graphData,
+    width: dimensions.width,
+    height: dimensions.height,
+    backgroundColor: '#050510',
+    nodeLabel: 'nameEnglish',
+    nodeColor,
+    linkColor,
+    onNodeClick: handleNodeClick,
+  };
 
   return (
-    <div ref={containerRef} style={{ position: 'absolute', inset: 0 }}>
-      <ForceGraph3D
-        graphData={graphData}
-        backgroundColor="#050510"
-        width={dimensions.width}
-        height={dimensions.height}
-        nodeThreeObject={(node) => {
-          const gNode = node as GraphNode;
-          const isHighlighted = highlightedNodeIds ? highlightedNodeIds.has(gNode.id) : false;
-          const isDimmed = highlightedNodeIds && highlightedNodeIds.size > 0 && !highlightedNodeIds.has(gNode.id);
-          return createNodeObject(gNode, { highlighted: isHighlighted, dimmed: isDimmed });
-        }}
-        nodeThreeObjectExtend={false}
-        nodeLabel="nameEnglish"
-        nodeColor={(node) => {
-          if (!hasHighlight) return (node as GraphNode).color ?? '#ffffff';
-          return highlightedNodeIds.has((node as GraphNode).id)
-            ? ((node as GraphNode).color ?? '#ffffff')
-            : 'rgba(255,255,255,0.3)';
-        }}
-        linkColor={(link) => (link as GraphEdge).color ?? 'rgba(255,255,255,0.2)'}
-        linkWidth={(link) => ((link as GraphEdge).weight ?? 5) / 5}
-        linkDirectionalParticles={lowPerf ? 0 : 2}
-        linkDirectionalParticleSpeed={0.004}
-        onNodeClick={(node) => onNodeClick(node as GraphNode)}
-        onNodeRightClick={() => undefined}
-      />
+    <div style={{ position: 'fixed', inset: 0, touchAction: 'none' }}>
+      {mobile ? (
+        <ForceGraph2D
+          {...commonProps}
+          nodeRelSize={5}
+          nodeCanvasObject={(node, ctx, globalScale) => {
+            const gNode = node as GraphNode & { x?: number; y?: number };
+            if (gNode.x == null || gNode.y == null) return;
+            const r = 5;
+            const color = hasHighlight
+              ? highlightedNodeIds.has(gNode.id) ? (gNode.color ?? '#fff') : 'rgba(255,255,255,0.15)'
+              : (gNode.color ?? '#fff');
+            ctx.beginPath();
+            ctx.arc(gNode.x, gNode.y, r, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+            if (globalScale >= 2) {
+              ctx.font = `${10 / globalScale}px sans-serif`;
+              ctx.fillStyle = '#fff';
+              ctx.textAlign = 'center';
+              ctx.fillText(gNode.nameEnglish ?? '', gNode.x, gNode.y + r + 4);
+            }
+          }}
+          nodeCanvasObjectMode={() => 'replace'}
+          linkWidth={1}
+          linkDirectionalParticles={0}
+          d3AlphaDecay={0.02}
+          d3VelocityDecay={0.3}
+          cooldownTicks={80}
+        />
+      ) : (
+        <ForceGraph3D
+          {...commonProps}
+          nodeLabel="nameEnglish"
+          linkWidth={(link) => ((link as GraphEdge).weight ?? 5) / 5}
+          linkDirectionalParticles={2}
+          linkDirectionalParticleSpeed={0.004}
+          onNodeRightClick={() => undefined}
+        />
+      )}
     </div>
   );
 }
