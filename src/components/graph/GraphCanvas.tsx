@@ -32,6 +32,7 @@ export default function GraphCanvas({
   const { graphData, loading } = useGraphData(activeDomains);
   const [dimensions, setDimensions] = useState(getSize);
   const [mobile, setMobile] = useState(false);
+  const graphRef = useRef<any>(); // ForceGraph2D ref for zoomToFit
 
   useEffect(() => {
     setMobile(isMobile());
@@ -41,6 +42,13 @@ export default function GraphCanvas({
     };
     window.addEventListener('resize', onResize);
     return () => window.removeEventListener('resize', onResize);
+  }, []);
+
+  // Configure force simulation for tight, readable clustering
+  const handleEngineStop = useCallback(() => {
+    if (!graphRef.current) return;
+    // zoom to fit after simulation settles
+    graphRef.current.zoomToFit(400, 40);
   }, []);
 
   const handleNodeClick = useCallback(
@@ -96,32 +104,49 @@ export default function GraphCanvas({
     <div style={{ position: 'fixed', inset: 0, touchAction: 'none' }}>
       {mobile ? (
         <ForceGraph2D
+          ref={graphRef}
           {...commonProps}
-          nodeRelSize={5}
+          nodeRelSize={6}
           nodeCanvasObject={(node, ctx, globalScale) => {
             const gNode = node as GraphNode & { x?: number; y?: number };
             if (gNode.x == null || gNode.y == null) return;
-            const r = 5;
-            const color = hasHighlight
-              ? highlightedNodeIds.has(gNode.id) ? (gNode.color ?? '#fff') : 'rgba(255,255,255,0.15)'
-              : (gNode.color ?? '#fff');
+            const r = 6;
+            const isHighlighted = hasHighlight && highlightedNodeIds.has(gNode.id);
+            const isActive = !hasHighlight || isHighlighted;
+            const color = isActive ? (gNode.color ?? '#a78bfa') : 'rgba(255,255,255,0.08)';
+
+            // glow for highlighted
+            if (isHighlighted) {
+              ctx.beginPath();
+              ctx.arc(gNode.x, gNode.y, r * 2.5, 0, 2 * Math.PI);
+              ctx.fillStyle = `${gNode.color ?? '#a78bfa'}33`;
+              ctx.fill();
+            }
+
+            // node circle
             ctx.beginPath();
             ctx.arc(gNode.x, gNode.y, r, 0, 2 * Math.PI);
             ctx.fillStyle = color;
             ctx.fill();
-            if (globalScale >= 2) {
-              ctx.font = `${10 / globalScale}px sans-serif`;
-              ctx.fillStyle = '#fff';
+
+            // label — always visible, scales with zoom
+            if (isActive && globalScale >= 0.6) {
+              const label = gNode.nameEnglish ?? '';
+              const fontSize = Math.min(12, Math.max(7, 9 / globalScale));
+              ctx.font = `${fontSize}px sans-serif`;
               ctx.textAlign = 'center';
-              ctx.fillText(gNode.nameEnglish ?? '', gNode.x, gNode.y + r + 4);
+              ctx.textBaseline = 'top';
+              ctx.fillStyle = isHighlighted ? '#fff' : 'rgba(255,255,255,0.7)';
+              ctx.fillText(label, gNode.x, gNode.y + r + 2);
             }
           }}
           nodeCanvasObjectMode={() => 'replace'}
-          linkWidth={1}
+          linkWidth={0.6}
           linkDirectionalParticles={0}
-          d3AlphaDecay={0.02}
-          d3VelocityDecay={0.3}
-          cooldownTicks={80}
+          d3AlphaDecay={0.015}
+          d3VelocityDecay={0.4}
+          cooldownTicks={150}
+          onEngineStop={handleEngineStop}
         />
       ) : (
         <ForceGraph3D
