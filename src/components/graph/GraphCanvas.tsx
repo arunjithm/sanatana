@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import type { DomainId, GraphNode, GraphEdge } from '@/types/knowledge';
 import { useGraphData } from './useGraphData';
@@ -12,6 +12,65 @@ interface GraphCanvasProps {
   activeDomains: Set<DomainId>;
   onNodeClick: (node: GraphNode) => void;
   highlightedNodeIds?: Set<string>;
+}
+
+// Radii for the layout rings
+const DOMAIN_RING_R = 280;   // distance from center to domain hub
+const NODE_RING_R   = 110;   // distance from domain hub to its leaf nodes
+
+/** Pre-compute fixed (fx, fy) for every node so the graph is a readable radial tree */
+function applyRadialLayout(nodes: GraphNode[]): GraphNode[] {
+  const CENTER_ID = 'concept-brahman'; // Brahman at the absolute center
+
+  // Gather unique domains from the visible node set
+  const domainSet = new Set<string>();
+  for (const n of nodes) {
+    if (n.id !== CENTER_ID) domainSet.add(n.domain);
+  }
+  const domains = Array.from(domainSet);
+  const domainCount = domains.length;
+
+  // Map domain → { angle, hubX, hubY }
+  const domainInfo: Record<string, { hubX: number; hubY: number }> = {};
+  domains.forEach((d, i) => {
+    const angle = (2 * Math.PI * i) / domainCount - Math.PI / 2; // start at top
+    domainInfo[d] = {
+      hubX: DOMAIN_RING_R * Math.cos(angle),
+      hubY: DOMAIN_RING_R * Math.sin(angle),
+    };
+  });
+
+  // Count nodes per domain so we can space them evenly
+  const domainNodes: Record<string, GraphNode[]> = {};
+  for (const n of nodes) {
+    if (n.id === CENTER_ID) continue;
+    if (!domainNodes[n.domain]) domainNodes[n.domain] = [];
+    domainNodes[n.domain].push(n);
+  }
+
+  return nodes.map((n) => {
+    if (n.id === CENTER_ID) {
+      return { ...n, fx: 0, fy: 0, fz: 0 };
+    }
+    const info = domainInfo[n.domain];
+    if (!info) return n;
+
+    const siblings = domainNodes[n.domain] ?? [];
+    const idx = siblings.findIndex((s) => s.id === n.id);
+    const total = siblings.length;
+    // Spread siblings in a half-arc (180°) centred away from origin
+    const hubAngle = Math.atan2(info.hubY, info.hubX);
+    const spread = total > 1 ? Math.PI * 0.9 : 0;
+    const startAngle = hubAngle - spread / 2;
+    const leafAngle = total > 1 ? startAngle + (spread * idx) / (total - 1) : hubAngle;
+
+    return {
+      ...n,
+      fx: info.hubX + NODE_RING_R * Math.cos(leafAngle),
+      fy: info.hubY + NODE_RING_R * Math.sin(leafAngle),
+      fz: 0,
+    };
+  });
 }
 
 function getSize() {
@@ -34,6 +93,15 @@ export default function GraphCanvas({
   const [mobile, setMobile] = useState(false);
   const graphRef = useRef<any>(); // ForceGraph2D ref for zoomToFit
 
+  // Apply radial layout to nodes whenever data changes
+  const layoutData = useMemo(() => {
+    if (!graphData) return graphData;
+    return {
+      nodes: applyRadialLayout(graphData.nodes as GraphNode[]),
+      links: graphData.links,
+    };
+  }, [graphData]);
+
   useEffect(() => {
     setMobile(isMobile());
     const onResize = () => {
@@ -44,10 +112,9 @@ export default function GraphCanvas({
     return () => window.removeEventListener('resize', onResize);
   }, []);
 
-  // Configure force simulation for tight, readable clustering
+  // Zoom to fit once layout stabilises (nearly instant since nodes are pinned)
   const handleEngineStop = useCallback(() => {
     if (!graphRef.current) return;
-    // zoom to fit after simulation settles
     graphRef.current.zoomToFit(400, 40);
   }, []);
 
@@ -90,7 +157,7 @@ export default function GraphCanvas({
   }
 
   const commonProps = {
-    graphData,
+    graphData: layoutData,
     width: dimensions.width,
     height: dimensions.height,
     backgroundColor: '#050510',
@@ -110,42 +177,47 @@ export default function GraphCanvas({
           nodeCanvasObject={(node, ctx, globalScale) => {
             const gNode = node as GraphNode & { x?: number; y?: number };
             if (gNode.x == null || gNode.y == null) return;
-            const r = 6;
+            // Central node is larger
+            const isCenter = gNode.id === 'concept-brahman';
+            const r = isCenter ? 10 : 6;
             const isHighlighted = hasHighlight && highlightedNodeIds.has(gNode.id);
             const isActive = !hasHighlight || isHighlighted;
             const color = isActive ? (gNode.color ?? '#a78bfa') : 'rgba(255,255,255,0.08)';
 
-            // glow for highlighted
-            if (isHighlighted) {
+            // glow for highlighted or center
+            if (isHighlighted || isCenter) {
               ctx.beginPath();
               ctx.arc(gNode.x, gNode.y, r * 2.5, 0, 2 * Math.PI);
-              ctx.fillStyle = `${gNode.color ?? '#a78bfa'}33`;
+              ctx.fillStyle = isCenter ? '#FFD70033' : `${gNode.color ?? '#a78bfa'}33`;
               ctx.fill();
             }
 
             // node circle
             ctx.beginPath();
             ctx.arc(gNode.x, gNode.y, r, 0, 2 * Math.PI);
-            ctx.fillStyle = color;
+            ctx.fillStyle = isCenter ? '#FFD700' : color;
             ctx.fill();
 
             // label — always visible, scales with zoom
-            if (isActive && globalScale >= 0.6) {
-              const label = gNode.nameEnglish ?? '';
-              const fontSize = Math.min(12, Math.max(7, 9 / globalScale));
-              ctx.font = `${fontSize}px sans-serif`;
+            if (isActive) {
+              const label = isCenter ? '🕉 Brahman' : (gNode.nameEnglish ?? '');
+              const fontSize = isCenter
+                ? Math.min(14, Math.max(8, 11 / globalScale))
+                : Math.min(11, Math.max(6, 8 / globalScale));
+              ctx.font = `${isCenter ? 'bold ' : ''}${fontSize}px sans-serif`;
               ctx.textAlign = 'center';
               ctx.textBaseline = 'top';
-              ctx.fillStyle = isHighlighted ? '#fff' : 'rgba(255,255,255,0.7)';
+              ctx.fillStyle = isCenter ? '#FFD700' : (isHighlighted ? '#fff' : 'rgba(255,255,255,0.75)');
               ctx.fillText(label, gNode.x, gNode.y + r + 2);
             }
           }}
           nodeCanvasObjectMode={() => 'replace'}
-          linkWidth={0.6}
+          linkWidth={0.5}
           linkDirectionalParticles={0}
-          d3AlphaDecay={0.015}
-          d3VelocityDecay={0.4}
-          cooldownTicks={150}
+          // With fx/fy pinned, the simulation barely needs to run
+          d3AlphaDecay={0.5}
+          d3VelocityDecay={0.9}
+          cooldownTicks={30}
           onEngineStop={handleEngineStop}
         />
       ) : (
@@ -156,6 +228,10 @@ export default function GraphCanvas({
           linkDirectionalParticles={2}
           linkDirectionalParticleSpeed={0.004}
           onNodeRightClick={() => undefined}
+          // Fast settle for 3D too
+          d3AlphaDecay={0.5}
+          d3VelocityDecay={0.9}
+          cooldownTicks={30}
         />
       )}
     </div>

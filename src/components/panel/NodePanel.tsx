@@ -28,18 +28,24 @@ export function NodePanel({ node, onClose, onNavigateTo }: NodePanelProps) {
 
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-96 z-50 flex flex-col transition-transform duration-300 ${
+      className={`fixed top-0 right-0 h-full z-50 flex flex-col transition-transform duration-300 ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
-      style={{ background: '#0a0a1a', borderTop: '3px solid #FFD700' }}
+      style={{
+        background: '#0a0a1a',
+        borderTop: '3px solid #FFD700',
+        width: 'min(100vw, 384px)',
+        maxWidth: '100vw',
+        boxSizing: 'border-box',
+      }}
     >
       {node && (
         <>
           {/* Header */}
-          <div className="flex items-start justify-between p-4 border-b border-gray-800">
-            <div className="flex-1 min-w-0">
-              <div className="text-2xl text-yellow-400 font-devanagari leading-tight">{node.nameDevanagari}</div>
-              <div className="text-sm italic text-gray-400 mt-0.5">{node.nameTransliteration}</div>
+          <div className="flex items-start justify-between p-4 border-b border-gray-800" style={{ minWidth: 0 }}>
+            <div className="flex-1 min-w-0 pr-2">
+              <div className="text-2xl text-yellow-400 font-devanagari leading-tight truncate">{node.nameDevanagari}</div>
+              <div className="text-sm italic text-gray-400 mt-0.5 truncate">{node.nameTransliteration}</div>
               <div className="text-base text-white mt-1 font-medium">{node.nameEnglish}</div>
               {node.meaningEnglish && (
                 <div className="text-sm text-gray-300 mt-0.5">{node.meaningEnglish}</div>
@@ -47,8 +53,9 @@ export function NodePanel({ node, onClose, onNavigateTo }: NodePanelProps) {
             </div>
             <button
               onClick={onClose}
-              className="ml-2 text-gray-400 hover:text-white text-xl leading-none flex-shrink-0"
+              className="text-gray-400 hover:text-white leading-none flex-shrink-0"
               aria-label="Close panel"
+              style={{ fontSize: 28, width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             >
               ×
             </button>
