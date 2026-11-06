@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import type { DomainId, GraphNode } from '@/types/knowledge';
+import { SearchBar } from '@/components/ui/SearchBar';
+import { useSearch } from '@/hooks/useSearch';
 
 const GraphCanvas = dynamic(() => import('@/components/graph/GraphCanvas'), {
   ssr: false,
@@ -17,14 +19,20 @@ const ALL_DOMAINS: DomainId[] = [
 export default function Home() {
   const [activeDomains] = useState<Set<DomainId>>(new Set(ALL_DOMAINS));
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
-  const [highlightedNodeIds] = useState<Set<string>>(new Set());
+  const { query, setQuery, results, highlightedIds } = useSearch();
 
   return (
     <main className="w-screen h-screen overflow-hidden relative">
+      <SearchBar
+        query={query}
+        setQuery={setQuery}
+        results={results}
+        onNodeSelect={(node) => setSelectedNode(node as GraphNode)}
+      />
       <GraphCanvas
         activeDomains={activeDomains}
         onNodeClick={(n) => setSelectedNode(n)}
-        highlightedNodeIds={highlightedNodeIds}
+        highlightedNodeIds={highlightedIds}
       />
       {selectedNode && (
         <div
