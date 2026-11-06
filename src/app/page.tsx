@@ -4,7 +4,9 @@ import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import type { DomainId, GraphNode } from '@/types/knowledge';
 import { SearchBar } from '@/components/ui/SearchBar';
+import { NodePanel } from '@/components/panel/NodePanel';
 import { useSearch } from '@/hooks/useSearch';
+import { useNodeSelection } from '@/hooks/useNodeSelection';
 
 const GraphCanvas = dynamic(() => import('@/components/graph/GraphCanvas'), {
   ssr: false,
@@ -18,8 +20,8 @@ const ALL_DOMAINS: DomainId[] = [
 
 export default function Home() {
   const [activeDomains] = useState<Set<DomainId>>(new Set(ALL_DOMAINS));
-  const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
   const { query, setQuery, results, highlightedIds } = useSearch();
+  const { selectedNode, selectNode } = useNodeSelection();
 
   return (
     <main className="w-screen h-screen overflow-hidden relative">
@@ -27,34 +29,18 @@ export default function Home() {
         query={query}
         setQuery={setQuery}
         results={results}
-        onNodeSelect={(node) => setSelectedNode(node as GraphNode)}
+        onNodeSelect={(node) => selectNode(node)}
       />
       <GraphCanvas
         activeDomains={activeDomains}
-        onNodeClick={(n) => setSelectedNode(n)}
+        onNodeClick={(n: GraphNode) => selectNode(n)}
         highlightedNodeIds={highlightedIds}
       />
-      {selectedNode && (
-        <div
-          style={{
-            position: 'absolute',
-            top: 16,
-            right: 16,
-            background: 'rgba(5,5,16,0.85)',
-            color: '#fff',
-            padding: '12px 16px',
-            borderRadius: 8,
-            maxWidth: 260,
-            fontSize: 13,
-          }}
-        >
-          <strong>{selectedNode.nameEnglish}</strong>
-          <div style={{ opacity: 0.7, marginTop: 4 }}>
-            {selectedNode.nameDevanagari}
-          </div>
-          <div style={{ marginTop: 6 }}>{selectedNode.meaningEnglish}</div>
-        </div>
-      )}
+      <NodePanel
+        node={selectedNode}
+        onClose={() => selectNode(null)}
+        onNavigateTo={(node) => selectNode(node)}
+      />
     </main>
   );
 }

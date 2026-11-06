@@ -1,0 +1,23 @@
+import { useState, useCallback } from 'react';
+import type { KnowledgeNode } from '@/types/knowledge';
+
+const MAX_HISTORY = 10;
+
+export function useNodeSelection() {
+  const [selectedNode, setSelectedNode] = useState<KnowledgeNode | null>(null);
+  const [history, setHistory] = useState<KnowledgeNode[]>([]);
+
+  const selectNode = useCallback((node: KnowledgeNode | null) => {
+    if (node !== null) {
+      setHistory((prev) => {
+        const updated = [...prev, node];
+        return updated.length > MAX_HISTORY ? updated.slice(updated.length - MAX_HISTORY) : updated;
+      });
+      setSelectedNode(node);
+    } else {
+      setSelectedNode(null);
+    }
+  }, []);
+
+  return { selectedNode, selectNode, history };
+}
