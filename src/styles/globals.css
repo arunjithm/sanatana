@@ -1,0 +1,13 @@
+@import '@fontsource/noto-serif';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #050510;
+  color: #e2e8f0;
+}
+
+.devanagari {
+  font-family: 'Noto Serif', serif;
+}
