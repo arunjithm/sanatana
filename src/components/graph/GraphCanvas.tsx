@@ -44,8 +44,8 @@ export default function GraphCanvas({
     return (
       <div
         style={{
-          width: '100%',
-          height: '100%',
+          position: 'absolute',
+          inset: 0,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -61,7 +61,7 @@ export default function GraphCanvas({
   const hasHighlight = highlightedNodeIds.size > 0;
 
   return (
-    <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
+    <div ref={containerRef} style={{ position: 'absolute', inset: 0 }}>
       <ForceGraph3D
         graphData={graphData}
         backgroundColor="#050510"

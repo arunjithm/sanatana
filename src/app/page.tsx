@@ -38,7 +38,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-screen h-screen overflow-hidden relative">
+    <main style={{ position: 'fixed', inset: 0, overflow: 'hidden' }}>
       <SearchBar
         query={query}
         setQuery={setQuery}
