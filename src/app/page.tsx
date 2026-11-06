@@ -5,6 +5,8 @@ import dynamic from 'next/dynamic';
 import type { DomainId, GraphNode } from '@/types/knowledge';
 import { SearchBar } from '@/components/ui/SearchBar';
 import { NodePanel } from '@/components/panel/NodePanel';
+import { DomainFilter } from '@/components/ui/DomainFilter';
+import { ExplorationHistory } from '@/components/ui/ExplorationHistory';
 import { useSearch } from '@/hooks/useSearch';
 import { useNodeSelection } from '@/hooks/useNodeSelection';
 
@@ -19,9 +21,21 @@ const ALL_DOMAINS: DomainId[] = [
 ];
 
 export default function Home() {
-  const [activeDomains] = useState<Set<DomainId>>(new Set(ALL_DOMAINS));
+  const [activeDomains, setActiveDomains] = useState<Set<DomainId>>(new Set(ALL_DOMAINS));
   const { query, setQuery, results, highlightedIds } = useSearch();
-  const { selectedNode, selectNode } = useNodeSelection();
+  const { selectedNode, selectNode, history } = useNodeSelection();
+
+  const handleToggleDomain = (id: DomainId) => {
+    setActiveDomains(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
+  const handleResetDomains = () => {
+    setActiveDomains(new Set(ALL_DOMAINS));
+  };
 
   return (
     <main className="w-screen h-screen overflow-hidden relative">
@@ -40,6 +54,12 @@ export default function Home() {
         node={selectedNode}
         onClose={() => selectNode(null)}
         onNavigateTo={(node) => selectNode(node)}
+      />
+      <ExplorationHistory history={history} onSelect={selectNode} />
+      <DomainFilter
+        activeDomains={activeDomains}
+        onToggle={handleToggleDomain}
+        onReset={handleResetDomains}
       />
     </main>
   );
