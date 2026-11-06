@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        devanagari: ['"Noto Serif"', 'serif'],
+        devanagari: ['"Noto Serif Devanagari"', '"Noto Serif"', 'serif'],
       },
     },
   },

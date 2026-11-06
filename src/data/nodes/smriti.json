@@ -87,12 +87,12 @@
     "tier": "planet",
     "historicalContext": "The Manusmriti (also called Manava Dharmashastra) is the most cited Dharmashastra text, composed approximately 200 BCE–200 CE. It is traditionally attributed to Manu, the progenitor of humanity. Its 12 chapters cover the duties of castes, life stages, kings, and courts, as well as cosmogony and penance.",
     "explanation": "The Manusmriti prescribes the duties of each varna, the four ashramas, the duties of kings, the law of inheritance, criminal law, and rules for personal purification. It has been enormously influential in shaping Hindu social law and was used as a legal code during the British colonial period. It has also been subject to severe criticism for its provisions supporting caste hierarchy and subordination of women, and B.R. Ambedkar publicly burned it in 1927.",
-    "scholarlyNotes": "The Manusmriti contains passages of multiple dates and apparent interpolations. Modern scholars including Patrick Olivelle have argued for a more nuanced reading of the text's historical layers.",
+    "scholarlyNotes": "The Manusmriti's authorship and historical authenticity are widely contested; many scholars view it as a later compilation with additions from multiple periods.",
     "sources": [
       { "text": "Manusmriti 1.1–119 (Cosmogony and varna origins)", "section": "1.1" },
       { "text": "Manusmriti 2.1–24 (definition of dharma)", "section": "2.1" }
     ],
-    "confidence": "established"
+    "confidence": "disputed"
   },
   {
     "id": "smriti-arthashastra",
@@ -106,11 +106,12 @@
     "tier": "planet",
     "historicalContext": "The Arthashastra is attributed to Kautilya (also known as Chanakya or Vishnugupta), minister to Chandragupta Maurya (r. c. 320–298 BCE). The text was lost for centuries and rediscovered in 1905 by R. Shamasastry in Mysore. It consists of 15 books (adhikaranas) covering statecraft, economic policy, law, warfare, and diplomacy.",
     "explanation": "The Arthashastra is one of the most sophisticated treatises on statecraft from the ancient world, comparable to Machiavelli's Prince and Thucydides' History in its realist approach to politics. It covers the duties of a king, the structure of government, economic management, foreign policy (mandala theory of concentric alliances and rivalries), espionage, and military strategy.",
+    "scholarlyNotes": "Attribution to Chanakya/Kautilya is debated; the text may represent compilation of earlier political philosophy over several centuries.",
     "sources": [
       { "text": "Arthashastra of Kautilya 1.1.1", "section": "1.1.1" },
       { "text": "Arthashastra 1.19 (definition of artha and science of polity)", "section": "1.19" }
     ],
-    "confidence": "established"
+    "confidence": "uncertain"
   },
   {
     "id": "smriti-yoga-vasishtha",

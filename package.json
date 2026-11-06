@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate": "jest src/data/repository.test.ts --testNamePattern='validateGraph returns no errors'"
+    "test": "jest"
   },
   "dependencies": {
     "@fontsource/noto-serif": "^5.0.0",
+    "@fontsource/noto-serif-devanagari": "^5.3.0",
     "fuse.js": "^7.0.0",
     "next": "14.2.5",
     "react": "^18",
@@ -19,6 +20,7 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^20",

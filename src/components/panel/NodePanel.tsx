@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import type { KnowledgeNode } from '@/types/knowledge';
+import { useState, useEffect } from 'react';
+import type { KnowledgeNode, KnowledgeEdge } from '@/types/knowledge';
 import { getEdgesForNode, getNodeById } from '@/data/repository';
 import { SourceBadge } from './SourceBadge';
 import { SanskritPassage } from './SanskritPassage';
@@ -22,6 +22,8 @@ const confidenceColor: Record<string, string> = {
 export function NodePanel({ node, onClose, onNavigateTo }: NodePanelProps) {
   const [scholarsOpen, setScholarsOpen] = useState(false);
 
+  useEffect(() => { setScholarsOpen(false); }, [node?.id]);
+
   const isOpen = node !== null;
 
   return (
@@ -36,7 +38,7 @@ export function NodePanel({ node, onClose, onNavigateTo }: NodePanelProps) {
           {/* Header */}
           <div className="flex items-start justify-between p-4 border-b border-gray-800">
             <div className="flex-1 min-w-0">
-              <div className="text-2xl text-yellow-400 font-serif leading-tight">{node.nameDevanagari}</div>
+              <div className="text-2xl text-yellow-400 font-devanagari leading-tight">{node.nameDevanagari}</div>
               <div className="text-sm italic text-gray-400 mt-0.5">{node.nameTransliteration}</div>
               <div className="text-base text-white mt-1 font-medium">{node.nameEnglish}</div>
               {node.meaningEnglish && (
@@ -131,25 +133,34 @@ function RelatedNodes({ node, onNavigateTo }: { node: KnowledgeNode; onNavigateT
   const edges = getEdgesForNode(node.id);
   if (edges.length === 0) return null;
 
+  // Deduplicate by related node id (bidirectional edges appear twice)
+  const seen = new Set<string>();
+  const uniqueRelated: Array<{ edge: KnowledgeEdge; related: KnowledgeNode }> = [];
+  for (const edge of edges) {
+    const relatedId = edge.source === node.id ? edge.target : edge.source;
+    if (!seen.has(relatedId)) {
+      seen.add(relatedId);
+      const related = getNodeById(relatedId);
+      if (related) uniqueRelated.push({ edge, related });
+    }
+  }
+
+  if (uniqueRelated.length === 0) return null;
+
   return (
     <section>
       <h3 className="text-xs uppercase tracking-widest text-yellow-500 mb-2">Related</h3>
       <div className="space-y-1">
-        {edges.map((edge) => {
-          const relatedId = edge.source === node.id ? edge.target : edge.source;
-          const related = getNodeById(relatedId);
-          if (!related) return null;
-          return (
-            <button
-              key={edge.id}
-              onClick={() => onNavigateTo(related)}
-              className="w-full text-left text-sm text-gray-300 hover:text-yellow-300 flex items-center gap-2 py-0.5"
-            >
-              <span className="text-xs text-gray-500 capitalize">{edge.relationship.replace(/_/g, ' ')}</span>
-              <span className="font-medium">{related.nameEnglish}</span>
-            </button>
-          );
-        })}
+        {uniqueRelated.map(({ edge, related }) => (
+          <button
+            key={related.id}
+            onClick={() => onNavigateTo(related)}
+            className="w-full text-left text-sm text-gray-300 hover:text-yellow-300 flex items-center gap-2 py-0.5"
+          >
+            <span className="text-xs text-gray-500 capitalize">{edge.relationship.replace(/_/g, ' ')}</span>
+            <span className="font-medium">{related.nameEnglish}</span>
+          </button>
+        ))}
       </div>
     </section>
   );

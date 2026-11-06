@@ -10,8 +10,8 @@ export function useNodeSelection() {
   const selectNode = useCallback((node: KnowledgeNode | null) => {
     if (node !== null) {
       setHistory((prev) => {
-        const updated = [...prev, node];
-        return updated.length > MAX_HISTORY ? updated.slice(updated.length - MAX_HISTORY) : updated;
+        const withoutDup = prev[prev.length - 1]?.id === node.id ? prev : [...prev, node];
+        return withoutDup.slice(-MAX_HISTORY);
       });
       setSelectedNode(node);
     } else {

@@ -67,8 +67,14 @@ export default function GraphCanvas({
         backgroundColor="#050510"
         width={dimensions.width}
         height={dimensions.height}
-        nodeThreeObject={(node) => createNodeObject(node as GraphNode)}
-        nodeThreeObjectExtend={lowPerf}
+        nodeThreeObject={(node) => {
+          const gNode = node as GraphNode;
+          const isHighlighted = highlightedNodeIds ? highlightedNodeIds.has(gNode.id) : false;
+          const isDimmed = highlightedNodeIds && highlightedNodeIds.size > 0 && !highlightedNodeIds.has(gNode.id);
+          return createNodeObject(gNode, { highlighted: isHighlighted, dimmed: isDimmed });
+        }}
+        nodeThreeObjectExtend={false}
+        nodeLabel="nameEnglish"
         nodeColor={(node) => {
           if (!hasHighlight) return (node as GraphNode).color ?? '#ffffff';
           return highlightedNodeIds.has((node as GraphNode).id)

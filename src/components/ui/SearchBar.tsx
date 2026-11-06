@@ -54,7 +54,7 @@ export function SearchBar({ onNodeSelect, query, setQuery, results }: SearchBarP
                 className="w-full text-left px-4 py-2 hover:bg-gray-700/80 text-white text-sm flex flex-col gap-0.5 border-b border-gray-700/50 last:border-b-0"
               >
                 <span className="font-medium">{node.nameEnglish}</span>
-                <span className="text-gray-400 text-xs">
+                <span className="text-gray-400 text-xs font-devanagari">
                   {node.nameDevanagari}
                 </span>
               </button>

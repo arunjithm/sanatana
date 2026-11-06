@@ -9,6 +9,7 @@ const config = {
         resolveJsonModule: true,
         esModuleInterop: true,
         strict: true,
+        jsx: 'react-jsx',
       }
     }]
   },
@@ -16,6 +17,7 @@ const config = {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   testMatch: ['**/*.test.ts', '**/*.test.tsx'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 };
 
 module.exports = config;
