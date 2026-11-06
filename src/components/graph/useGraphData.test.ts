@@ -1,4 +1,8 @@
-import { buildGraphData } from './useGraphData';
+/**
+ * @jest-environment jsdom
+ */
+import { renderHook } from '@testing-library/react';
+import { buildGraphData, useGraphData } from './useGraphData';
 import { getAllDomains } from '@/data/repository';
 import type { DomainId } from '@/types/knowledge';
 
@@ -51,4 +55,11 @@ test('links have color set', () => {
   data.links.forEach(link => {
     expect(link.color).toBeTruthy();
   });
+});
+
+test('useGraphData hook returns correct shape via renderHook', () => {
+  const { result } = renderHook(() => useGraphData(ALL_DOMAINS));
+  expect(result.current.graphData.nodes.length).toBe(109);
+  expect(result.current.domains.length).toBe(11);
+  expect(result.current.loading).toBe(false);
 });

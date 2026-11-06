@@ -73,10 +73,10 @@ export function buildGraphData(activeDomains: Set<DomainId>): GraphData {
 
 export function useGraphData(activeDomains: Set<DomainId>): {
   graphData: GraphData;
-  isLoading: boolean;
+  loading: boolean;
   domains: Domain[];
 } {
   const domains = useMemo(() => getAllDomains(), []);
   const graphData = useMemo(() => buildGraphData(activeDomains), [activeDomains]);
-  return { graphData, isLoading: false, domains };
+  return { graphData, loading: false, domains };
 }
