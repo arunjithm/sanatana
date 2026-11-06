@@ -175,22 +175,40 @@
     "confidence": "established"
   },
   {
-    "id": "purana-brahmanda",
-    "slug": "brahmanda-purana",
-    "nameDevanagari": "ब्रह्माण्डपुराण",
-    "nameTransliteration": "Brahmāṇḍapurāṇa",
-    "nameEnglish": "Brahmanda Purana",
-    "meaningEnglish": "The Ancient Lore of the Cosmic Egg (brahma = Brahma/Brahman; aṇḍa = egg; the egg from which the universe emerges)",
+    "id": "purana-padma",
+    "slug": "padma-purana",
+    "nameDevanagari": "पद्म पुराण",
+    "nameTransliteration": "Padma Purāṇa",
+    "nameEnglish": "Padma Purana",
+    "meaningEnglish": "The Ancient Lore of the Lotus (padma = lotus; the Purana associated with Brahma's emergence from the lotus and with Vishnu/Lakshmi)",
     "domain": "purana",
-    "category": "Mahapurana",
-    "tier": "planet",
-    "historicalContext": "The Brahmanda Purana consists of approximately 12,000 shlokas. It is associated with the Atharva Veda tradition. It is known for containing the Lalita Sahasranama (1,000 names of the goddess Lalita Tripurasundari) in its Uttara Khanda, making it an important Shakta text as well.",
-    "explanation": "The Brahmanda Purana covers cosmology (including the structure of the cosmic egg, Brahmanda), genealogies of kings and sages, descriptions of the seven continents and netherworlds, and accounts of Parashurama. Its Lalita Sahasranama section is among the most recited Shakta texts and contains a systematic theology of the goddess Lalita Tripurasundari.",
+    "category": "Mahapurana (Vaishnava)",
+    "tier": "solar",
+    "historicalContext": "The Padma Purana is one of the largest Mahapuranas, consisting of approximately 55,000 shlokas in five sections (khandas): Srishti Khanda (creation), Bhumi Khanda (earth), Svarga Khanda (heaven), Patala Khanda (netherworld), and Uttara Khanda. It is a strongly Vaishnava text and is classified as a sattvic Purana. It contains the influential Bhagavata Mahatmya, which glorifies the Bhagavata Purana.",
+    "explanation": "The Padma Purana covers Vishnu's cosmic activities, the glory of Vishnu worship, accounts of sacred tirthas (pilgrimage sites), detailed descriptions of vrata (religious observances), and extensive Vaishnava theology. The Uttara Khanda contains the Ramayana narrative as told by Shiva to Parvati (Parvati Ramayan). The text is an important source for understanding the spread of Vaishnava practice and pilgrimage culture across India.",
     "sources": [
-      { "text": "Brahmanda Purana 1.1.1", "section": "1.1.1" },
-      { "text": "Brahmanda Purana, Uttara Khanda 36 (Lalita Sahasranama)", "section": "3.36.1" }
+      { "text": "Padma Purana, Srishti Khanda 1.1", "section": "1.1" },
+      { "text": "Padma Purana, Uttara Khanda 193 (Bhagavata Mahatmya)", "section": "193.1" }
     ],
-    "confidence": "established"
+    "confidence": "traditional"
+  },
+  {
+    "id": "purana-vayu",
+    "slug": "vayu-purana",
+    "nameDevanagari": "वायु पुराण",
+    "nameTransliteration": "Vāyu Purāṇa",
+    "nameEnglish": "Vayu Purana",
+    "meaningEnglish": "The Ancient Lore of Vayu (vāyu = wind, the wind god; narrated by the wind god Vayu)",
+    "domain": "purana",
+    "category": "Mahapurana (Shaiva)",
+    "tier": "solar",
+    "historicalContext": "The Vayu Purana is one of the oldest of the Mahapuranas, with a core estimated to date as early as 200–400 CE, making it among the earliest datable Puranic texts. It consists of approximately 24,000 shlokas. It has a Shaiva orientation and is an important source for early Hindu chronology, genealogy of royal dynasties, and cosmology. Some traditions consider the Vayu and Shiva Puranas as closely related recensions.",
+    "explanation": "The Vayu Purana covers cosmogony, the system of cosmic ages (yugas and kalpas), genealogies of the solar and lunar dynasties, accounts of the Saptarishis (seven sages), descriptions of Shiva and Shaiva practice, and geography of the sacred world. Its account of dynastic genealogies is an important resource for reconstructing ancient Indian history. It contains one of the earliest versions of the Puranic cosmological system in systematic form.",
+    "sources": [
+      { "text": "Vayu Purana 1.1", "section": "1.1" },
+      { "text": "Vayu Purana 23.1 (genealogy of sages)", "section": "23.1" }
+    ],
+    "confidence": "traditional"
   },
   {
     "id": "purana-linga",
@@ -207,25 +225,6 @@
     "sources": [
       { "text": "Linga Purana 1.1.1", "section": "1.1.1" },
       { "text": "Linga Purana 1.17 (story of the Jyotirlinga)", "section": "1.17" }
-    ],
-    "confidence": "established"
-  },
-  {
-    "id": "purana-kurma",
-    "slug": "kurma-purana",
-    "nameDevanagari": "कूर्मपुराण",
-    "nameTransliteration": "Kūrmapurāṇa",
-    "nameEnglish": "Kurma Purana",
-    "meaningEnglish": "The Ancient Lore of the Tortoise avatar (kūrma = tortoise; narrated by Vishnu in his Kurma (tortoise) avatar)",
-    "domain": "purana",
-    "category": "Mahapurana",
-    "tier": "planet",
-    "historicalContext": "The Kurma Purana consists of approximately 17,000 shlokas in two parts. Composed between 6th–10th century CE. It is narrated by Vishnu in his Kurma (tortoise) incarnation and contains material that is both Vaishnava and Shaiva in orientation, including an early systematic account of the Trimurti doctrine.",
-    "explanation": "The Kurma Purana contains the Ishvara Gita (a dialogue similar to the Bhagavad Gita with Shiva as the teacher), one of the earliest systematic accounts of the Trimurti theology, the story of the Samudra Manthan (ocean churning) in which the Kurma avatar participated, and discussions of Brahman, Atman, and liberation in a Shaiva-Vaishnava synthesis.",
-    "sources": [
-      { "text": "Kurma Purana 1.1.1", "section": "1.1.1" },
-      { "text": "Kurma Purana 1.11.1 (Trimurti doctrine)", "section": "1.11.1" },
-      { "text": "Kurma Purana 2.1–50 (Ishvara Gita)", "section": "2.1" }
     ],
     "confidence": "established"
   }

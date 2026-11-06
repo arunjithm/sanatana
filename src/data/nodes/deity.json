@@ -495,31 +495,31 @@
     "confidence": "traditional"
   },
   {
-    "id": "deity-radha",
-    "slug": "radha",
-    "nameDevanagari": "राधा",
-    "nameTransliteration": "Rādhā",
-    "nameEnglish": "Radha",
-    "meaningEnglish": "The Successful or Propitious (rādhā from rādh = to succeed, to accomplish; also the brightest star in Scorpius)",
+    "id": "deity-parvati",
+    "slug": "parvati",
+    "nameDevanagari": "पार्वती",
+    "nameTransliteration": "Pārvatī",
+    "nameEnglish": "Parvati",
+    "meaningEnglish": "Daughter of the Mountain (pārvata = mountain; the feminine form pārvatī = she who is of the mountain, daughter of Himavat/Himalaya)",
     "domain": "deity",
     "category": "Goddess",
     "tier": "solar",
-    "historicalContext": "Radha is the supreme goddess and eternal consort of Krishna in the Gaudiya Vaishnava tradition. She first becomes prominent in the Brahma Vaivarta Purana and the Gita Govinda of Jayadeva (12th century CE). In Chaitanya's theology, she represents the highest form of devotion (mahabhava).",
-    "explanation": "Radha's love for Krishna is considered the paradigm of pure devotion (prema-bhakti) — a love that transcends all social and domestic obligation. The Gita Govinda dramatises their union and separation. In Gaudiya Vaishnavism, she is considered superior to Krishna in devotional power — the embodiment of his own pleasure-giving energy (hladini-shakti).",
+    "historicalContext": "Parvati is the consort of Shiva and one of the most important goddesses in Hinduism. She is the gentle, benevolent form of Shakti (divine feminine power), and is also known as Uma, Gauri (the bright one), Ambika, and Bhavani. In her fierce forms she manifests as Durga and Kali. The Shiva Purana and the Devi Bhagavata Purana contain extensive narratives about her. The Kumarasambhava of Kalidasa narrates her tapas to win Shiva as her husband.",
+    "explanation": "Parvati is the daughter of the mountain god Himavat and the goddess Mena. After her previous life as Sati (who immolated herself when her father Daksha insulted Shiva), she was reborn as Parvati and performed severe tapas to win Shiva's attention and love. As Shiva's consort and Shakti, she is the source of his creative and transformative power. As the mother of Ganesha and Murugan (Kartikeya/Skanda), she is central to the entire Shaiva family. The Ardhanarisvara form — half Shiva, half Parvati — expresses the inseparability of consciousness (Shiva) and energy (Shakti).",
     "sanskritPassages": [
       {
-        "sanskrit": "राधाकृष्णे त्वं भज मनसा प्रेम्णा भक्तिं कुरुष्व ।",
-        "transliteration": "rādhākṛṣṇe tvaṃ bhaja manasā premṇā bhaktiṃ kuruṣva",
-        "translation": "Worship Radha-Krishna with your mind; practise devotion with love.",
+        "sanskrit": "हिमालयं समारभ्य यावदिन्दुसरोवरम् । तं देवी पर्वतं प्राप्य पार्वतीत्यभिधीयते ॥",
+        "transliteration": "himālayaṃ samārabhya yāvad indusarovaraṃ | taṃ devī parvataṃ prāpya pārvatīty abhidhīyate ||",
+        "translation": "Because the goddess came to that mountain ranging from the Himalayas to the Moon Lake, she is called Parvati.",
         "source": {
-          "text": "Brahma Vaivarta Purana (Krishna Janma Khanda 15.1)",
-          "section": "15.1"
+          "text": "Shiva Purana, Rudra Samhita 2.1.1",
+          "section": "2.1.1"
         }
       }
     ],
     "sources": [
-      { "text": "Gita Govinda 1.1 (Jayadeva, 12th century CE)", "section": "1.1" },
-      { "text": "Brahma Vaivarta Purana, Krishna Janma Khanda 15", "section": "15" }
+      { "text": "Shiva Purana, Rudra Samhita 2.1–10 (Parvati's birth and tapas)", "section": "2.1" },
+      { "text": "Devi Mahatmya 11.3–5 (Parvati as Ambika)", "section": "11.3" }
     ],
     "confidence": "traditional"
   }

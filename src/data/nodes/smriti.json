@@ -173,7 +173,7 @@
     "nameTransliteration": "Nāṭyaśāstra",
     "nameEnglish": "Natyashastra",
     "meaningEnglish": "The Science of Dramatic Arts (nāṭya = drama, dance, theatre; śāstra = treatise)",
-    "domain": "smriti",
+    "domain": "science_art",
     "category": "Shastra",
     "tier": "planet",
     "historicalContext": "The Natyashastra is attributed to the sage Bharata Muni and composed approximately 200 BCE–200 CE (though some date it later). It is the foundational treatise on Indian performing arts, covering music, dance, theatre, poetics, and aesthetics. Its chapter on rasa theory is the most influential contribution to Indian aesthetics.",
@@ -191,7 +191,7 @@
     "nameTransliteration": "Brahmasūtra",
     "nameEnglish": "Brahma Sutras",
     "meaningEnglish": "Aphorisms on Brahman (brahma = Brahman; sūtra = thread, aphorism; a collection of brief aphorisms on Vedantic philosophy)",
-    "domain": "smriti",
+    "domain": "darshana",
     "category": "Shastra",
     "tier": "planet",
     "historicalContext": "The Brahma Sutras (also called Vedanta Sutras or Badarayana Sutras) were composed by Badarayana (traditionally identified with Vyasa), estimated c. 200 BCE–400 CE. They consist of 555 aphorisms in four chapters, systematising and reconciling the seemingly contradictory teachings of the Upanishads. They form one of the three canonical texts (Prasthanatrayi) of Vedanta.",
@@ -212,5 +212,23 @@
       { "text": "Brahma Sutras 4.4.1–7 (nature of moksha)", "section": "4.4.1" }
     ],
     "confidence": "established"
+  },
+  {
+    "id": "smriti-yajnavalkya",
+    "slug": "yajnavalkya-smriti",
+    "nameDevanagari": "याज्ञवल्क्य स्मृति",
+    "nameTransliteration": "Yājñavalkya Smṛti",
+    "nameEnglish": "Yajnavalkya Smriti",
+    "meaningEnglish": "The Recollections of Yajnavalkya (yājñavalkya = the sage Yajnavalkya; smṛti = what is remembered, traditional law)",
+    "domain": "smriti",
+    "category": "Dharmashastra",
+    "tier": "solar",
+    "historicalContext": "The Yajnavalkya Smriti is one of the most important Dharmashastra texts, attributed to the sage Yajnavalkya. Composed approximately 100–300 CE, it consists of 1,010 verses divided into three sections (adhyayas): Acharadhyaya (rules of conduct), Vyavaharadhyaya (civil and criminal law), and Prayaschittadhyaya (penance and expiation). It became the standard law text in much of northern and western India, superseding the Manusmriti in practical legal authority in many regions.",
+    "explanation": "The Yajnavalkya Smriti is notable for its conciseness, logical organisation, and more liberal provisions compared to the Manusmriti. The Mitakshara, the most authoritative commentary on it by Vijnanesvara (12th century CE), became the basis of Hindu law in most of India and was used in British colonial courts. The Dayabhaga of Jimutavahana (Bengal) is an alternative commentary. Together these texts governed Hindu personal law until the Hindu Code Bills of 1955–56.",
+    "sources": [
+      { "text": "Yajnavalkya Smriti, Acharadhyaya 1.1", "section": "1.1" },
+      { "text": "Yajnavalkya Smriti, Vyavaharadhyaya 2.1 (law of property)", "section": "2.1" }
+    ],
+    "confidence": "traditional"
   }
 ]

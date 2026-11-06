@@ -102,94 +102,104 @@
     "confidence": "traditional"
   },
   {
-    "id": "sage-nagarjuna",
-    "slug": "nagarjuna",
-    "nameDevanagari": "नागार्जुन",
-    "nameTransliteration": "Nāgārjuna",
-    "nameEnglish": "Nagarjuna",
-    "meaningEnglish": "One who tamed the serpents (nāga = serpent; arjuna = tamed, made white; also the tree Terminalia arjuna)",
+    "id": "sage-vasishtha",
+    "slug": "vasishtha",
+    "nameDevanagari": "वसिष्ठ",
+    "nameTransliteration": "Vasiṣṭha",
+    "nameEnglish": "Vasishtha",
+    "meaningEnglish": "Most excellent, most wealthy (vasiṣṭha = superlative of vasu = good, wealthy; the best, the most distinguished)",
     "domain": "sage",
-    "category": "Acharya (Mahayana Buddhist — interface figure)",
+    "category": "Rishi",
     "tier": "moon",
-    "historicalContext": "Nagarjuna (c. 150–250 CE) is the founder of the Madhyamaka school of Buddhist philosophy. He is also venerated in some Hindu and Shaiva Tantric traditions as a Siddha and alchemist. His influence on subsequent Indian philosophical debate — particularly the Vedantic schools' responses to Madhyamaka — makes him an important interface figure.",
-    "explanation": "Nagarjuna's Mulamadhyamakakarika establishes the doctrine of Shunyata (emptiness) through rigorous reductio ad absurdum logic. His influence extended deeply into Hindu philosophy: Adi Shankaracharya's critics called Advaita Vedanta 'crypto-Buddhism' (pracchanna bauddha), and Shankaracharya wrote extensively to refute Nagarjuna's positions, demonstrating the deep dialogue between the two traditions.",
-    "scholarlyNotes": "Nagarjuna is a Buddhist philosopher included here because of his formative role in the development of Hindu philosophical responses, particularly Advaita Vedanta. Multiple persons named Nagarjuna appear in tradition; the philosopher is distinct from the alchemist-siddha Nagarjuna.",
+    "historicalContext": "Vasishtha is one of the Saptarishis (seven primordial sages) and is associated with the seventh book (Mandala 7) of the Rigveda, which is traditionally called the Vasishtha Mandala. He is the family priest (kula-guru) of the solar dynasty (Suryavamsha) and the preceptor of Rama in the Ramayana. The Yoga Vasishtha, a later philosophical text, is narrated in his name.",
+    "explanation": "Vasishtha's rivalry with the royal sage Vishwamitra — narrated across Vedic and Puranic literature — is the central story of the tension between brahminical and kshatriya power. His cow Kamdhenu (Nandini) is a symbol of divine abundance. In the Ramayana, he presides over the coronation of Rama and guides the solar dynasty. As one of the Saptarishis, he is considered a mind-born son of Brahma.",
     "sources": [
-      { "text": "Mulamadhyamakakarika of Nagarjuna 1.1 (Mangalacarana)", "section": "1.1" },
-      { "text": "Brahma Sutra Bhashya of Shankaracharya 2.2.28 (refuting Madhyamaka)", "section": "2.2.28" }
+      { "text": "Rigveda 7.1.1 (Vasishtha Mandala opening)", "section": "7.1.1" },
+      { "text": "Valmiki Ramayana, Bala Kanda 51–65 (Vasishtha and Vishwamitra conflict)", "section": "1.51" }
     ],
-    "confidence": "established"
+    "confidence": "traditional"
   },
   {
-    "id": "sage-abhinavagupta",
-    "slug": "abhinavagupta",
-    "nameDevanagari": "अभिनवगुप्त",
-    "nameTransliteration": "Abhinavagupta",
-    "nameEnglish": "Abhinavagupta",
-    "meaningEnglish": "Ever new and protected (abhinava = ever new; gupta = protected; a name indicating the freshness of his teaching)",
+    "id": "sage-vishwamitra",
+    "slug": "vishwamitra",
+    "nameDevanagari": "विश्वामित्र",
+    "nameTransliteration": "Viśvāmitra",
+    "nameEnglish": "Vishwamitra",
+    "meaningEnglish": "Friend of all (viśva = all, universe; mitra = friend; the sage who is a friend to all beings)",
+    "domain": "sage",
+    "category": "Raja-Rishi",
+    "tier": "moon",
+    "historicalContext": "Vishwamitra is a unique figure in Hindu tradition — a king (Kaushika) who became a brahmarishi (brahmin sage) through extraordinary tapas. He is the author of the third Mandala of the Rigveda (Mandala 3), and traditionally attributed with composing the Gayatri Mantra (Rigveda 3.62.10), the most sacred mantra of the Hindu tradition. He is the guru of Rama and Lakshmana in the Ramayana.",
+    "explanation": "Vishwamitra's transformation from king to brahmarishi is narrated in the Valmiki Ramayana and the Mahabharata. His rivalry with Vasishtha, his tapas to create a parallel heaven for the king Trishanku, and his role as the teacher of Rama — giving him divine weapons (astras) — are central to his legend. The Gayatri Mantra composed by him is recited by Hindus at dawn, noon, and dusk in the Sandhyavandana ritual.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+        "transliteration": "tat savitur vareṇyaṃ bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||",
+        "translation": "We meditate on that excellent glory of the divine Savitri; may he inspire our intellects.",
+        "source": {
+          "text": "Rigveda 3.62.10 (Gayatri Mantra)",
+          "section": "3.62.10"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 3.62.10 (Gayatri Mantra attributed to Vishwamitra)", "section": "3.62.10" },
+      { "text": "Valmiki Ramayana, Bala Kanda 51 (Vishwamitra's story)", "section": "1.51" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "sage-narada",
+    "slug": "narada",
+    "nameDevanagari": "नारद",
+    "nameTransliteration": "Nārada",
+    "nameEnglish": "Narada",
+    "meaningEnglish": "One who gives knowledge (nara = human being; da = giver; or nāra = water/knowledge; da = giver; the divine sage who gives spiritual knowledge)",
+    "domain": "sage",
+    "category": "Deva-Rishi",
+    "tier": "moon",
+    "historicalContext": "Narada is a divine sage (Deva-Rishi) who appears throughout Hindu sacred literature — in the Rigveda, the Mahabharata, the Bhagavata Purana, the Ramayana, and many other texts. He is considered a mind-born son of Brahma and a devoted servant of Vishnu. The Narada Bhakti Sutras, a text on devotional practice attributed to him, is a foundational text of the Bhakti tradition.",
+    "explanation": "Narada is the celestial wanderer who travels between the three worlds, playing the vina and chanting 'Narayana, Narayana'. He is both a messenger of the gods and a catalyst of events — his well-intentioned but often disruptive interventions are a staple of Puranic narrative. He is considered the foremost of devotees (bhaktas) and the transmitter of bhakti from the divine world to humanity. His instruction of Dhruva, Prahlada, and others in the Bhagavata Purana illustrates his role as a teacher of devotion.",
+    "sources": [
+      { "text": "Bhagavata Purana 1.5.1–40 (Narada instructs Vyasa)", "section": "1.5.1" },
+      { "text": "Narada Bhakti Sutras 1–84 (attributed to Narada)", "section": "1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "sage-kapila",
+    "slug": "kapila",
+    "nameDevanagari": "कपिल",
+    "nameTransliteration": "Kapila",
+    "nameEnglish": "Kapila",
+    "meaningEnglish": "The Tawny or Red-brown one (kapila = tawny, reddish-brown; a colour name used as a personal name)",
+    "domain": "sage",
+    "category": "Rishi",
+    "tier": "moon",
+    "historicalContext": "Kapila is the founder of the Samkhya philosophical system, one of the six orthodox schools of Hindu philosophy. He is mentioned in the Bhagavad Gita (10.26) where Krishna declares 'Among perfected sages I am Kapila'. The Samkhya Sutras are attributed to him. In the Bhagavata Purana, Kapila appears as an avatar of Vishnu who teaches Samkhya to his mother Devahuti.",
+    "explanation": "Kapila's Samkhya system is one of the oldest philosophical systems in Hindu thought, positing a radical dualism between Purusha (pure consciousness) and Prakriti (primordial matter). His analysis of the 25 tattvas (principles of reality) — including the three gunas (sattva, rajas, tamas) and the evolutionary development from Prakriti — became foundational for virtually all subsequent Hindu philosophy, including the Yoga school of Patanjali, Vedanta, and Tantra.",
+    "sources": [
+      { "text": "Bhagavad Gita 10.26 (Krishna mentions Kapila)", "section": "10.26" },
+      { "text": "Bhagavata Purana 3.25.1–45 (Kapila's teaching to Devahuti)", "section": "3.25.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "sage-madhvacharya",
+    "slug": "madhvacharya",
+    "nameDevanagari": "मध्वाचार्य",
+    "nameTransliteration": "Madhvācārya",
+    "nameEnglish": "Madhvacharya",
+    "meaningEnglish": "The teacher Madhva (madhva = honey-sweet; ācārya = teacher; the sweet teacher)",
     "domain": "sage",
     "category": "Acharya",
     "tier": "moon",
-    "historicalContext": "Abhinavagupta (c. 950–1016 CE) was a polymath from Kashmir — philosopher, mystic, musician, and poet. He is the most important figure of the Kashmir Shaivism (Trika) tradition. His principal works include the Tantraloka (encyclopedic treatise on Shaiva Tantra), Abhinavabharati (commentary on the Natyashastra), and Paramarthasara.",
-    "explanation": "Abhinavagupta synthesised Kashmir Shaivism into a comprehensive philosophical system combining metaphysics, epistemology, aesthetics, and ritual. His Tantraloka is the encyclopedic source for the Trika school's practices and philosophy. His Abhinavabharati commentary on the Natyashastra deepened the theory of rasa in aesthetics. His concept of pratibha (creative intuition) influenced Indian aesthetic theory profoundly.",
+    "historicalContext": "Madhvacharya (c. 1238–1317 CE), also known as Anandatirtha or Purnaprajna, was born in Pajaka near Udupi in coastal Karnataka. He is the founder of Dvaita Vedanta (dualistic Vedanta), also called Tattvavada (philosophy of reality). His principal works include the Brahma Sutra Bhashya, the Anuvyakhyana, and commentaries on ten principal Upanishads, the Bhagavad Gita, and the Mahabharata.",
+    "explanation": "Madhvacharya's Dvaita Vedanta posits five eternal distinctions (pancha bheda): between God and souls, between God and matter, between souls and matter, among souls, and among material entities. He established the Udupi Krishna temple and the system of eight mathas (monasteries) to manage its worship. He is considered a great debater who refuted Advaita Vedanta and other schools across India. His theology, asserting the supreme and irreducible reality of Vishnu, is the theological foundation of ISKCON's Vaishnava lineage through Chaitanya Mahaprabhu.",
     "sources": [
-      { "text": "Tantraloka of Abhinavagupta 1.1 (Mangalacarana)", "section": "1.1" },
-      { "text": "Paramarthasara of Abhinavagupta 1 (opening verse)", "section": "1" }
+      { "text": "Brahma Sutra Bhashya of Madhvacharya 1.1.1", "section": "1.1.1" },
+      { "text": "Anuvyakhyana of Madhvacharya 1.1.1", "section": "1.1.1" }
     ],
-    "confidence": "established"
-  },
-  {
-    "id": "sage-kalidasa",
-    "slug": "kalidasa",
-    "nameDevanagari": "कालिदास",
-    "nameTransliteration": "Kālidāsa",
-    "nameEnglish": "Kalidasa",
-    "meaningEnglish": "Servant of Kali (kālī = the goddess Kali; dāsa = servant)",
-    "domain": "sage",
-    "category": "Kavi (Poet-sage)",
-    "tier": "moon",
-    "historicalContext": "Kalidasa is the greatest poet and playwright of Sanskrit literature, traditionally placed in the court of the Gupta emperor Chandragupta II Vikramaditya (c. 380–415 CE), though this dating is debated. He is the author of the dramas Abhijnanashakuntalam, Vikramorvasiyam, and Malavikagnimitram, and the poems Kumarasambhava, Raghuvamsha, Meghaduta, and Ritusamhara.",
-    "explanation": "Kalidasa's Abhijnanashakuntalam — the story of King Dushyanta and the forest girl Shakuntala — is considered the finest Sanskrit drama and was translated by Goethe, who marvelled at its beauty. His epic poems Raghuvamsha (the dynasty of Rama) and Kumarasambhava (the birth of Kartikeya) are foundational Sanskrit mahakavyas. His lyric Meghaduta (The Cloud Messenger) initiated the Sanskrit sandesa (message) kavya genre.",
-    "sources": [
-      { "text": "Abhijnanashakuntalam of Kalidasa 1.1 (nāṭyam invocation)", "section": "1.1" },
-      { "text": "Raghuvamsha of Kalidasa 1.1 (vāgartha invocation)", "section": "1.1" }
-    ],
-    "confidence": "established"
-  },
-  {
-    "id": "sage-ramakrishna",
-    "slug": "ramakrishna",
-    "nameDevanagari": "रामकृष्ण परमहंस",
-    "nameTransliteration": "Rāmakṛṣṇa Paramahaṃsa",
-    "nameEnglish": "Ramakrishna Paramahamsa",
-    "meaningEnglish": "The Supreme Swan who is Rama and Krishna (rāmakṛṣṇa = one who is both Rama and Krishna; paramahaṃsa = supreme swan, a title for the highest order of sannyasi)",
-    "domain": "sage",
-    "category": "Modern Mystic-Saint",
-    "tier": "moon",
-    "historicalContext": "Ramakrishna Paramahamsa (1836–1886 CE) was a Bengali mystic and devotee of Kali at the Dakshineswar temple. His teachings, recorded by Mahendranath Gupta as 'Kathamrita' (Gospel of Sri Ramakrishna), had a transformative impact on modern Hinduism. His disciple Swami Vivekananda introduced his message to the West at the Parliament of World's Religions in Chicago in 1893.",
-    "explanation": "Ramakrishna practised sadhana in multiple traditions — Kali worship, Vaishnava bhakti, Advaita Vedanta, and even Islam and Christianity — and declared that all paths lead to the same divine experience. His central teaching was 'Yato mat, tato path' — 'As many opinions, so many paths.' He influenced the global understanding of Hinduism as a pluralistic, experiential religion.",
-    "sources": [
-      { "text": "Gospel of Sri Ramakrishna (Kathamrita by Mahendranath Gupta) 1.1", "section": "1.1" },
-      { "text": "Ramakrishna: His Life and Sayings by Max Muller, 1898", "section": "1" }
-    ],
-    "confidence": "established"
-  },
-  {
-    "id": "sage-tukaram",
-    "slug": "tukaram",
-    "nameDevanagari": "तुकाराम",
-    "nameTransliteration": "Tukārāma",
-    "nameEnglish": "Tukaram",
-    "meaningEnglish": "Tuka, the servant of Rama (a compound of Tuka — his nickname — and Rama)",
-    "domain": "sage",
-    "category": "Sant (Bhakti Poet-sage)",
-    "tier": "moon",
-    "historicalContext": "Tukaram (c. 1598–1650 CE) was a Marathi bhakti poet-saint from Dehu near Pune. He is the most celebrated of the Varkari sants of Maharashtra and a devotee of Vithoba (Vitthal) at Pandharpur. His Abhangas (devotional verses) — approximately 4,500 compositions — are the most recited vernacular devotional poetry in Marathi.",
-    "explanation": "Tukaram's Abhangas express the anguish and ecstasy of bhakti in simple, direct Marathi, accessible to ordinary people. He opposed caste hierarchy in devotion, declaring that the Lord is accessible to all regardless of social position. He belongs to the lineage of Marathi sants including Jnaneshvar, Namdev, and Eknath. His Abhangas were transmitted orally and were written down after his time.",
-    "sources": [
-      { "text": "Tukaram Gatha (Abhanga collection) 1 (ādyā vandito viṭhu)", "section": "1" },
-      { "text": "Tukaram Gatha 3382 (the well-known abhanga on the meeting with God)", "section": "3382" }
-    ],
-    "confidence": "established"
+    "confidence": "traditional"
   }
 ]
