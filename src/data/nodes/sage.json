@@ -1,0 +1,195 @@
+[
+  {
+    "id": "sage-vyasa",
+    "slug": "vyasa",
+    "nameDevanagari": "व्यास",
+    "nameTransliteration": "Vyāsa",
+    "nameEnglish": "Vyasa (Veda Vyasa)",
+    "meaningEnglish": "The Arranger (vyāsa from root vi + as = to separate, arrange; the one who arranged/compiled the Vedas)",
+    "domain": "sage",
+    "category": "Rishi",
+    "tier": "solar",
+    "historicalContext": "Vyasa (also known as Veda Vyasa, Krishna Dvaipayana, or Badarayana) is the most celebrated figure in Hindu literary and philosophical tradition. He is traditionally credited with arranging the Vedas into four collections, composing the Mahabharata (including the Bhagavad Gita), the Brahma Sutras, and the 18 Mahapuranas.",
+    "explanation": "Vyasa is considered a Chiranjivi (immortal) who periodically re-arranges the Vedas at the beginning of each cosmic age. He is the teacher of Paila (Rigveda), Vaishampayana (Yajurveda), Jaimini (Samaveda), and Sumantu (Atharvaveda). His son is Shuka, who narrates the Bhagavata Purana. Guru Purnima is traditionally celebrated as the anniversary of Vyasa.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "व्यासाय विष्णुरूपाय व्यासरूपाय विष्णवे । नमो वै ब्रह्मनिधये वासिष्ठाय नमो नमः ॥",
+        "transliteration": "vyāsāya viṣṇurūpāya vyāsarūpāya viṣṇave | namo vai brahmanidaye vāsiṣṭhāya namo namaḥ ||",
+        "translation": "Salutation to Vyasa who is a form of Vishnu, and to Vishnu who is in the form of Vyasa. Salutation to him who is the treasury of Brahman, the descendant of Vasishtha.",
+        "source": {
+          "text": "Traditional invocation verse (Mahabhashya tradition)",
+          "section": "1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Mahabharata, Adi Parva 1.57 (Vyasa compiles the Vedas)", "section": "1.57" },
+      { "text": "Bhagavata Purana 1.4.15–25 (Vyasa's compilation)", "section": "1.4.15" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "sage-patanjali",
+    "slug": "patanjali",
+    "nameDevanagari": "पतञ्जलि",
+    "nameTransliteration": "Patañjali",
+    "nameEnglish": "Patanjali",
+    "meaningEnglish": "Fallen into joined palms (pata = fallen; añjali = folded hands; the sage who fell from heaven into Anjali's hands, according to tradition)",
+    "domain": "sage",
+    "category": "Rishi-Acharya",
+    "tier": "solar",
+    "historicalContext": "Patanjali is traditionally credited with authorship of three important works: the Yoga Sutras (the definitive text on yoga philosophy), the Mahabhashya (the great commentary on Panini's grammar), and an Ayurveda text. Modern scholars generally believe these were written by different authors; the yoga Patanjali is dated approximately 200 BCE–200 CE.",
+    "explanation": "Patanjali's Yoga Sutras codify the practice of yoga in 196 (or 195 by some counts) aphorisms across four chapters: Samadhi Pada, Sadhana Pada, Vibhuti Pada, and Kaivalya Pada. His definition of yoga as 'chitta vritti nirodha' (the cessation of mental modifications) became the basis of all subsequent yoga traditions. The Mahabhashya is the most authoritative commentary on Panini's Ashtadhyayi.",
+    "sources": [
+      { "text": "Yoga Sutras of Patanjali 1.1–51", "section": "1.1" },
+      { "text": "Mahabhashya of Patanjali on Ashtadhyayi 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-panini",
+    "slug": "panini",
+    "nameDevanagari": "पाणिनि",
+    "nameTransliteration": "Pāṇini",
+    "nameEnglish": "Panini",
+    "meaningEnglish": "Descendant of Panin (a family name; the greatest grammarian of the ancient world)",
+    "domain": "sage",
+    "category": "Acharya",
+    "tier": "solar",
+    "historicalContext": "Panini is the author of the Ashtadhyayi (c. 400–350 BCE), the most sophisticated grammatical treatise of the ancient world. He is believed to have been born in Shalatula, in the Gandhari region (modern Pakistan). His grammar describes Classical Sanskrit as it was spoken at his time.",
+    "explanation": "Panini's Ashtadhyayi (Eight Chapters) consists of 3,959 sutras that generate the entire morphology of Sanskrit through a compact, recursive rule system. It uses metalinguistic markers (anubandhas/it-letters) with extraordinary economy. The grammar influenced not only Sanskrit scholarship but also modern formal linguistics — Ferdinand de Saussure and Noam Chomsky both acknowledged Panini's work.",
+    "sources": [
+      { "text": "Ashtadhyayi of Panini 1.1.1 (ṛdṛuadam ca suṭ)", "section": "1.1.1" },
+      { "text": "Ashtadhyayi 2.4.21 (a sample rule on nominal compounds)", "section": "2.4.21" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-yajnavalkya",
+    "slug": "yajnavalkya",
+    "nameDevanagari": "याज्ञवल्क्य",
+    "nameTransliteration": "Yājñavalkya",
+    "nameEnglish": "Yajnavalkya",
+    "meaningEnglish": "Of the sacrificial enclosure (yajña = sacrifice; valka = bark; a family name associated with the sacrificial tradition)",
+    "domain": "sage",
+    "category": "Rishi",
+    "tier": "solar",
+    "historicalContext": "Yajnavalkya is the greatest sage of the Brihadaranyaka Upanishad, presented as the most learned philosopher of his time. He is the teacher of the Shukla (White) Yajurveda tradition, having received the Vajasaneyi Samhita directly from the sun god (according to tradition). He is also the author of the Yajnavalkya Smriti (Dharmashastra).",
+    "explanation": "Yajnavalkya's dialogues in the Brihadaranyaka Upanishad with his wife Maitreyi, with the learned Gargi at the court of Janaka, and with other sages at the Brahmodya debate, represent the high point of Upanishadic philosophical discourse. His teaching of the Atman as the witness-consciousness (sakshi), his neti-neti method, and his declaration 'Aham Brahmasmi' (I am Brahman) are foundational for Advaita Vedanta.",
+    "sources": [
+      { "text": "Brihadaranyaka Upanishad 1.4.10 (Aham Brahmasmi)", "section": "1.4.10" },
+      { "text": "Brihadaranyaka Upanishad 2.4 (Maitreyi dialogue)", "section": "2.4" },
+      { "text": "Brihadaranyaka Upanishad 3.6–8 (Gargi dialogues)", "section": "3.6" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-valmiki",
+    "slug": "valmiki",
+    "nameDevanagari": "वाल्मीकि",
+    "nameTransliteration": "Vālmīki",
+    "nameEnglish": "Valmiki",
+    "meaningEnglish": "Born of an anthill (valmīka = anthill; the sage who reportedly sat in meditation so long that an anthill grew around him)",
+    "domain": "sage",
+    "category": "Rishi-Kavi",
+    "tier": "solar",
+    "historicalContext": "Valmiki is the author of the Ramayana, the first poem (adikavya) in Sanskrit literature, making him the adi-kavi (first poet). He is traditionally depicted as a former hunter (Ratnakara) who reformed and became a sage. The Ramayana (c. 500–100 BCE) is composed in the Anushtubh metre.",
+    "explanation": "Valmiki composed the Ramayana after witnessing a hunter kill a Krauncha bird and hearing the dying mate's lament. This sparked the first poetic utterance — a verse that emerged spontaneously in Anushtubh metre. His Ramayana established the narrative tradition of Sanskrit kavya (ornate poetry) and the ideals of dharmic character through Rama, Sita, Lakshmana, and Hanuman.",
+    "sources": [
+      { "text": "Valmiki Ramayana, Bala Kanda 2 (Valmiki's first verse)", "section": "1.2.9" },
+      { "text": "Valmiki Ramayana 1.1.1–4 (invocation)", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "sage-nagarjuna",
+    "slug": "nagarjuna",
+    "nameDevanagari": "नागार्जुन",
+    "nameTransliteration": "Nāgārjuna",
+    "nameEnglish": "Nagarjuna",
+    "meaningEnglish": "One who tamed the serpents (nāga = serpent; arjuna = tamed, made white; also the tree Terminalia arjuna)",
+    "domain": "sage",
+    "category": "Acharya (Mahayana Buddhist — interface figure)",
+    "tier": "moon",
+    "historicalContext": "Nagarjuna (c. 150–250 CE) is the founder of the Madhyamaka school of Buddhist philosophy. He is also venerated in some Hindu and Shaiva Tantric traditions as a Siddha and alchemist. His influence on subsequent Indian philosophical debate — particularly the Vedantic schools' responses to Madhyamaka — makes him an important interface figure.",
+    "explanation": "Nagarjuna's Mulamadhyamakakarika establishes the doctrine of Shunyata (emptiness) through rigorous reductio ad absurdum logic. His influence extended deeply into Hindu philosophy: Adi Shankaracharya's critics called Advaita Vedanta 'crypto-Buddhism' (pracchanna bauddha), and Shankaracharya wrote extensively to refute Nagarjuna's positions, demonstrating the deep dialogue between the two traditions.",
+    "scholarlyNotes": "Nagarjuna is a Buddhist philosopher included here because of his formative role in the development of Hindu philosophical responses, particularly Advaita Vedanta. Multiple persons named Nagarjuna appear in tradition; the philosopher is distinct from the alchemist-siddha Nagarjuna.",
+    "sources": [
+      { "text": "Mulamadhyamakakarika of Nagarjuna 1.1 (Mangalacarana)", "section": "1.1" },
+      { "text": "Brahma Sutra Bhashya of Shankaracharya 2.2.28 (refuting Madhyamaka)", "section": "2.2.28" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-abhinavagupta",
+    "slug": "abhinavagupta",
+    "nameDevanagari": "अभिनवगुप्त",
+    "nameTransliteration": "Abhinavagupta",
+    "nameEnglish": "Abhinavagupta",
+    "meaningEnglish": "Ever new and protected (abhinava = ever new; gupta = protected; a name indicating the freshness of his teaching)",
+    "domain": "sage",
+    "category": "Acharya",
+    "tier": "moon",
+    "historicalContext": "Abhinavagupta (c. 950–1016 CE) was a polymath from Kashmir — philosopher, mystic, musician, and poet. He is the most important figure of the Kashmir Shaivism (Trika) tradition. His principal works include the Tantraloka (encyclopedic treatise on Shaiva Tantra), Abhinavabharati (commentary on the Natyashastra), and Paramarthasara.",
+    "explanation": "Abhinavagupta synthesised Kashmir Shaivism into a comprehensive philosophical system combining metaphysics, epistemology, aesthetics, and ritual. His Tantraloka is the encyclopedic source for the Trika school's practices and philosophy. His Abhinavabharati commentary on the Natyashastra deepened the theory of rasa in aesthetics. His concept of pratibha (creative intuition) influenced Indian aesthetic theory profoundly.",
+    "sources": [
+      { "text": "Tantraloka of Abhinavagupta 1.1 (Mangalacarana)", "section": "1.1" },
+      { "text": "Paramarthasara of Abhinavagupta 1 (opening verse)", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-kalidasa",
+    "slug": "kalidasa",
+    "nameDevanagari": "कालिदास",
+    "nameTransliteration": "Kālidāsa",
+    "nameEnglish": "Kalidasa",
+    "meaningEnglish": "Servant of Kali (kālī = the goddess Kali; dāsa = servant)",
+    "domain": "sage",
+    "category": "Kavi (Poet-sage)",
+    "tier": "moon",
+    "historicalContext": "Kalidasa is the greatest poet and playwright of Sanskrit literature, traditionally placed in the court of the Gupta emperor Chandragupta II Vikramaditya (c. 380–415 CE), though this dating is debated. He is the author of the dramas Abhijnanashakuntalam, Vikramorvasiyam, and Malavikagnimitram, and the poems Kumarasambhava, Raghuvamsha, Meghaduta, and Ritusamhara.",
+    "explanation": "Kalidasa's Abhijnanashakuntalam — the story of King Dushyanta and the forest girl Shakuntala — is considered the finest Sanskrit drama and was translated by Goethe, who marvelled at its beauty. His epic poems Raghuvamsha (the dynasty of Rama) and Kumarasambhava (the birth of Kartikeya) are foundational Sanskrit mahakavyas. His lyric Meghaduta (The Cloud Messenger) initiated the Sanskrit sandesa (message) kavya genre.",
+    "sources": [
+      { "text": "Abhijnanashakuntalam of Kalidasa 1.1 (nāṭyam invocation)", "section": "1.1" },
+      { "text": "Raghuvamsha of Kalidasa 1.1 (vāgartha invocation)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-ramakrishna",
+    "slug": "ramakrishna",
+    "nameDevanagari": "रामकृष्ण परमहंस",
+    "nameTransliteration": "Rāmakṛṣṇa Paramahaṃsa",
+    "nameEnglish": "Ramakrishna Paramahamsa",
+    "meaningEnglish": "The Supreme Swan who is Rama and Krishna (rāmakṛṣṇa = one who is both Rama and Krishna; paramahaṃsa = supreme swan, a title for the highest order of sannyasi)",
+    "domain": "sage",
+    "category": "Modern Mystic-Saint",
+    "tier": "moon",
+    "historicalContext": "Ramakrishna Paramahamsa (1836–1886 CE) was a Bengali mystic and devotee of Kali at the Dakshineswar temple. His teachings, recorded by Mahendranath Gupta as 'Kathamrita' (Gospel of Sri Ramakrishna), had a transformative impact on modern Hinduism. His disciple Swami Vivekananda introduced his message to the West at the Parliament of World's Religions in Chicago in 1893.",
+    "explanation": "Ramakrishna practised sadhana in multiple traditions — Kali worship, Vaishnava bhakti, Advaita Vedanta, and even Islam and Christianity — and declared that all paths lead to the same divine experience. His central teaching was 'Yato mat, tato path' — 'As many opinions, so many paths.' He influenced the global understanding of Hinduism as a pluralistic, experiential religion.",
+    "sources": [
+      { "text": "Gospel of Sri Ramakrishna (Kathamrita by Mahendranath Gupta) 1.1", "section": "1.1" },
+      { "text": "Ramakrishna: His Life and Sayings by Max Muller, 1898", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-tukaram",
+    "slug": "tukaram",
+    "nameDevanagari": "तुकाराम",
+    "nameTransliteration": "Tukārāma",
+    "nameEnglish": "Tukaram",
+    "meaningEnglish": "Tuka, the servant of Rama (a compound of Tuka — his nickname — and Rama)",
+    "domain": "sage",
+    "category": "Sant (Bhakti Poet-sage)",
+    "tier": "moon",
+    "historicalContext": "Tukaram (c. 1598–1650 CE) was a Marathi bhakti poet-saint from Dehu near Pune. He is the most celebrated of the Varkari sants of Maharashtra and a devotee of Vithoba (Vitthal) at Pandharpur. His Abhangas (devotional verses) — approximately 4,500 compositions — are the most recited vernacular devotional poetry in Marathi.",
+    "explanation": "Tukaram's Abhangas express the anguish and ecstasy of bhakti in simple, direct Marathi, accessible to ordinary people. He opposed caste hierarchy in devotion, declaring that the Lord is accessible to all regardless of social position. He belongs to the lineage of Marathi sants including Jnaneshvar, Namdev, and Eknath. His Abhangas were transmitted orally and were written down after his time.",
+    "sources": [
+      { "text": "Tukaram Gatha (Abhanga collection) 1 (ādyā vandito viṭhu)", "section": "1" },
+      { "text": "Tukaram Gatha 3382 (the well-known abhanga on the meeting with God)", "section": "3382" }
+    ],
+    "confidence": "established"
+  }
+]

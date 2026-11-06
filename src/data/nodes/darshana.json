@@ -1,0 +1,268 @@
+[
+  {
+    "id": "darshana-nyaya",
+    "slug": "nyaya",
+    "nameDevanagari": "न्याय",
+    "nameTransliteration": "Nyāya",
+    "nameEnglish": "Nyaya",
+    "meaningEnglish": "Logic or Reasoning (nyāya = rule, standard, logical argument)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "Nyaya was founded by the sage Gotama (Gautama), whose Nyaya Sutras (c. 200 BCE–150 CE) are the foundational text. It is primarily an epistemological and logical system, concerned with valid sources of knowledge (pramanas) and valid inference.",
+    "explanation": "Nyaya accepts four pramanas (valid sources of knowledge): perception (pratyaksha), inference (anumana), comparison (upamana), and testimony (shabda). Its systematic theory of inference (vyapti — universal concomitance) became the basis of Indian epistemology. Later Navya-Nyaya (New Nyaya) school, particularly in Bengal from the 11th century CE, developed an elaborate logical formalism.",
+    "sources": [
+      { "text": "Nyaya Sutras of Gotama 1.1.1", "section": "1.1.1" },
+      { "text": "Nyaya Sutras 1.1.3–9 (sixteen padarthas)", "section": "1.1.3" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-vaisheshika",
+    "slug": "vaisheshika",
+    "nameDevanagari": "वैशेषिक",
+    "nameTransliteration": "Vaiśeṣika",
+    "nameEnglish": "Vaisheshika",
+    "meaningEnglish": "The Philosophy of Particulars (viśeṣa = particularity, distinction; the school that analyses the particularities of substances)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "Vaisheshika was founded by the sage Kanada, whose Vaisheshika Sutras (c. 200 BCE–100 CE) systematise an atomic theory of reality. Vaisheshika is closely allied with Nyaya, together forming the 'Nyaya-Vaisheshika' school. It was one of the most naturalistically oriented of the astika schools.",
+    "explanation": "Vaisheshika posits seven categories (padarthas): substance, quality, action, generality, particularity, inherence, and non-existence. It proposes that all material substances are composed of eternal, indivisible atoms (paramanus) of the four elements (earth, water, fire, air). God (Ishvara) is the efficient cause of creation, using these atoms as the material cause.",
+    "sources": [
+      { "text": "Vaisheshika Sutras of Kanada 1.1.1", "section": "1.1.1" },
+      { "text": "Vaisheshika Sutras 2.1.1–2 (atomic theory)", "section": "2.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-samkhya",
+    "slug": "samkhya",
+    "nameDevanagari": "सांख्य",
+    "nameTransliteration": "Sāṃkhya",
+    "nameEnglish": "Samkhya",
+    "meaningEnglish": "Enumeration or Number (from saṃkhyā = number; the philosophy that enumerates the constituents of reality)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "Samkhya is one of the oldest Indian philosophical schools, traditionally attributed to the sage Kapila. The Samkhya Karika of Ishvarakrishna (c. 350 CE) is the standard text. Samkhya is a dualist school: its two ultimate realities are Purusha (pure consciousness) and Prakriti (primal matter).",
+    "explanation": "Samkhya posits that all of physical and mental reality evolves from one undifferentiated material principle (Prakriti) through the interplay of three gunas (sattva, rajas, tamas). The 25 tattvas (elements of reality) include Prakriti, Mahat/Buddhi, Ahamkara, the five tanmatras, the ten indriyas, the five elements, and the multiple Purushas. Liberation (moksha) consists in Purusha recognising its eternal separation from Prakriti.",
+    "sources": [
+      { "text": "Samkhya Karika 1 (Ishvarakrishna)", "section": "1" },
+      { "text": "Bhagavad Gita 13.19–23 (Samkhya metaphysics)", "section": "13.19" },
+      { "text": "Mahabharata, Shanti Parva 302 (Kapila's teaching)", "section": "302" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-yoga-school",
+    "slug": "yoga-darshana",
+    "nameDevanagari": "योगदर्शन",
+    "nameTransliteration": "Yogadarśana",
+    "nameEnglish": "Yoga (school of philosophy)",
+    "meaningEnglish": "The Philosophical School of Yoga (yoga = union, discipline; the philosophical-practical school of Patanjali)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "The Yoga school is closely allied with Samkhya and accepts its metaphysical framework, adding theism (Ishvara) and practical methodology. Patanjali's Yoga Sutras (c. 200 BCE–200 CE) are the definitive text. Vyasa's Yoga Bhashya is the oldest commentary.",
+    "explanation": "Yoga philosophy builds on Samkhya metaphysics, adding Ishvara (God) as a special Purusha who is eternally free and serves as an object of meditation. Patanjali's eight-limbed (ashtanga) yoga — yama, niyama, asana, pranayama, pratyahara, dharana, dhyana, samadhi — is the practical methodology for achieving the goal: kaivalya (isolation of Purusha from Prakriti), which is equivalent to moksha.",
+    "sources": [
+      { "text": "Yoga Sutras of Patanjali 1.1–51 (Samadhi Pada)", "section": "1.1" },
+      { "text": "Yoga Sutras 2.28–55 (ashtanga yoga)", "section": "2.28" },
+      { "text": "Yoga Bhashya of Vyasa 1.1", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-mimamsa",
+    "slug": "mimamsa",
+    "nameDevanagari": "मीमांसा",
+    "nameTransliteration": "Mīmāṃsā",
+    "nameEnglish": "Mimamsa (Purva Mimamsa)",
+    "meaningEnglish": "Enquiry or Investigation (from root man = to reflect; the investigation into the authority and meaning of the Vedas)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "Purva Mimamsa focuses on the Karma Kanda (ritual section) of the Vedas. Its foundational text is the Mimamsa Sutras of Jaimini (c. 300–200 BCE). Its principal commentators include Shabara (c. 300 CE) and later Kumarila Bhatta and Prabhakara.",
+    "explanation": "Mimamsa argues that the Vedas are eternal, authorless (apaurusheya), and self-certifying (svataḥ-pramanya). Its primary concern is Vedic interpretation and the correct performance of ritual (dharma). Mimamsa's approach to language and meaning (shabda) became foundational for Indian philosophy of language. It initially had no interest in liberation (moksha), focusing instead on svarga (heaven) through ritual.",
+    "sources": [
+      { "text": "Mimamsa Sutras of Jaimini 1.1.1–5", "section": "1.1.1" },
+      { "text": "Mimamsa Sutras 1.1.2 (dharma defined)", "section": "1.1.2" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-advaita",
+    "slug": "advaita-vedanta",
+    "nameDevanagari": "अद्वैत वेदान्त",
+    "nameTransliteration": "Advaita Vedānta",
+    "nameEnglish": "Advaita Vedanta",
+    "meaningEnglish": "Non-dual end of the Veda (a = not; dvaita = two; non-dualism; vedānta = end/goal of the Vedas)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Advaita Vedanta was systematised by Adi Shankaracharya (c. 788–820 CE), drawing on the Upanishads, Brahma Sutras, and Bhagavad Gita. Its pre-Shankara representatives include Gaudapada (author of the Mandukya Karika). It has been the most globally influential of the Vedantic schools.",
+    "explanation": "Advaita holds that Brahman alone is real (Brahma satyam); the world is phenomenally real but ultimately illusory as a separate entity (jagat mithya); and the individual self is none other than Brahman (jivo brahmaiva naparah). Liberation is the removal of the superimposition (adhyasa) of individuality on the non-dual Self through jnana (knowledge). The appearance of diversity is due to maya and avidya (cosmic and individual ignorance).",
+    "sanskritPassages": [
+      {
+        "sanskrit": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः ।",
+        "transliteration": "brahma satyaṃ jagan mithyā jīvo brahmaiva nāparaḥ",
+        "translation": "Brahman is real; the world is illusory; the individual soul is none other than Brahman.",
+        "source": {
+          "text": "Attributed to Adi Shankaracharya (Vivekachudamani commentary tradition)",
+          "section": "20"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Brahma Sutras 1.1.1 (Shankaracharya's Bhashya)", "section": "1.1.1" },
+      { "text": "Vivekachudamani (Shankaracharya) 1–60", "section": "1" },
+      { "text": "Mandukya Karika of Gaudapada 2.1–32", "section": "2.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-vishishtadvaita",
+    "slug": "vishishtadvaita",
+    "nameDevanagari": "विशिष्टाद्वैत",
+    "nameTransliteration": "Viśiṣṭādvaita",
+    "nameEnglish": "Vishishtadvaita",
+    "meaningEnglish": "Qualified Non-dualism (viśiṣṭa = qualified, with attributes; advaita = non-dual; a non-dualism that qualifies Brahman with souls and world)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Vishishtadvaita was systematised by Ramanujacharya (c. 1017–1137 CE) in his Sri Bhashya (commentary on the Brahma Sutras) and Vedarthasangraha. Its earlier roots lie in the Sri Vaishnava tradition of the Tamil Alvars and the Pancharatra Agamas.",
+    "explanation": "Vishishtadvaita holds that Brahman (identified with Vishnu/Narayana) is the only reality, but it is qualified by the souls (chit) and matter (achit) as its modes or body. The world and souls are real and form the body of Brahman. Liberation is attained through prapatti (surrender) or bhakti (devotion) and results in eternal loving service to Vishnu in Vaikuntha. The soul retains its individuality even in liberation.",
+    "sources": [
+      { "text": "Sri Bhashya of Ramanujacharya on Brahma Sutras 1.1.1", "section": "1.1.1" },
+      { "text": "Vedarthasangraha of Ramanujacharya 1–5", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-dvaita",
+    "slug": "dvaita-vedanta",
+    "nameDevanagari": "द्वैत वेदान्त",
+    "nameTransliteration": "Dvaita Vedānta",
+    "nameEnglish": "Dvaita Vedanta",
+    "meaningEnglish": "Dualist Vedanta (dvaita = two, dualism; the Vedanta school that maintains an eternal distinction between God, souls, and world)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Dvaita Vedanta was founded by Madhvacharya (c. 1238–1317 CE), also known as Anandatirtha or Purnaprajna. His school, also called Tattvavada (philosophy of reality), is the basis of the Udupi Vaishnava tradition. His principal works include the Brahma Sutra Bhashya and the Anuvyakhyana.",
+    "explanation": "Dvaita posits five eternal distinctions (pancha bheda): between God and souls, between God and matter, between souls and matter, among souls, and among material entities. Vishnu (Brahman) is the supreme, independent reality; souls and the world are real but eternally dependent on him. Liberation (mukti) is the blissful vision of Vishnu in Vaikuntha, with the soul retaining its individuality forever.",
+    "sources": [
+      { "text": "Brahma Sutra Bhashya of Madhvacharya 1.1.1", "section": "1.1.1" },
+      { "text": "Anuvyakhyana of Madhvacharya 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-dvaitadvaita",
+    "slug": "dvaitadvaita",
+    "nameDevanagari": "द्वैताद्वैत",
+    "nameTransliteration": "Dvaitādvaita",
+    "nameEnglish": "Dvaitadvaita",
+    "meaningEnglish": "Dualistic Non-dualism (dvaita = dualism + advaita = non-dualism; a synthesis that affirms both difference and identity)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Dvaitadvaita (also called Bhedabheda — difference in non-difference) was propounded by Nimbarka (c. 11th–13th century CE), founder of the Nimbaraka sampradaya dedicated to the dual worship of Radha-Krishna. His principal text is the Vedanta Parijata Saurabha.",
+    "explanation": "Dvaitadvaita holds that the relationship between Brahman, souls, and the world involves both identity (advaita) and difference (dvaita) simultaneously. Brahman (identified as Krishna) is both the material and efficient cause. Souls and world are real and are different from Brahman as well as identical to it in their essence. Liberation means eternal loving union with Radha-Krishna while retaining individual consciousness.",
+    "sources": [
+      { "text": "Vedanta Parijata Saurabha of Nimbarka 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-shuddhadvaita",
+    "slug": "shuddhadvaita",
+    "nameDevanagari": "शुद्धाद्वैत",
+    "nameTransliteration": "Śuddhādvaita",
+    "nameEnglish": "Shuddhadvaita",
+    "meaningEnglish": "Pure Non-dualism (śuddha = pure; advaita = non-dual; a pure non-dualism without the concept of maya as absolute illusion)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Shuddhadvaita was founded by Vallabhacharya (c. 1479–1531 CE), the founder of the Pushti Marga (Path of Grace) and the Vaishnava tradition centred on Shrinathji at Nathdwara, Rajasthan. His principal texts include the Anubhashya and the Siddhanta Muktavali.",
+    "explanation": "Shuddhadvaita holds that Brahman (identified as Krishna) is pure, undivided, and non-dual. The world is a real transformation (parinamavada) of Krishna, not illusory. The souls are identical to Krishna but under his maya as a sport (lila). Liberation is achieved exclusively through Krishna's grace (pushti = divine grace/nourishment), not through human effort. The world is Krishna's lila (divine play).",
+    "sources": [
+      { "text": "Anubhashya of Vallabhacharya on Brahma Sutras 1.1.1", "section": "1.1.1" },
+      { "text": "Siddhanta Muktavali (Vallabhacharya) 1", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "darshana-achintya-bhedabheda",
+    "slug": "achintya-bhedabheda",
+    "nameDevanagari": "अचिन्त्यभेदाभेद",
+    "nameTransliteration": "Acintya Bhedābheda",
+    "nameEnglish": "Achintya Bhedabheda",
+    "meaningEnglish": "Inconceivable Difference in Non-difference (acintya = inconceivable; bheda = difference; abheda = non-difference)",
+    "domain": "darshana",
+    "category": "Vedanta Sub-school",
+    "tier": "solar",
+    "historicalContext": "Achintya Bhedabheda is the theological school associated with Chaitanya Mahaprabhu (c. 1486–1534 CE) and systematised by his followers (the Six Goswamis of Vrindavan, particularly Jiva Goswami). The school is the foundation of ISKCON (International Society for Krishna Consciousness).",
+    "explanation": "Achintya Bhedabheda holds that the relationship between Krishna, souls, and world is simultaneously one of difference and non-difference — and this relationship is inconceivable (achintya) to the human mind. It cannot be rationally explained; it can only be accepted on the authority of scripture and experienced through bhakti. Chaitanya's eight verses (Shikshashtaka) express its devotional philosophy.",
+    "scholarlyNotes": "Chaitanya as founder of Achintya Bhedabheda is traditional; modern academic dating of Chaitanya and the school's formalisation by the Goswamis of Vrindavan differs from hagiographic accounts.",
+    "sources": [
+      { "text": "Bhakti Rasamrita Sindhu of Rupa Goswami 1.1.1", "section": "1.1.1" },
+      { "text": "Bhagavata Sandarbha of Jiva Goswami (Tattva Sandarbha) 1", "section": "1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "darshana-shaiva-siddhanta",
+    "slug": "shaiva-siddhanta",
+    "nameDevanagari": "शैवसिद्धान्त",
+    "nameTransliteration": "Śaiva Siddhānta",
+    "nameEnglish": "Shaiva Siddhanta",
+    "meaningEnglish": "The Final Truth of Shaivism (śaiva = of Shiva; siddhānta = established conclusion, final truth)",
+    "domain": "darshana",
+    "category": "Astika School",
+    "tier": "solar",
+    "historicalContext": "Shaiva Siddhanta is one of the main philosophical schools of Shaivism, primarily based in South India and Tamil Nadu. Its Sanskrit systematisation is found in the 28 Shaiva Agamas, and its Tamil expression in the Tirumurai (12 volumes of Tamil Shaiva poetry). Key philosophers include Meykandar (13th century CE).",
+    "explanation": "Shaiva Siddhanta posits three eternal realities: Pati (Lord, i.e., Shiva), Pashu (the soul), and Pasha (the bond/fetter). Shiva is the pure, all-knowing, all-powerful consciousness. Souls are eternal but bound by three impurities (malas): anava (egoic limitation), karma, and maya. Liberation is the removal of these bonds through Shiva's grace (anugraha), resulting in the soul becoming like Shiva without becoming identical to him (a dualist liberated state).",
+    "sources": [
+      { "text": "Tirumurai (Tamil Shaiva canon), Thevaram 1.1 (Tirugnana Sambandhar)", "section": "1.1" },
+      { "text": "Sivajnanabodham of Meykandar 1 (13th century CE)", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-adi-shankaracharya",
+    "slug": "adi-shankaracharya",
+    "nameDevanagari": "आदिशङ्कराचार्य",
+    "nameTransliteration": "Ādi Śaṅkarācārya",
+    "nameEnglish": "Adi Shankaracharya",
+    "meaningEnglish": "The first (original) Shankara, the teacher (ādi = first; śaṅkara = auspicious; ācārya = teacher)",
+    "domain": "darshana",
+    "category": "Acharya",
+    "tier": "moon",
+    "historicalContext": "Adi Shankaracharya (traditionally c. 788–820 CE, though some scholars date him later) was born in Kaladi, Kerala. He composed commentaries on the Upanishads, Bhagavad Gita, and Brahma Sutras, and established four monastic seats (mathas) at Sringeri, Dwarka, Puri, and Badrinath, reforming and unifying Hindu philosophy.",
+    "explanation": "Shankaracharya synthesised the various Vedantic teachings into the system of Advaita Vedanta. His commentaries on the Prasthanatrayi (three canonical texts: Upanishads, Bhagavad Gita, Brahma Sutras) remain authoritative. He debated Buddhist philosophers across India, reviving Vedantic Hinduism. His independent works include the Vivekachudamani, Upadesha Sahasri, and numerous devotional hymns.",
+    "sources": [
+      { "text": "Brahma Sutra Bhashya of Shankaracharya 1.1.1", "section": "1.1.1" },
+      { "text": "Vivekachudamani (Shankaracharya) 1–580", "section": "1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "sage-ramanujacharya",
+    "slug": "ramanujacharya",
+    "nameDevanagari": "रामानुजाचार्य",
+    "nameTransliteration": "Rāmānujācārya",
+    "nameEnglish": "Ramanujacharya",
+    "meaningEnglish": "The teacher Ramanuja (rāmānuja = younger brother of Rama; ācārya = teacher)",
+    "domain": "darshana",
+    "category": "Acharya",
+    "tier": "moon",
+    "historicalContext": "Ramanujacharya (c. 1017–1137 CE) was born in Sriperumbudur near Chennai. He studied under Yadavaprakasha and later broke with his teacher to develop Vishishtadvaita Vedanta. He wrote the Sri Bhashya on the Brahma Sutras, the Vedarthasangraha, the Gita Bhashya, and the Vaikunta Gadya, among other works.",
+    "explanation": "Ramanuja's greatest contribution was the Sri Bhashya — a detailed commentary on the Brahma Sutras refuting Shankara's Advaita while establishing Vishishtadvaita (qualified non-dualism). He emphasised bhakti (devotion) and prapatti (surrender) as means of moksha, integrated the Tamil Alvars' devotional tradition into Sanskrit theological discourse, and demonstrated that the Vedas support a theistic non-dualism.",
+    "sources": [
+      { "text": "Sri Bhashya of Ramanujacharya on Brahma Sutras 1.1.1", "section": "1.1.1" },
+      { "text": "Vedarthasangraha of Ramanujacharya (complete text)", "section": "1" }
+    ],
+    "confidence": "established"
+  }
+]

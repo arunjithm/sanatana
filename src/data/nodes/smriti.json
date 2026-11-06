@@ -1,0 +1,216 @@
+[
+  {
+    "id": "smriti-mahabharata",
+    "slug": "mahabharata",
+    "nameDevanagari": "महाभारत",
+    "nameTransliteration": "Mahābhārata",
+    "nameEnglish": "Mahabharata",
+    "meaningEnglish": "The Great (Itihasa) of the Bharatas (mahā = great; bhārata = of the Bharata dynasty)",
+    "domain": "smriti",
+    "category": "Itihasa",
+    "tier": "solar",
+    "historicalContext": "The Mahabharata is the longest epic in world literature, comprising approximately 100,000 shlokas (200,000 verse-lines). It is traditionally attributed to the sage Vyasa. Its core narrative — the Kurukshetra war between the Pandavas and Kauravas — is traditionally dated to c. 3100 BCE (mythological) but composed and redacted c. 400 BCE–400 CE.",
+    "explanation": "The Mahabharata consists of 18 books (parvans) plus the Harivamsha supplement. It is called the fifth Veda and an encyclopedia of dharma: 'Yad ihāsti tad anyatra, yan nehāsti na tat kvacit' — 'What is here is elsewhere; what is not here is nowhere.' Its philosophical crown is the Bhagavad Gita (a 700-verse section in the Bhishma Parva). It addresses questions of kingship, war ethics, moksha, and cosmic order.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "धर्मे चार्थे च कामे च मोक्षे च भरतर्षभ । यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्वचित् ॥",
+        "transliteration": "dharme cārthe ca kāme ca mokṣe ca bharatarṣabha | yad ihāsti tad anyatra yan nehāsti na tat kvacit ||",
+        "translation": "Whatever is here concerning dharma, artha, kama, and moksha — that is elsewhere; what is not here is nowhere.",
+        "source": {
+          "text": "Mahabharata, Adi Parva 56.33",
+          "section": "56.33"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Mahabharata, Adi Parva 1.1.1", "section": "1.1.1" },
+      { "text": "Mahabharata, Adi Parva 56.33 (scope verse)", "section": "56.33" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-ramayana",
+    "slug": "ramayana",
+    "nameDevanagari": "रामायण",
+    "nameTransliteration": "Rāmāyaṇa",
+    "nameEnglish": "Ramayana",
+    "meaningEnglish": "The Journey of Rama (rāma = Rama; ayana = journey, going)",
+    "domain": "smriti",
+    "category": "Itihasa",
+    "tier": "solar",
+    "historicalContext": "The Ramayana of Valmiki (the Valmiki Ramayana) is traditionally the first poem (adikavya) in Sanskrit literature. It consists of 7 books (kandas) and approximately 24,000 shlokas. Valmiki is called the adi-kavi (first poet). The text exists in two major recensions: northern (Mithila, Gauda) and southern (Dakshinatya).",
+    "explanation": "The Ramayana narrates the life of Rama — his birth in Ayodhya, his fourteen-year exile with Sita and Lakshmana, Sita's abduction by Ravana, Hanuman's service, the bridge across the ocean, the battle with Ravana, and Rama's return and coronation (Pattabhisheka). It is a text of dharma, devoted to the ideal of the dharmic king, the loyal wife, the devoted brother, and the selfless servant.",
+    "sources": [
+      { "text": "Valmiki Ramayana, Bala Kanda 1.1.1", "section": "1.1.1" },
+      { "text": "Valmiki Ramayana, Yuddha Kanda 6.131 (Pattabhisheka)", "section": "6.131" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-bhagavad-gita",
+    "slug": "bhagavad-gita",
+    "nameDevanagari": "भगवद्गीता",
+    "nameTransliteration": "Bhagavadgītā",
+    "nameEnglish": "Bhagavad Gita",
+    "meaningEnglish": "The Song of the Lord (bhagavat = the Lord; gīta = song; the divine song sung by Krishna to Arjuna)",
+    "domain": "smriti",
+    "category": "Itihasa (embedded text)",
+    "tier": "solar",
+    "historicalContext": "The Bhagavad Gita forms chapters 23–40 of the Bhishma Parva (Book 6) of the Mahabharata. It consists of 18 chapters and 700 shlokas. It is the most globally read Hindu scripture and has been commented upon by virtually every major Hindu philosophical school. It is part of the Prasthanatrayi alongside the Upanishads and Brahma Sutras.",
+    "explanation": "The Bhagavad Gita is a dialogue between Arjuna and Krishna on the battlefield of Kurukshetra. When Arjuna collapses in despondency at the prospect of killing his kinsmen, Krishna teaches him the nature of the Self, the paths of karma, jnana, and bhakti, and the supreme teaching of surrender to God. It synthesises Samkhya metaphysics, Yoga practice, Upanishadic philosophy, and devotional theism.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु । मामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ॥",
+        "transliteration": "manmanā bhava madbhakto madyājī māṃ namaskuru | māmevaiṣyasi yuktvaivaṃ ātmānaṃ matparāyaṇaḥ ||",
+        "translation": "Fix your mind on Me, be devoted to Me, worship Me, bow down to Me. So shall you come to Me, uniting yourself with Me, with Me as your supreme goal.",
+        "source": {
+          "text": "Bhagavad Gita 9.34",
+          "section": "9.34"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Bhagavad Gita 1.1–18.78", "section": "1.1" },
+      { "text": "Mahabharata, Bhishma Parva 6.23–40 (Gita's location)", "section": "6.23" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-manusmriti",
+    "slug": "manusmriti",
+    "nameDevanagari": "मनुस्मृति",
+    "nameTransliteration": "Manusmṛti",
+    "nameEnglish": "Manusmriti",
+    "meaningEnglish": "The Recollections of Manu (manu = the progenitor of humanity; smṛti = what is remembered)",
+    "domain": "smriti",
+    "category": "Dharmashastra",
+    "tier": "planet",
+    "historicalContext": "The Manusmriti (also called Manava Dharmashastra) is the most cited Dharmashastra text, composed approximately 200 BCE–200 CE. It is traditionally attributed to Manu, the progenitor of humanity. Its 12 chapters cover the duties of castes, life stages, kings, and courts, as well as cosmogony and penance.",
+    "explanation": "The Manusmriti prescribes the duties of each varna, the four ashramas, the duties of kings, the law of inheritance, criminal law, and rules for personal purification. It has been enormously influential in shaping Hindu social law and was used as a legal code during the British colonial period. It has also been subject to severe criticism for its provisions supporting caste hierarchy and subordination of women, and B.R. Ambedkar publicly burned it in 1927.",
+    "scholarlyNotes": "The Manusmriti contains passages of multiple dates and apparent interpolations. Modern scholars including Patrick Olivelle have argued for a more nuanced reading of the text's historical layers.",
+    "sources": [
+      { "text": "Manusmriti 1.1–119 (Cosmogony and varna origins)", "section": "1.1" },
+      { "text": "Manusmriti 2.1–24 (definition of dharma)", "section": "2.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-arthashastra",
+    "slug": "arthashastra",
+    "nameDevanagari": "अर्थशास्त्र",
+    "nameTransliteration": "Arthaśāstra",
+    "nameEnglish": "Arthashastra",
+    "meaningEnglish": "The Science of Wealth and Politics (artha = wealth, purpose, polity; śāstra = treatise)",
+    "domain": "smriti",
+    "category": "Nitishastra",
+    "tier": "planet",
+    "historicalContext": "The Arthashastra is attributed to Kautilya (also known as Chanakya or Vishnugupta), minister to Chandragupta Maurya (r. c. 320–298 BCE). The text was lost for centuries and rediscovered in 1905 by R. Shamasastry in Mysore. It consists of 15 books (adhikaranas) covering statecraft, economic policy, law, warfare, and diplomacy.",
+    "explanation": "The Arthashastra is one of the most sophisticated treatises on statecraft from the ancient world, comparable to Machiavelli's Prince and Thucydides' History in its realist approach to politics. It covers the duties of a king, the structure of government, economic management, foreign policy (mandala theory of concentric alliances and rivalries), espionage, and military strategy.",
+    "sources": [
+      { "text": "Arthashastra of Kautilya 1.1.1", "section": "1.1.1" },
+      { "text": "Arthashastra 1.19 (definition of artha and science of polity)", "section": "1.19" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-yoga-vasishtha",
+    "slug": "yoga-vasishtha",
+    "nameDevanagari": "योगवासिष्ठ",
+    "nameTransliteration": "Yogavāsiṣṭha",
+    "nameEnglish": "Yoga Vasishtha",
+    "meaningEnglish": "The Yoga of Vasishtha (the yogic teachings given by the sage Vasishtha to Rama)",
+    "domain": "smriti",
+    "category": "Philosophical narrative",
+    "tier": "planet",
+    "historicalContext": "The Yoga Vasishtha (also known as Maha Ramayana or Jnana Vasishtha) is a lengthy philosophical text consisting of approximately 29,000 shlokas, structured as a dialogue between the sage Vasishtha and the young prince Rama. It is composed between 10th–14th century CE, likely in Kashmir.",
+    "explanation": "The Yoga Vasishtha teaches Advaita Vedanta through extensive stories, parables, and direct philosophical discourse. Its central teachings include the nature of consciousness (chit), the illusory nature of the world (jagat), and the methods of attaining liberation in this life (jivanmukti). It emphasises that the world is a projection of the mind (mano-rajya) and uses vivid narrative allegories to illustrate this.",
+    "sources": [
+      { "text": "Yoga Vasishtha, Vairagya Prakarana 1.1 (Mumukshu Vyavahara)", "section": "1.1" },
+      { "text": "Yoga Vasishtha, Nirvana Prakarana 1.1", "section": "6.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-panchatantra",
+    "slug": "panchatantra",
+    "nameDevanagari": "पञ्चतन्त्र",
+    "nameTransliteration": "Pañcatantra",
+    "nameEnglish": "Panchatantra",
+    "meaningEnglish": "Five Treatises (pañca = five; tantra = treatise, strategy; a collection of five books of practical wisdom)",
+    "domain": "smriti",
+    "category": "Nitishastra (fable literature)",
+    "tier": "planet",
+    "historicalContext": "The Panchatantra is attributed to the sage Vishnusharma and composed approximately 300 BCE–300 CE. It is one of the most translated books in world literature, having influenced Aesop's Fables (through oral transmission), the Arabian Nights (through the Pahlavi Kalila wa Dimna), and medieval European fable collections.",
+    "explanation": "The Panchatantra consists of five books of practical wisdom (niti) expressed through interlocking animal fables. The five books deal with: the loss of friends, the winning over of friends, crows and owls (war policy), loss of gains, and rash actions. Its fables teach practical wisdom (niti), statecraft, and human psychology through anthropomorphic animals.",
+    "sources": [
+      { "text": "Panchatantra 1.1.1 (Vishnusharma)", "section": "1.1.1" },
+      { "text": "Panchatantra, Mitralabha (Book 2), 1.1", "section": "2.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-harivamsha",
+    "slug": "harivamsha",
+    "nameDevanagari": "हरिवंश",
+    "nameTransliteration": "Harivaṃśa",
+    "nameEnglish": "Harivamsha",
+    "meaningEnglish": "The Genealogy of Hari (hari = Vishnu/Krishna; vaṃśa = lineage, genealogy)",
+    "domain": "smriti",
+    "category": "Itihasa supplement",
+    "tier": "planet",
+    "historicalContext": "The Harivamsha is a supplement (khila) to the Mahabharata, consisting of three parvans (Harivamsha Parva, Vishnu Parva, Bhavisya Parva) and approximately 16,374 shlokas. It is a transitional text between the epics and the Puranas, focusing on the life and exploits of Krishna.",
+    "explanation": "The Harivamsha covers Krishna's genealogy, his birth in Mathura, his childhood in Vrindavana, his battle with Kamsa, and his later life. It is the earliest extensive source for the Krishna legend and provides the narrative framework expanded in the Bhagavata Purana. It also contains cosmogonic sections and descriptions of Vishnu's cosmic activities.",
+    "sources": [
+      { "text": "Harivamsha, Harivamsha Parva 1.1", "section": "1.1" },
+      { "text": "Harivamsha, Vishnu Parva 1.1 (Krishna legends)", "section": "2.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-natyashastra",
+    "slug": "natyashastra",
+    "nameDevanagari": "नाट्यशास्त्र",
+    "nameTransliteration": "Nāṭyaśāstra",
+    "nameEnglish": "Natyashastra",
+    "meaningEnglish": "The Science of Dramatic Arts (nāṭya = drama, dance, theatre; śāstra = treatise)",
+    "domain": "smriti",
+    "category": "Shastra",
+    "tier": "planet",
+    "historicalContext": "The Natyashastra is attributed to the sage Bharata Muni and composed approximately 200 BCE–200 CE (though some date it later). It is the foundational treatise on Indian performing arts, covering music, dance, theatre, poetics, and aesthetics. Its chapter on rasa theory is the most influential contribution to Indian aesthetics.",
+    "explanation": "The Natyashastra's rasa theory (rasasutra: 'vibhavānubhāvasancāribhāvasaṃyogādrasa-niṣpattiḥ') describes how emotional states (bhava) are transformed into aesthetic experience (rasa) in the audience. It enumerates eight primary rasas (emotional essences): shringara (love), hasya (comedy), karuna (sorrow), raudra (fury), vira (heroism), bhayanaka (terror), bibhatsa (disgust), and adbhuta (wonder), with shanta (peace) added later.",
+    "sources": [
+      { "text": "Natyashastra of Bharata Muni 1.1.1", "section": "1.1.1" },
+      { "text": "Natyashastra 6.31 (rasa-sutra)", "section": "6.31" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "smriti-brahma-sutras",
+    "slug": "brahma-sutras",
+    "nameDevanagari": "ब्रह्मसूत्र",
+    "nameTransliteration": "Brahmasūtra",
+    "nameEnglish": "Brahma Sutras",
+    "meaningEnglish": "Aphorisms on Brahman (brahma = Brahman; sūtra = thread, aphorism; a collection of brief aphorisms on Vedantic philosophy)",
+    "domain": "smriti",
+    "category": "Shastra",
+    "tier": "planet",
+    "historicalContext": "The Brahma Sutras (also called Vedanta Sutras or Badarayana Sutras) were composed by Badarayana (traditionally identified with Vyasa), estimated c. 200 BCE–400 CE. They consist of 555 aphorisms in four chapters, systematising and reconciling the seemingly contradictory teachings of the Upanishads. They form one of the three canonical texts (Prasthanatrayi) of Vedanta.",
+    "explanation": "The Brahma Sutras begin with 'Athatho brahma jijñāsā' — 'Now, therefore, the enquiry into Brahman.' They systematically address the nature of Brahman, its relationship to the individual self and the world, the means of liberation, and the state of the liberated soul. Each major Vedantic school has produced its own commentary on the Brahma Sutras, making it the most commented philosophical text in the Hindu tradition.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "अथातो ब्रह्मजिज्ञासा ।",
+        "transliteration": "athāto brahmajijñāsā",
+        "translation": "Now, therefore, the enquiry into Brahman.",
+        "source": {
+          "text": "Brahma Sutras 1.1.1 (Badarayana)",
+          "section": "1.1.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Brahma Sutras 1.1.1 (Badarayana)", "section": "1.1.1" },
+      { "text": "Brahma Sutras 4.4.1–7 (nature of moksha)", "section": "4.4.1" }
+    ],
+    "confidence": "established"
+  }
+]

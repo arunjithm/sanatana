@@ -1,0 +1,79 @@
+[
+  {
+    "id": "shruti",
+    "name": "Shruti",
+    "nameDevanagari": "श्रुति",
+    "color": "#FFD700",
+    "description": "That which is heard — the eternal, revealed scriptures comprising the four Vedas and their ancillary texts, considered to be of divine origin and uncreated."
+  },
+  {
+    "id": "smriti",
+    "name": "Smriti",
+    "nameDevanagari": "स्मृति",
+    "color": "#FF8C00",
+    "description": "That which is remembered — the body of texts considered to be of human authorship and secondary authority, including the Itihasas, Dharmashastra, and related literature."
+  },
+  {
+    "id": "purana",
+    "name": "Purana",
+    "nameDevanagari": "पुराण",
+    "color": "#C084FC",
+    "description": "Ancient lore — eighteen major texts (Mahapuranas) and numerous minor texts (Upapuranas) narrating cosmogony, genealogies, mythology, and devotional teachings."
+  },
+  {
+    "id": "vedanga",
+    "name": "Vedanga",
+    "nameDevanagari": "वेदाङ्ग",
+    "color": "#94A3B8",
+    "description": "Limbs of the Veda — six auxiliary disciplines essential for the correct recitation, understanding, and preservation of the Vedic corpus."
+  },
+  {
+    "id": "upaveda",
+    "name": "Upaveda",
+    "nameDevanagari": "उपवेद",
+    "color": "#FB923C",
+    "description": "Secondary Vedas — four traditional bodies of knowledge appended to the main Vedas: Ayurveda, Dhanurveda, Gandharvaveda, and Arthashastra."
+  },
+  {
+    "id": "darshana",
+    "name": "Darshana",
+    "nameDevanagari": "दर्शन",
+    "color": "#60A5FA",
+    "description": "Vision or philosophical perspective — the six orthodox schools of Hindu philosophy (Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta) and their sub-traditions."
+  },
+  {
+    "id": "agama",
+    "name": "Agama",
+    "nameDevanagari": "आगम",
+    "color": "#F472B6",
+    "description": "Traditions that have come down — a large body of scriptures forming the basis of Shaiva, Shakta, and Vaishnava tantric and temple worship traditions."
+  },
+  {
+    "id": "deity",
+    "name": "Deity",
+    "nameDevanagari": "देवता",
+    "color": "#FCD34D",
+    "description": "Divine beings — the gods, goddesses, and divine manifestations of the Hindu tradition, from the supreme formless Brahman to specific forms worshipped in ritual."
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "nameDevanagari": "ऋषि",
+    "color": "#34D399",
+    "description": "Seers and sages — the rishis, acharyas, and teachers who received, transmitted, or systematised the sacred knowledge of the Hindu tradition."
+  },
+  {
+    "id": "concept",
+    "name": "Concept",
+    "nameDevanagari": "संकल्पना",
+    "color": "#A3E635",
+    "description": "Foundational ideas — the key philosophical, metaphysical, and soteriological concepts that form the intellectual backbone of Hindu thought."
+  },
+  {
+    "id": "science_art",
+    "name": "Science and Art",
+    "nameDevanagari": "विज्ञान-कला",
+    "color": "#E879F9",
+    "description": "The traditional sciences and arts — astronomy, mathematics, music, sculpture, dance, and other classical disciplines rooted in the Vedic and Agamic traditions."
+  }
+]

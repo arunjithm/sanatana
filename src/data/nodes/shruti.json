@@ -1,0 +1,464 @@
+[
+  {
+    "id": "veda-rigveda",
+    "slug": "rigveda",
+    "nameDevanagari": "ऋग्वेद",
+    "nameTransliteration": "Ṛgveda",
+    "nameEnglish": "Rigveda",
+    "meaningEnglish": "Knowledge of Hymns (ṛc = verse of praise; veda = knowledge)",
+    "domain": "shruti",
+    "category": "Veda",
+    "tier": "galaxy",
+    "historicalContext": "The oldest of the four Vedas, composed approximately between 1700–1100 BCE in the Greater Punjab region. It consists of 10,552 mantras arranged in 10 mandalas (books), with the Family Books (II–VII) considered the oldest core.",
+    "explanation": "The Rigveda is the foundational scripture of the Vedic corpus and arguably the oldest religious text still in use. Its hymns are addressed to deities such as Agni, Indra, Varuna, Mitra, and the Ashvins, and cover themes of cosmogony, ritual, and the nature of existence. The famous Nasadiya Sukta (10.129) reflects on creation, while the Purusha Sukta (10.90) describes the cosmic person from whose body the universe arose.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "नासदासीन्नो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् ।",
+        "transliteration": "nāsad āsīn no sad āsīt tadānīṃ nāsīd rajo no vyomā paro yat",
+        "translation": "Then even nothingness was not, nor existence; there was no air then, nor the heavens beyond it.",
+        "source": {
+          "text": "Rigveda 10.129.1",
+          "section": "10.129.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 1.1.1", "section": "1.1.1" },
+      { "text": "Rigveda 10.90 (Purusha Sukta)", "section": "10.90" },
+      { "text": "Rigveda 10.129 (Nasadiya Sukta)", "section": "10.129" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "veda-yajurveda",
+    "slug": "yajurveda",
+    "nameDevanagari": "यजुर्वेद",
+    "nameTransliteration": "Yajurveda",
+    "nameEnglish": "Yajurveda",
+    "meaningEnglish": "Knowledge of Sacrifice (yajus = sacrificial formula; veda = knowledge)",
+    "domain": "shruti",
+    "category": "Veda",
+    "tier": "galaxy",
+    "historicalContext": "The Yajurveda contains prose mantras used by the adhvaryu priest during Vedic sacrifices. It exists in two major recensions: the Krishna (Black) Yajurveda with four shakhas (Taittiriya, Maitrayani, Kathaka, Kapishthala) and the Shukla (White) Yajurveda (Vajasaneyi Samhita).",
+    "explanation": "The Yajurveda is primarily a liturgical text providing the formulas and instructions for performing the Vedic yajnas (fire sacrifices). Its ritual prescriptions cover the Ashvamedha, Rajasuya, Agnichayana, and other major sacrifices. The Shukla Yajurveda includes the Isha Upanishad as its concluding chapter. The Krishna Yajurveda is associated with the important Taittiriya Upanishad.",
+    "sources": [
+      { "text": "Vajasaneyi Samhita 1.1 (Shukla Yajurveda)", "section": "1.1" },
+      { "text": "Taittiriya Samhita 1.1.1 (Krishna Yajurveda)", "section": "1.1.1", "recension": "Taittiriya" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "veda-samaveda",
+    "slug": "samaveda",
+    "nameDevanagari": "सामवेद",
+    "nameTransliteration": "Sāmaveda",
+    "nameEnglish": "Samaveda",
+    "meaningEnglish": "Knowledge of Melodies (sāman = chant or melody; veda = knowledge)",
+    "domain": "shruti",
+    "category": "Veda",
+    "tier": "galaxy",
+    "historicalContext": "The Samaveda is a collection of 1,875 verses, most of which are drawn from the Rigveda and set to melodic notation for liturgical singing. It is associated with the udgatr priest who chants during the Soma sacrifices.",
+    "explanation": "The Samaveda represents the musical dimension of Vedic knowledge. Its Samhita provides melodic notation (svaras) above the text. The Chandogya Upanishad, one of the longest and most philosophically significant Upanishads, belongs to the Samaveda's Tandya-Maha-Brahmana tradition. In the Bhagavad Gita (10.22), Krishna declares: 'Of Vedas I am the Samaveda.'",
+    "sanskritPassages": [
+      {
+        "sanskrit": "वेदानां सामवेदोऽस्मि",
+        "transliteration": "vedānāṃ sāmavedo'smi",
+        "translation": "Among the Vedas I am the Samaveda.",
+        "source": {
+          "text": "Bhagavad Gita 10.22",
+          "section": "10.22"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Samaveda Samhita 1.1.1.1" },
+      { "text": "Bhagavad Gita 10.22", "section": "10.22" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "veda-atharvaveda",
+    "slug": "atharvaveda",
+    "nameDevanagari": "अथर्ववेद",
+    "nameTransliteration": "Atharvaveda",
+    "nameEnglish": "Atharvaveda",
+    "meaningEnglish": "Knowledge of Atharvan (named after the rishi Atharvan; also associated with atharvan = fire priest)",
+    "domain": "shruti",
+    "category": "Veda",
+    "tier": "galaxy",
+    "historicalContext": "The fourth and youngest Veda, composed approximately 1200–900 BCE. It contains 730 hymns in 20 books, including charms, spells, and philosophical speculations. It was not universally accepted as a Veda in the earliest period — references to 'three Vedas' (trayī vidyā) in older texts reflect this.",
+    "explanation": "The Atharvaveda stands apart from the other three Vedas in its content, encompassing apotropaic charms, healing mantras, philosophical hymns, royal rituals, and speculations on cosmogony. The Skambha hymns (AV 10.7–8) are early examples of Upanishadic-style cosmological inquiry. The Mundaka and Mandukya Upanishads belong to this Veda.",
+    "sources": [
+      { "text": "Atharvaveda 1.1.1" },
+      { "text": "Atharvaveda 10.7.1 (Skambha Sukta)", "section": "10.7" },
+      { "text": "Mundaka Upanishad 1.1.1 (belongs to Atharvaveda)", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "samhita-rigveda",
+    "slug": "rigveda-samhita",
+    "nameDevanagari": "ऋग्वेद संहिता",
+    "nameTransliteration": "Ṛgveda Saṃhitā",
+    "nameEnglish": "Rigveda Samhita",
+    "meaningEnglish": "The collected hymns of the Rigveda (saṃhitā = collection, compilation)",
+    "domain": "shruti",
+    "category": "Samhita",
+    "tier": "solar",
+    "historicalContext": "The Rigveda Samhita is the metrical collection of 10,552 hymns (rks) organised into 10 mandalas and 1,028 suktas. It represents the core of the Rigvedic canon and was transmitted orally through the Shakala shakha.",
+    "explanation": "The Samhita layer of the Veda consists of the mantras in their collected form, prior to the Brahmana commentaries or Aranyaka speculations. The Rigveda Samhita's ten books cover the entire spectrum of Vedic poetry from domestic ritual to cosmic speculation. The Shakala recension is the only complete one surviving today.",
+    "sources": [
+      { "text": "Rigveda Samhita 1.1.1", "section": "1.1.1", "recension": "Shakala" },
+      { "text": "Rigveda 10.90 (Purusha Sukta)", "section": "10.90" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "samhita-yajurveda",
+    "slug": "yajurveda-samhita",
+    "nameDevanagari": "यजुर्वेद संहिता",
+    "nameTransliteration": "Yajurveda Saṃhitā",
+    "nameEnglish": "Yajurveda Samhita",
+    "meaningEnglish": "The collected sacrificial formulas of the Yajurveda",
+    "domain": "shruti",
+    "category": "Samhita",
+    "tier": "solar",
+    "historicalContext": "The Yajurveda Samhita exists in two distinct forms: the Shukla (White) Yajurveda Samhita known as the Vajasaneyi Samhita, transmitted in the Madhyandina and Kanva shakhas; and the Krishna (Black) Yajurveda represented by the Taittiriya Samhita and others.",
+    "explanation": "The Yajurveda Samhita provides the sacrificial prose formulas (yajus) used in rituals. Unlike the Rigveda Samhita, it integrates both verse and prose. The Vajasaneyi Samhita of the Shukla recension is the more widely studied today, while the Taittiriya Samhita of the Krishna recension is associated with South Indian traditions.",
+    "sources": [
+      { "text": "Vajasaneyi Samhita 1.1.1", "section": "1.1.1", "recension": "Madhyandina" },
+      { "text": "Taittiriya Samhita 1.1.1.1", "section": "1.1.1.1", "recension": "Taittiriya" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "samhita-samaveda",
+    "slug": "samaveda-samhita",
+    "nameDevanagari": "सामवेद संहिता",
+    "nameTransliteration": "Sāmaveda Saṃhitā",
+    "nameEnglish": "Samaveda Samhita",
+    "meaningEnglish": "The collected chants of the Samaveda",
+    "domain": "shruti",
+    "category": "Samhita",
+    "tier": "solar",
+    "historicalContext": "The Samaveda Samhita contains 1,875 stanzas, of which 1,771 are found in the Rigveda. It is preserved in three shakhas: Kauthuma, Jaiminiya, and Ranayaniya. The Kauthuma and Ranayaniya shakhas are closely related.",
+    "explanation": "The Samaveda Samhita provides the textual basis for Vedic chant (samgan). Its verses, drawn mostly from the Rigveda, are melodically notated for use in Soma sacrifices by the udgatr priest. The Jaiminiya shakha preserves notably distinct melodic traditions and additional material.",
+    "sources": [
+      { "text": "Samaveda Samhita 1.1.1 (Purvarchika)", "recension": "Kauthuma" },
+      { "text": "Chandogya Upanishad 1.1.1 (Samaveda tradition)", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "samhita-atharvaveda",
+    "slug": "atharvaveda-samhita",
+    "nameDevanagari": "अथर्ववेद संहिता",
+    "nameTransliteration": "Atharvaveda Saṃhitā",
+    "nameEnglish": "Atharvaveda Samhita",
+    "meaningEnglish": "The collected hymns of the Atharvaveda",
+    "domain": "shruti",
+    "category": "Samhita",
+    "tier": "solar",
+    "historicalContext": "The Atharvaveda Samhita consists of 730 hymns in 20 books (kandas), preserved primarily in the Shaunaka and Paippalada recensions. The Paippalada recension, long considered lost, was substantially recovered from manuscripts found in Odisha and Kashmir.",
+    "explanation": "The Atharvaveda Samhita covers a wide range of practical and philosophical content — from healing charms (bheshaja hymns) and protective spells to elaborate cosmogonic hymns. Book 20 consists almost entirely of hymns shared with the Rigveda. The Skambha hymns in books 10 and 11 anticipate Upanishadic inquiry into the ultimate ground of being.",
+    "sources": [
+      { "text": "Atharvaveda Samhita 1.1.1", "section": "1.1.1", "recension": "Shaunaka" },
+      { "text": "Atharvaveda 10.7.21 (Skambha Sukta)", "section": "10.7.21" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-isha",
+    "slug": "isha-upanishad",
+    "nameDevanagari": "ईशावास्योपनिषद्",
+    "nameTransliteration": "Īśāvāsyopaniṣad",
+    "nameEnglish": "Isha Upanishad",
+    "meaningEnglish": "Upanishad of the Lord (Īśā = Lord; āvāsya = dwelling)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Isha Upanishad forms the 40th and final chapter of the Vajasaneyi Samhita of the Shukla Yajurveda. It is the shortest of the principal Upanishads, consisting of 18 verses, and is unique in being embedded within a Samhita rather than a Brahmana or Aranyaka.",
+    "explanation": "The Isha Upanishad addresses the apparent tension between the life of knowledge (jnana) and the life of action (karma), suggesting both must be pursued together. Its opening verse declares that the entire universe is pervaded by the Lord (Isha) and that one should renounce while enjoying. Mahatma Gandhi considered it the most important Upanishad and said that if all other scriptures were destroyed, its first verse alone would suffice.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "ईशावास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥",
+        "transliteration": "īśāvāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat | tena tyaktena bhuñjīthā mā gṛdhaḥ kasya svid dhanam ||",
+        "translation": "All this — whatever exists in this changing universe — is pervaded by the Lord. Protect yourself through that renunciation. Do not covet anyone's wealth.",
+        "source": {
+          "text": "Isha Upanishad 1",
+          "section": "1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Isha Upanishad 1–18", "section": "1" },
+      { "text": "Vajasaneyi Samhita 40 (Shukla Yajurveda)", "section": "40" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-kena",
+    "slug": "kena-upanishad",
+    "nameDevanagari": "केनोपनिषद्",
+    "nameTransliteration": "Kenopaniṣad",
+    "nameEnglish": "Kena Upanishad",
+    "meaningEnglish": "Upanishad of By Whom (kena = by whom, the opening word of the text)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Kena Upanishad belongs to the Samaveda, specifically to the Jaiminiya Brahmana. It consists of four sections (khandas): the first two in verse, the last two in prose. It is also known as the Talavakara Upanishad.",
+    "explanation": "The Kena Upanishad's central inquiry is into the nature of Brahman as the knowing subject behind all cognition. Its opening asks: 'By whom directed does the mind go toward its object? By whom commanded does the first breath go forth?' The answer is that Brahman is the ear of the ear, the mind of the mind — that which cannot be known by the instruments of knowing since it is their very ground.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः ।",
+        "transliteration": "keneṣitaṃ patati preṣitaṃ manaḥ kena prāṇaḥ prathamaḥ praiti yuktaḥ",
+        "translation": "By whom directed does the mind go forth toward its object? By whom commanded does the first breath go forth?",
+        "source": {
+          "text": "Kena Upanishad 1.1",
+          "section": "1.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Kena Upanishad 1.1–4.9", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-katha",
+    "slug": "katha-upanishad",
+    "nameDevanagari": "कठोपनिषद्",
+    "nameTransliteration": "Kaṭhopaniṣad",
+    "nameEnglish": "Katha Upanishad",
+    "meaningEnglish": "Upanishad of the Katha school (belonging to the Katha shakha of the Krishna Yajurveda)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Katha Upanishad belongs to the Krishna Yajurveda (Katha shakha). It is composed in two parts (adhyayas) of three chapters (vallis) each. The dialogue between the young Nachiketa and Yama (the god of death) provides the narrative frame for its teachings on the Self and death.",
+    "explanation": "The Katha Upanishad presents one of the most famous dialogues in world philosophy. Nachiketa, sent to Yama's abode, refuses all worldly gifts and demands knowledge of what lies beyond death. Yama's reluctant teaching reveals the nature of Atman as eternal, unborn, and beyond the senses. The chariot metaphor — the Self as charioteer, the intellect as chariot driver, the mind as reins — is one of the most influential analogies in Indian philosophy.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "न जायते म्रियते वा विपश्चिन्नायं कुतश्चिन्न बभूव कश्चित् । अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥",
+        "transliteration": "na jāyate mriyate vā vipaścin nāyaṃ kutaścin na babhūva kaścit | ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre ||",
+        "translation": "The wise one is not born, nor does it die. It has not come from anywhere and has not become anyone. Unborn, eternal, everlasting, ancient — it is not slain when the body is slain.",
+        "source": {
+          "text": "Katha Upanishad 1.2.18",
+          "section": "1.2.18"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Katha Upanishad 1.1.1", "section": "1.1.1" },
+      { "text": "Katha Upanishad 1.2.18–19", "section": "1.2.18" },
+      { "text": "Katha Upanishad 2.3.3–4 (chariot metaphor)", "section": "2.3.3" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-mundaka",
+    "slug": "mundaka-upanishad",
+    "nameDevanagari": "मुण्डकोपनिषद्",
+    "nameTransliteration": "Muṇḍakopaniṣad",
+    "nameEnglish": "Mundaka Upanishad",
+    "meaningEnglish": "Upanishad of the shaved (mundaka = shaved head; refers to the renunciates for whom it is meant)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Mundaka Upanishad belongs to the Atharvaveda (Shaunaka shakha). It has three mundakas, each with two sections. It is best known for introducing the distinction between higher knowledge (para vidya — knowledge of Brahman) and lower knowledge (apara vidya — the sciences, including the other Vedas).",
+    "explanation": "The Mundaka Upanishad opens with the famous question: 'By knowing what can everything else be known?' This frames the Upanishad's teaching that Brahman-knowledge is the supreme wisdom. The text uses the metaphors of sparks from fire and rivers merging in the sea to describe the relationship of the individual to Brahman. Its third section contains the famous verse chosen as the motto of India: Satyameva Jayate.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ।",
+        "transliteration": "satyam eva jayate nānṛtaṃ satyena panthā vitato devayānaḥ",
+        "translation": "Truth alone triumphs, not falsehood. Through truth the divine path is extended.",
+        "source": {
+          "text": "Mundaka Upanishad 3.1.6",
+          "section": "3.1.6"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Mundaka Upanishad 1.1.1", "section": "1.1.1" },
+      { "text": "Mundaka Upanishad 3.1.6 (Satyameva Jayate)", "section": "3.1.6" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-mandukya",
+    "slug": "mandukya-upanishad",
+    "nameDevanagari": "माण्डूक्योपनिषद्",
+    "nameTransliteration": "Māṇḍūkyopaniṣad",
+    "nameEnglish": "Mandukya Upanishad",
+    "meaningEnglish": "Upanishad of the Manduka sage or school (belonging to the Atharvaveda)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Mandukya Upanishad belongs to the Atharvaveda. At only 12 verses, it is the shortest of the principal Upanishads. Gaudapada's Karika (commentary) on the Mandukya became foundational for Advaita Vedanta, and was itself commented upon by Adi Shankaracharya.",
+    "explanation": "The Mandukya Upanishad analyses the syllable AUM and the four states of consciousness — waking (jagrat), dreaming (svapna), deep sleep (sushupti), and the transcendent fourth (turiya). Each phoneme of AUM corresponds to a state of consciousness. The teaching that all this is Brahman, that the Self has four quarters, and that turiya is the pure witness-consciousness underlies much of non-dual Vedantic metaphysics.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "ओमित्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोंकार एव ।",
+        "transliteration": "om ity etad akṣaram idaṃ sarvaṃ tasyopavyākhyānaṃ bhūtaṃ bhavad bhaviṣyad iti sarvam oṃkāra eva",
+        "translation": "AUM — this syllable is all this. What is past, present, and future — all of that is AUM alone.",
+        "source": {
+          "text": "Mandukya Upanishad 1",
+          "section": "1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Mandukya Upanishad 1–12" },
+      { "text": "Gaudapada Karika on Mandukya Upanishad 1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-taittiriya",
+    "slug": "taittiriya-upanishad",
+    "nameDevanagari": "तैत्तिरीयोपनिषद्",
+    "nameTransliteration": "Taittirīyopaniṣad",
+    "nameEnglish": "Taittiriya Upanishad",
+    "meaningEnglish": "Upanishad of the Taittiriya school (belonging to the Taittiriya shakha of the Krishna Yajurveda)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Taittiriya Upanishad forms the seventh, eighth, and ninth books (prashnas) of the Taittiriya Aranyaka, which belongs to the Krishna Yajurveda. It has three sections: Shiksha Valli, Ananda Valli (or Brahmananda Valli), and Bhrigu Valli.",
+    "explanation": "The Taittiriya Upanishad presents the doctrine of the five sheaths (pancha kosha) covering the Atman — the food sheath, vital-breath sheath, mind sheath, intelligence sheath, and bliss sheath. Its Ananda Valli famously teaches that Brahman is truth, knowledge, and infinity (satyam jnanam anantam brahma), and that bliss is the nature of Brahman.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "सत्यं ज्ञानमनन्तं ब्रह्म ।",
+        "transliteration": "satyaṃ jñānam anantaṃ brahma",
+        "translation": "Brahman is truth, knowledge, infinity.",
+        "source": {
+          "text": "Taittiriya Upanishad 2.1.1",
+          "section": "2.1.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Taittiriya Upanishad 1.1.1 (Shiksha Valli)", "section": "1.1.1" },
+      { "text": "Taittiriya Upanishad 2.1.1 (Ananda Valli)", "section": "2.1.1" },
+      { "text": "Taittiriya Upanishad 3.1.1 (Bhrigu Valli)", "section": "3.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-aitareya",
+    "slug": "aitareya-upanishad",
+    "nameDevanagari": "ऐतरेयोपनिषद्",
+    "nameTransliteration": "Aitareyopaniṣad",
+    "nameEnglish": "Aitareya Upanishad",
+    "meaningEnglish": "Upanishad of the Aitareya school (named after the sage Mahidasa Aitareya)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Aitareya Upanishad forms the second Aranyaka (chapters 4–6) of the Aitareya Aranyaka, which belongs to the Shakala shakha of the Rigveda. It is one of the few principal Upanishads associated with the Rigveda.",
+    "explanation": "The Aitareya Upanishad presents a cosmogonic account followed by an inquiry into the nature of consciousness. It is in this Upanishad that we find the declaration 'Prajnanam Brahma' — 'Consciousness is Brahman' — one of the four Mahavakyas (great sayings) of the Vedantic tradition.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "प्रज्ञानं ब्रह्म ।",
+        "transliteration": "prajñānaṃ brahma",
+        "translation": "Consciousness is Brahman.",
+        "source": {
+          "text": "Aitareya Upanishad 3.3",
+          "section": "3.3"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Aitareya Upanishad 1.1.1", "section": "1.1.1" },
+      { "text": "Aitareya Upanishad 3.3 (Prajnanam Brahma)", "section": "3.3" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-chandogya",
+    "slug": "chandogya-upanishad",
+    "nameDevanagari": "छान्दोग्योपनिषद्",
+    "nameTransliteration": "Chāndogyopaniṣad",
+    "nameEnglish": "Chandogya Upanishad",
+    "meaningEnglish": "Upanishad of the Chandoga singers (belonging to the Chandoga branch of the Samaveda)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Chandogya Upanishad belongs to the Samaveda (Tandya or Kauthuma shakha). At eight chapters, it is one of the two longest Upanishads (along with the Brihadaranyaka). Its eighth chapter is the Chandogya Brahmana. It is dated approximately 800–600 BCE.",
+    "explanation": "The Chandogya Upanishad contains some of the most celebrated teachings in Indian philosophy. The dialogue between Uddalaka Aruni and his son Shvetaketu culminates in the declaration 'Tat tvam asi' (That thou art) — one of the four Mahavakyas. It also contains the teaching of the five fires (Panchagni Vidya), the story of Satyakama Jabala, and the meditation on AUM as the udgitha.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "तत्त्वमसि श्वेतकेतो ।",
+        "transliteration": "tat tvam asi śvetaketo",
+        "translation": "That thou art, O Shvetaketu.",
+        "source": {
+          "text": "Chandogya Upanishad 6.8.7",
+          "section": "6.8.7"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Chandogya Upanishad 1.1.1", "section": "1.1.1" },
+      { "text": "Chandogya Upanishad 6.2.1 (Sat cosmogony)", "section": "6.2.1" },
+      { "text": "Chandogya Upanishad 6.8.7 (Tat tvam asi)", "section": "6.8.7" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-brihadaranyaka",
+    "slug": "brihadaranyaka-upanishad",
+    "nameDevanagari": "बृहदारण्यकोपनिषद्",
+    "nameTransliteration": "Bṛhadāraṇyakopaniṣad",
+    "nameEnglish": "Brihadaranyaka Upanishad",
+    "meaningEnglish": "The Great Forest Upanishad (bṛhat = great; āraṇyaka = forest; the Upanishad meant for forest dwellers)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Brihadaranyaka Upanishad forms the last six chapters of the Shatapatha Brahmana of the Shukla Yajurveda. It is one of the oldest and longest Upanishads, containing the teachings of the sage Yajnavalkya, dialogues at the court of Janaka, and the Maitreyi dialogue on the immortal Self.",
+    "explanation": "The Brihadaranyaka Upanishad is the most philosophically rich of the principal Upanishads. Its highlights include Yajnavalkya's neti-neti teaching (not this, not this — the negative method of describing Brahman), the Mahavakya 'Aham Brahmasmi' (I am Brahman), the horse-sacrifice cosmogony, the Gargi dialogues, and the Maitreyi-Yajnavalkya dialogue on the Self as the ultimate object of love.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "अहं ब्रह्मास्मि ।",
+        "transliteration": "ahaṃ brahmāsmi",
+        "translation": "I am Brahman.",
+        "source": {
+          "text": "Brihadaranyaka Upanishad 1.4.10",
+          "section": "1.4.10"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Brihadaranyaka Upanishad 1.4.10 (Aham Brahmasmi)", "section": "1.4.10" },
+      { "text": "Brihadaranyaka Upanishad 2.3.6 (neti neti)", "section": "2.3.6" },
+      { "text": "Brihadaranyaka Upanishad 4.5 (Maitreyi dialogue)", "section": "4.5" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "upanishad-shvetashvatara",
+    "slug": "shvetashvatara-upanishad",
+    "nameDevanagari": "श्वेताश्वतरोपनिषद्",
+    "nameTransliteration": "Śvetāśvataropaniṣad",
+    "nameEnglish": "Shvetashvatara Upanishad",
+    "meaningEnglish": "Upanishad of the sage Shvetashvatara (śveta = white; aśvatara = mule)",
+    "domain": "shruti",
+    "category": "Upanishad",
+    "tier": "planet",
+    "historicalContext": "The Shvetashvatara Upanishad belongs to the Krishna Yajurveda (Taittiriya shakha). It is unique among the principal Upanishads in its strongly theistic and Shaiva orientation, explicitly naming Rudra-Shiva as the supreme Lord (Maheshvara). It is dated roughly 400–200 BCE.",
+    "explanation": "The Shvetashvatara Upanishad synthesises Samkhya, Yoga, and monotheistic devotion within a Vedantic framework. It explicitly identifies the transcendent Brahman with Rudra-Shiva and employs devotion (bhakti) as a means to liberation. Its sixth chapter contains the famous verse on the grace of God: 'By His grace can one cross the ocean of birth and death.'",
+    "sanskritPassages": [
+      {
+        "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा ।",
+        "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā",
+        "translation": "One God is hidden in all beings, all-pervading, the inner Self of all beings.",
+        "source": {
+          "text": "Shvetashvatara Upanishad 6.11",
+          "section": "6.11"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Shvetashvatara Upanishad 1.1", "section": "1.1" },
+      { "text": "Shvetashvatara Upanishad 6.11", "section": "6.11" },
+      { "text": "Shvetashvatara Upanishad 6.23 (bhakti and grace)", "section": "6.23" }
+    ],
+    "confidence": "established"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "purana-bhagavata",
+    "slug": "bhagavata-purana",
+    "nameDevanagari": "भागवतपुराण",
+    "nameTransliteration": "Bhāgavatapurāṇa",
+    "nameEnglish": "Bhagavata Purana",
+    "meaningEnglish": "The Ancient Lore of the Lord (bhāgavata = of/relating to Bhagavan, the Lord; purāṇa = ancient lore)",
+    "domain": "purana",
+    "category": "Mahapurana (Vaishnava)",
+    "tier": "solar",
+    "historicalContext": "The Bhagavata Purana (also called Bhagavatam or Srimad Bhagavatam) is considered the most important of the Vaishnava Puranas. Traditionally attributed to Vyasa, it is composed between 800–1000 CE. It consists of 12 skandhas (books) and approximately 18,000 shlokas. Book 10 on Krishna's life is the most celebrated.",
+    "explanation": "The Bhagavata Purana is the primary scripture of the bhakti movement and of Vaishnavism. Book 10 (the largest, with over 4,000 verses) narrates Krishna's life in Vrindavana with the gopis, his killing of Kamsa, and his later life. Book 11 contains the Uddhava Gita (sometimes called the 'eleventh Gita'). Book 2 contains the description of the Purusha form. The opening shloka 'dharmasya hyāpavargasya' is the foundational statement of its theology.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ।",
+        "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ vedyaṃ vāstavam atra vastu śivadaṃ tāpatrayonmūlanam",
+        "translation": "Completely rejecting all religious activities which are materially motivated, this Bhagavat Purana propounds the highest truth, which is understandable by those devotees who are fully pure in heart.",
+        "source": {
+          "text": "Bhagavata Purana 1.1.2",
+          "section": "1.1.2"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Bhagavata Purana 1.1.1–3", "section": "1.1.1" },
+      { "text": "Bhagavata Purana 10.1.1 (Krishna's birth)", "section": "10.1.1" },
+      { "text": "Bhagavata Purana 11.1.1 (Uddhava Gita)", "section": "11.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-vishnu",
+    "slug": "vishnu-purana",
+    "nameDevanagari": "विष्णुपुराण",
+    "nameTransliteration": "Viṣṇupurāṇa",
+    "nameEnglish": "Vishnu Purana",
+    "meaningEnglish": "The Ancient Lore of Vishnu",
+    "domain": "purana",
+    "category": "Mahapurana (Vaishnava)",
+    "tier": "planet",
+    "historicalContext": "The Vishnu Purana is one of the oldest Mahapuranas, estimated to have been composed between 1st–4th century CE. It consists of 6 books (amshas) and approximately 7,000 shlokas. It is classified as a sattvic Purana and is traditionally associated with the Paushkara recension.",
+    "explanation": "The Vishnu Purana begins with a cosmogonic account of Brahman's creative activity, describes the nature and attributes of Vishnu, narrates the Samudra Manthan (churning of the ocean), tells the story of the Dhruva, Prahlada, and other devotees, and ends with descriptions of the Kali Yuga and the future Kalki avatar. Its account of Krishna's childhood (Book 5) is a major source for the Krishna legend.",
+    "sources": [
+      { "text": "Vishnu Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Vishnu Purana 1.9 (Samudra Manthan)", "section": "1.9" },
+      { "text": "Vishnu Purana 5.1 (Krishna stories)", "section": "5.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-shiva",
+    "slug": "shiva-purana",
+    "nameDevanagari": "शिवपुराण",
+    "nameTransliteration": "Śivapurāṇa",
+    "nameEnglish": "Shiva Purana",
+    "meaningEnglish": "The Ancient Lore of Shiva",
+    "domain": "purana",
+    "category": "Mahapurana (Shaiva)",
+    "tier": "planet",
+    "historicalContext": "The Shiva Purana is one of the principal Shaiva Mahapuranas, composed between 10th–14th century CE (with earlier cores). It consists of 7 Samhitas (sections) and approximately 24,000 shlokas. It is classified as a tamasic Purana by some traditional classifications.",
+    "explanation": "The Shiva Purana narrates the greatness of Shiva, accounts of the twelve Jyotirlingas (sacred Shiva shrines), the significance of Shiva worship, the story of the destruction of Tripura (three demon cities), Shiva's marriage to Parvati, and accounts of his ganas and devotees. It is the central scriptural source for Shaiva devotional practice.",
+    "sources": [
+      { "text": "Shiva Purana, Vidyeshvara Samhita 1.1", "section": "1.1" },
+      { "text": "Shiva Purana, Kotirudra Samhita (12 Jyotirlingas)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-devi-bhagavata",
+    "slug": "devi-bhagavata-purana",
+    "nameDevanagari": "देवीभागवतपुराण",
+    "nameTransliteration": "Devībhāgavatapurāṇa",
+    "nameEnglish": "Devi Bhagavata Purana",
+    "meaningEnglish": "The Ancient Lore of the Goddess (devī = goddess; bhāgavata = of the Lord/Goddess)",
+    "domain": "purana",
+    "category": "Mahapurana (Shakta)",
+    "tier": "planet",
+    "historicalContext": "The Devi Bhagavata Purana is the primary Shakta Mahapurana, consisting of 12 skandhas and approximately 18,000 shlokas. Composed between 7th–12th century CE. The Shakta tradition considers it a Mahapurana in the same category as the Bhagavata Purana. It is the central scripture of Shaktism.",
+    "explanation": "The Devi Bhagavata Purana narrates the goddess's cosmic activities, her forms as Mahakali, Mahalakshmi, and Mahasaraswati, her battles against demons, the establishment of the Shakti Peethas (sacred sites where parts of Sati's body fell), and elaborate philosophical discussions on the nature of Shakti as supreme Brahman.",
+    "sources": [
+      { "text": "Devi Bhagavata Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Devi Bhagavata Purana 3.6.1 (Devi as Brahman)", "section": "3.6.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-brahma",
+    "slug": "brahma-purana",
+    "nameDevanagari": "ब्रह्मपुराण",
+    "nameTransliteration": "Brahmapurāṇa",
+    "nameEnglish": "Brahma Purana",
+    "meaningEnglish": "The Ancient Lore concerning Brahma",
+    "domain": "purana",
+    "category": "Mahapurana",
+    "tier": "planet",
+    "historicalContext": "The Brahma Purana is listed first among the 18 Mahapuranas in traditional enumerations. It consists of approximately 10,000 shlokas. It is associated with the Brahma tradition and contains information about the Jagannath temple at Puri, Odisha.",
+    "explanation": "The Brahma Purana covers the cosmogonic accounts including the story of the solar dynasty (Suryavamsha), the genealogies of the sages, accounts of pilgrimage sites (particularly along the Godavari river), and descriptions of Vishnu's avatars. It provides detailed accounts of the Jagannath cult at Purushottama Kshetra (Puri).",
+    "sources": [
+      { "text": "Brahma Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Brahma Purana 36.1 (Purushottama Kshetra/Puri description)", "section": "36.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-markandeya",
+    "slug": "markandeya-purana",
+    "nameDevanagari": "मार्कण्डेयपुराण",
+    "nameTransliteration": "Mārkaṇḍeyapurāṇa",
+    "nameEnglish": "Markandeya Purana",
+    "meaningEnglish": "The Ancient Lore of Markandeya (the sage Markandeya, known for his great age and devotion to Shiva)",
+    "domain": "purana",
+    "category": "Mahapurana",
+    "tier": "planet",
+    "historicalContext": "The Markandeya Purana consists of approximately 9,000 shlokas and is attributed to the sage Markandeya, narrating to Jaimini. It is one of the older Mahapuranas, estimated to have been composed between 300–600 CE. It contains the Devi Mahatmya (also called Chandi or Durga Saptashati) in chapters 81–93.",
+    "explanation": "The Markandeya Purana is best known for the Devi Mahatmya — 700 verses celebrating the goddess Durga's battles against the demons Madhu-Kaitabha, Mahishasura, and Shumbha-Nishumbha. The Devi Mahatmya is the most important Shakta text in terms of liturgical use and is recited during Navratri. The Purana also contains accounts of cosmology, dynasties, and the ages of the world.",
+    "sources": [
+      { "text": "Markandeya Purana 81.1 (Devi Mahatmya begins)", "section": "81.1" },
+      { "text": "Devi Mahatmya 1.1 (chapter 81 of Markandeya Purana)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-skanda",
+    "slug": "skanda-purana",
+    "nameDevanagari": "स्कन्दपुराण",
+    "nameTransliteration": "Skandapurāṇa",
+    "nameEnglish": "Skanda Purana",
+    "meaningEnglish": "The Ancient Lore of Skanda (Kartikeya/Murugan, son of Shiva)",
+    "domain": "purana",
+    "category": "Mahapurana (Shaiva)",
+    "tier": "planet",
+    "historicalContext": "The Skanda Purana is the largest of the 18 Mahapuranas, consisting of approximately 81,000 shlokas. It is composed between 7th–12th century CE and exists in various regional recensions. It is named after Skanda (Kartikeya/Murugan) and contains extensive mahatmya (glorification) literature for pilgrimage sites across India.",
+    "explanation": "The Skanda Purana consists of seven Khandas (sections), each covering different regions and their sacred sites. It is the primary source of mahatmya literature for many Hindu pilgrimage sites, including Varanasi (Kashi), Badrinath, and numerous South Indian temples. Its account of Skanda's birth and his wars against Tarakasura are found in the Shankara Samhita.",
+    "sources": [
+      { "text": "Skanda Purana, Maheshvara Khanda 1.1", "section": "1.1" },
+      { "text": "Skanda Purana, Kashi Khanda 1.1 (Varanasi mahatmya)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-agni",
+    "slug": "agni-purana",
+    "nameDevanagari": "अग्निपुराण",
+    "nameTransliteration": "Agnipurāṇa",
+    "nameEnglish": "Agni Purana",
+    "meaningEnglish": "The Ancient Lore of Fire (Agni narrates it; an encyclopedic Purana covering multiple subjects)",
+    "domain": "purana",
+    "category": "Mahapurana",
+    "tier": "planet",
+    "historicalContext": "The Agni Purana consists of approximately 15,000 shlokas and is narrated by Agni to the sage Vasishtha. Composed between 8th–12th century CE, it is an encyclopedic text covering a vast range of subjects from cosmogony and temple rituals to poetics, medicine, and military science.",
+    "explanation": "The Agni Purana is unique for its encyclopedic scope: it covers avatars of Vishnu, cosmology, temple construction (shilpa shastra), ayurveda, military science, astronomy, grammar, poetics (including the theory of dhvani/suggestion), law, and geography. It contains one of the early treatments of Sanskrit poetics, making it important for Indian literary theory as well.",
+    "sources": [
+      { "text": "Agni Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Agni Purana 338.1 (chapter on poetics)", "section": "338.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-garuda",
+    "slug": "garuda-purana",
+    "nameDevanagari": "गरुडपुराण",
+    "nameTransliteration": "Garuḍapurāṇa",
+    "nameEnglish": "Garuda Purana",
+    "meaningEnglish": "The Ancient Lore of Garuda (the eagle-vehicle of Vishnu who narrates the text)",
+    "domain": "purana",
+    "category": "Mahapurana (Vaishnava)",
+    "tier": "planet",
+    "historicalContext": "The Garuda Purana is narrated by Vishnu to his vehicle Garuda. Composed between 800–1000 CE, it consists of approximately 19,000 shlokas. It is traditionally recited after a person's death as a means of guiding the departed soul, and is associated with the rites for the dead (Pitru Paksha).",
+    "explanation": "The Garuda Purana covers cosmology, descriptions of hell and heaven, the journey of the soul after death, rites for the dead (antyeshti and shraddha), Ayurveda, and devotional practices. Its Preta Khanda (section on the dead) is extensively used in Hindu funeral rites and contains detailed accounts of the soul's journey, the nature of karmic judgment, and descriptions of various hells and their nature.",
+    "sources": [
+      { "text": "Garuda Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Garuda Purana, Preta Khanda 1.1 (soul after death)", "section": "2.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-brahmanda",
+    "slug": "brahmanda-purana",
+    "nameDevanagari": "ब्रह्माण्डपुराण",
+    "nameTransliteration": "Brahmāṇḍapurāṇa",
+    "nameEnglish": "Brahmanda Purana",
+    "meaningEnglish": "The Ancient Lore of the Cosmic Egg (brahma = Brahma/Brahman; aṇḍa = egg; the egg from which the universe emerges)",
+    "domain": "purana",
+    "category": "Mahapurana",
+    "tier": "planet",
+    "historicalContext": "The Brahmanda Purana consists of approximately 12,000 shlokas. It is associated with the Atharva Veda tradition. It is known for containing the Lalita Sahasranama (1,000 names of the goddess Lalita Tripurasundari) in its Uttara Khanda, making it an important Shakta text as well.",
+    "explanation": "The Brahmanda Purana covers cosmology (including the structure of the cosmic egg, Brahmanda), genealogies of kings and sages, descriptions of the seven continents and netherworlds, and accounts of Parashurama. Its Lalita Sahasranama section is among the most recited Shakta texts and contains a systematic theology of the goddess Lalita Tripurasundari.",
+    "sources": [
+      { "text": "Brahmanda Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Brahmanda Purana, Uttara Khanda 36 (Lalita Sahasranama)", "section": "3.36.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-linga",
+    "slug": "linga-purana",
+    "nameDevanagari": "लिङ्गपुराण",
+    "nameTransliteration": "Liṅgapurāṇa",
+    "nameEnglish": "Linga Purana",
+    "meaningEnglish": "The Ancient Lore of the Linga (liṅga = mark, sign; the iconic form of Shiva as a cylindrical form representing formless divinity)",
+    "domain": "purana",
+    "category": "Mahapurana (Shaiva)",
+    "tier": "planet",
+    "historicalContext": "The Linga Purana consists of approximately 11,000 shlokas in two parts (purva and uttara bhaga). Composed between 5th–10th century CE. It is primarily a Shaiva text explaining the significance of the Linga form of Shiva worship and narrating Shiva's cosmic activities.",
+    "explanation": "The Linga Purana explains the origin and significance of Shiva worship through the Linga, which represents the formless, infinite, divine reality. It narrates the story of the Jyotirlinga — the pillar of light that appeared between Brahma and Vishnu and from which the twelve sacred Jyotirlingas derive. It covers Shaiva cosmology, descriptions of Shiva's manifestations, and the greatness of Shiva devotion.",
+    "sources": [
+      { "text": "Linga Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Linga Purana 1.17 (story of the Jyotirlinga)", "section": "1.17" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "purana-kurma",
+    "slug": "kurma-purana",
+    "nameDevanagari": "कूर्मपुराण",
+    "nameTransliteration": "Kūrmapurāṇa",
+    "nameEnglish": "Kurma Purana",
+    "meaningEnglish": "The Ancient Lore of the Tortoise avatar (kūrma = tortoise; narrated by Vishnu in his Kurma (tortoise) avatar)",
+    "domain": "purana",
+    "category": "Mahapurana",
+    "tier": "planet",
+    "historicalContext": "The Kurma Purana consists of approximately 17,000 shlokas in two parts. Composed between 6th–10th century CE. It is narrated by Vishnu in his Kurma (tortoise) incarnation and contains material that is both Vaishnava and Shaiva in orientation, including an early systematic account of the Trimurti doctrine.",
+    "explanation": "The Kurma Purana contains the Ishvara Gita (a dialogue similar to the Bhagavad Gita with Shiva as the teacher), one of the earliest systematic accounts of the Trimurti theology, the story of the Samudra Manthan (ocean churning) in which the Kurma avatar participated, and discussions of Brahman, Atman, and liberation in a Shaiva-Vaishnava synthesis.",
+    "sources": [
+      { "text": "Kurma Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Kurma Purana 1.11.1 (Trimurti doctrine)", "section": "1.11.1" },
+      { "text": "Kurma Purana 2.1–50 (Ishvara Gita)", "section": "2.1" }
+    ],
+    "confidence": "established"
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "vedanga-shiksha",
+    "slug": "shiksha",
+    "nameDevanagari": "शिक्षा",
+    "nameTransliteration": "Śikṣā",
+    "nameEnglish": "Shiksha",
+    "meaningEnglish": "Phonetics and Phonology (from root śikṣ = to learn; the Vedanga dealing with correct pronunciation)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Shiksha is the first of the six Vedangas and deals with the phonological science of Vedic recitation — the correct articulation, pitch (svara), duration, and strength of Vedic sounds. The Paniniya Shiksha attributed to Panini is the most studied text. Each Vedic shakha has its own Shiksha text.",
+    "explanation": "Shiksha preserves the oral integrity of the Vedas through precise phonological rules. It is described as the 'nose' of the Veda — just as breath flows through the nose, Veda must flow through correct sound. It covers the Sanskrit phoneme inventory (varnas), vowel qualities, consonant articulation points (sthanas), and the three Vedic accent tones: udatta (raised), anudatta (non-raised), and svarita (falling).",
+    "sources": [
+      { "text": "Paniniya Shiksha 1–60 (phonological rules)", "section": "1" },
+      { "text": "Taittiriya Upanishad 1.2.1 (Shiksha Valli — first chapter on phonology)", "section": "1.2.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "vedanga-chandas",
+    "slug": "chandas",
+    "nameDevanagari": "छन्दस्",
+    "nameTransliteration": "Chandas",
+    "nameEnglish": "Chandas",
+    "meaningEnglish": "Prosody or Metres (from root chad = to cover; the Vedanga dealing with Vedic metres)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Chandas is the Vedanga dealing with the metres of Vedic verse. The Chandas Sutra (or Pingala Chandas Shastra, c. 300–200 BCE) attributed to Pingala is the foundational text. Pingala's work is also the earliest known discussion of binary number systems in the world.",
+    "explanation": "Vedic poetry uses a system of metres based on syllable count (akshara). The principal Vedic metres include Gayatri (24 syllables, 3x8), Trishtubh (44 syllables, 4x11), Jagati (48 syllables, 4x12), Anushtubh (32 syllables, 4x8), Pankti (40 syllables), Brihati (36 syllables), and Usnih (28 syllables). Chandas is called the 'feet' of the Veda.",
+    "sources": [
+      { "text": "Chandas Shastra of Pingala 1.1.1", "section": "1.1.1" },
+      { "text": "Rigveda Pratishakhya (discusses the metres of the Rigveda)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "vedanga-vyakarana",
+    "slug": "vyakarana",
+    "nameDevanagari": "व्याकरण",
+    "nameTransliteration": "Vyākaraṇa",
+    "nameEnglish": "Vyakarana",
+    "meaningEnglish": "Grammar (from vi + ā + kṛ = to analyse, to separate out; the Vedanga dealing with Sanskrit grammar)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Vyakarana is the most important Vedanga and is called the 'mouth' of the Veda. The Ashtadhyayi of Panini (c. 400 BCE) — 3,959 sutras in eight chapters — is the most sophisticated grammatical treatise of the ancient world. It describes Sanskrit's phonological, morphological, and syntactic structure with extraordinary precision.",
+    "explanation": "Panini's Ashtadhyayi generates the entire Sanskrit morphology through a compact set of rules using metalinguistic notation. Its commentaries include the Mahabhashya of Patanjali and the Kashika Vritti of Jayaditya and Vamana. Vyakarana ensures that Vedic texts are correctly understood and reproduced. It is called the 'mouth' because proper speech flows from grammatical knowledge.",
+    "sources": [
+      { "text": "Ashtadhyayi of Panini 1.1.1", "section": "1.1.1" },
+      { "text": "Mahabhashya of Patanjali on Ashtadhyayi 1.1.1 (Pashpashnika)", "section": "1.1.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "vedanga-nirukta",
+    "slug": "nirukta",
+    "nameDevanagari": "निरुक्त",
+    "nameTransliteration": "Nirukta",
+    "nameEnglish": "Nirukta",
+    "meaningEnglish": "Etymology or Semantic Derivation (from ni + ruc = to shine out; the Vedanga dealing with the derivation and explanation of Vedic words)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Nirukta is the Vedanga dealing with etymology and lexicology of Vedic words. The Nirukta of Yaska (c. 500–600 BCE) is the foundational text, also the oldest extant etymological work in any language. Yaska draws upon earlier Nighantus (Vedic word lists).",
+    "explanation": "Yaska's Nirukta explains the meaning of obscure Vedic words through etymological analysis (derivation from verbal roots). It is called the 'ear' of the Veda — just as the ear understands speech, Nirukta enables understanding of Vedic words. Yaska's discussion of whether nouns are derived from verbs anticipates later debates in the philosophy of language. He also addresses the question of whether Vedic deities are one or many.",
+    "sources": [
+      { "text": "Nirukta of Yaska 1.1.1", "section": "1.1.1" },
+      { "text": "Nirukta of Yaska 7.1 (discussion on deity names)", "section": "7.1" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "vedanga-jyotisha",
+    "slug": "jyotisha",
+    "nameDevanagari": "ज्योतिष",
+    "nameTransliteration": "Jyotiṣa",
+    "nameEnglish": "Jyotisha",
+    "meaningEnglish": "Astronomy and Astrology (from jyoti = light; the Vedanga dealing with the light/luminaries — astronomy and their ritual timing)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Jyotisha is the Vedanga dealing with the astronomical knowledge required for the correct timing of Vedic sacrifices. The Vedanga Jyotisha (Rigvedic and Yajurvedic recensions, c. 1000–600 BCE) is the earliest extant astronomical text from the Vedic tradition. Later, classical Jyotisha (predictive astrology) developed as a separate discipline.",
+    "explanation": "The Vedanga Jyotisha provides the astronomical rules for determining the auspicious times (muhurtas) for Vedic sacrifices based on solar, lunar, and stellar positions. It is called the 'eyes' of the Veda. Later Jyotisha expanded into three branches: Siddhanta (mathematical astronomy), Samhita (astrological omens), and Hora (predictive astrology/horoscopy). The Surya Siddhanta (c. 500 CE) is the classical astronomical text.",
+    "sources": [
+      { "text": "Vedanga Jyotisha (Rigvedic recension) 1.1", "section": "1.1" },
+      { "text": "Vedanga Jyotisha 36 (the verse on Jyotisha as the eyes of the Veda)", "section": "36" }
+    ],
+    "confidence": "established"
+  },
+  {
+    "id": "vedanga-kalpa",
+    "slug": "kalpa",
+    "nameDevanagari": "कल्प",
+    "nameTransliteration": "Kalpa",
+    "nameEnglish": "Kalpa",
+    "meaningEnglish": "Ritual Procedure (from root kḷp = to arrange, to be competent; the Vedanga dealing with ritual rules)",
+    "domain": "vedanga",
+    "category": "Vedanga",
+    "tier": "planet",
+    "historicalContext": "Kalpa is the Vedanga dealing with the rules for Vedic rituals and comprises four sub-genres: Shrauta Sutras (major public sacrifices), Grihya Sutras (domestic rituals), Dharma Sutras (religious and social law), and Shulba Sutras (geometric rules for constructing fire altars). Kalpa is called the 'hands' of the Veda.",
+    "explanation": "The Shrauta Sutras prescribe the elaborate public Vedic sacrifices (like the Ashvamedha, Agnichayana, and Soma sacrifices). The Grihya Sutras prescribe the sixteen samskaras (life-cycle rites) and daily domestic rituals. The Dharma Sutras are the earliest layer of Dharmashastra. The Shulba Sutras contain the earliest proofs of the Pythagorean theorem and sophisticated geometric constructions.",
+    "sources": [
+      { "text": "Apastamba Shrauta Sutra 1.1.1", "section": "1.1.1" },
+      { "text": "Apastamba Grihya Sutra 1.1.1 (domestic rituals)", "section": "1.1.1" },
+      { "text": "Baudhayana Shulba Sutra 1.1 (geometric altar constructions)", "section": "1.1" }
+    ],
+    "confidence": "established"
+  }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "id": "deity-brahma",
+    "slug": "brahma",
+    "nameDevanagari": "ब्रह्मा",
+    "nameTransliteration": "Brahmā",
+    "nameEnglish": "Brahma",
+    "meaningEnglish": "The Creator (from root bṛh = to grow, expand; the creator aspect of the Trimurti)",
+    "domain": "deity",
+    "category": "Trimurti",
+    "tier": "galaxy",
+    "historicalContext": "Brahma is the creator deity of the Hindu Trimurti, alongside Vishnu (preserver) and Shiva (destroyer). Though important in Vedic and Puranic cosmology, active Brahma worship is rare today. The Pushkar temple in Rajasthan is the most prominent Brahma temple.",
+    "explanation": "Brahma is said to have emerged from a lotus growing from Vishnu's navel, or alternatively to have been born from the golden egg (Hiranyagarbha) at the beginning of creation. He is depicted with four heads (representing the four Vedas or the four directions) and four arms. In Puranic chronology, one day of Brahma (Kalpa) equals 4.32 billion human years.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "हिरण्यगर्भः समवर्तताग्रे भूतस्य जातः पतिरेक आसीत् ।",
+        "transliteration": "hiraṇyagarbhaḥ samavartatāgre bhūtasya jātaḥ patir eka āsīt",
+        "translation": "In the beginning Hiranyagarbha arose; once born, he was the one lord of existing beings.",
+        "source": {
+          "text": "Rigveda 10.121.1",
+          "section": "10.121.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 10.121 (Hiranyagarbha Sukta)", "section": "10.121" },
+      { "text": "Brahma Purana 1.1–2", "section": "1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-vishnu",
+    "slug": "vishnu",
+    "nameDevanagari": "विष्णु",
+    "nameTransliteration": "Viṣṇu",
+    "nameEnglish": "Vishnu",
+    "meaningEnglish": "The All-pervading (from root viṣ = to pervade)",
+    "domain": "deity",
+    "category": "Trimurti",
+    "tier": "galaxy",
+    "historicalContext": "Vishnu is the preserver of the Trimurti and the supreme deity of Vaishnavism, one of the largest Hindu denominations. Already present in the Rigveda as a solar deity known for his three strides, Vishnu gained primacy in the Puranic and Itihasa literature.",
+    "explanation": "Vishnu is described as sustaining the universe through his ten principal avatars (Dashavatara), descending to restore dharma when it declines. His consort is Lakshmi. He is worshipped in iconic form as Vaikunthanatha reclining on the cosmic serpent Shesha in the ocean of milk. The Bhagavad Gita is spoken by his avatar Krishna.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
+        "transliteration": "yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham ||",
+        "translation": "Whenever there is a decline of dharma and rise of adharma, O Bharata, I manifest myself.",
+        "source": {
+          "text": "Bhagavad Gita 4.7",
+          "section": "4.7"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 1.154 (Vishnu Sukta)", "section": "1.154" },
+      { "text": "Bhagavad Gita 4.7–8", "section": "4.7" },
+      { "text": "Vishnu Purana 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-shiva",
+    "slug": "shiva",
+    "nameDevanagari": "शिव",
+    "nameTransliteration": "Śiva",
+    "nameEnglish": "Shiva",
+    "meaningEnglish": "The Auspicious (śiva = auspicious, benevolent; the destroyer and transformer of the Trimurti)",
+    "domain": "deity",
+    "category": "Trimurti",
+    "tier": "galaxy",
+    "historicalContext": "Shiva is the supreme deity of Shaivism. His precursor is Rudra in the Vedas, and he is identified with the Pashupati figure on Indus Valley seals by some scholars (though this remains debated). The Shiva Purana, Linga Purana, and the Shaiva Agamas are his primary scriptures.",
+    "explanation": "Shiva embodies paradox — he is simultaneously the destroyer and the regenerator, the ascetic and the householder, the dancer (Nataraja) and the still meditator. His cosmic dance (Tandava) maintains the rhythm of the universe. He is worshipped primarily in the form of the Linga (a cylindrical form representing formless divinity), and his five aspects are worshipped in the Pancha Bhuta Stalas of Tamil Nadu.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "नमस्ते रुद्र मन्यव उतो त इषवे नमः । नमस्ते अस्तु धन्वने बाहुभ्यामुत ते नमः ॥",
+        "transliteration": "namaste rudra manyava uto ta iṣave namaḥ | namaste astu dhanvane bāhubhyām uta te namaḥ ||",
+        "translation": "Homage to your wrath, O Rudra, and homage to your arrow. Homage to your bow and homage to your two arms.",
+        "source": {
+          "text": "Rigveda 2.33.1",
+          "section": "2.33.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 2.33 (Rudra hymn)", "section": "2.33" },
+      { "text": "Shvetashvatara Upanishad 3.2–5", "section": "3.2" },
+      { "text": "Shiva Purana 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-devi",
+    "slug": "devi",
+    "nameDevanagari": "देवी",
+    "nameTransliteration": "Devī",
+    "nameEnglish": "Devi",
+    "meaningEnglish": "The Goddess (devī = feminine form of deva = shining one, divine)",
+    "domain": "deity",
+    "category": "Supreme Goddess",
+    "tier": "galaxy",
+    "historicalContext": "Devi is the supreme goddess of Shaktism, one of the main Hindu denominations. As Mahadevi (the Great Goddess), she encompasses all female divine energies. The Devi Mahatmya (also called Chandi or Durga Saptashati), part of the Markandeya Purana, is the primary text celebrating her cosmic power.",
+    "explanation": "Devi manifests in multiple forms — as the benevolent Parvati (Shiva's consort), the ferocious Kali, the warrior Durga who slays the buffalo-demon Mahishasura, the auspicious Lakshmi, the knowledge-giving Saraswati, and many others. The Devi Mahatmya declares her as the primordial power (Shakti) from which the universe arises.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥",
+        "transliteration": "yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||",
+        "translation": "To that goddess who dwells in all beings in the form of power — salutation to her, salutation to her, salutation to her, homage again and again.",
+        "source": {
+          "text": "Devi Mahatmya 5.9 (Markandeya Purana)",
+          "section": "5.9"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Devi Mahatmya 1.1 (Markandeya Purana 81)", "section": "1.1" },
+      { "text": "Devi Bhagavata Purana 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-krishna",
+    "slug": "krishna",
+    "nameDevanagari": "कृष्ण",
+    "nameTransliteration": "Kṛṣṇa",
+    "nameEnglish": "Krishna",
+    "meaningEnglish": "The Dark One or All-attractive (kṛṣṇa = dark blue/black; also from kṛṣ = to attract)",
+    "domain": "deity",
+    "category": "Avatar of Vishnu",
+    "tier": "solar",
+    "historicalContext": "Krishna is the eighth avatar of Vishnu in the Dashavatara and is worshipped as the supreme being himself in Vaishnavism, particularly in the Gaudiya, Vallabha, and Nimbarka traditions. He is the speaker of the Bhagavad Gita and the central figure of the Bhagavata Purana.",
+    "explanation": "Krishna's life as narrated in the Mahabharata and Bhagavata Purana spans childhood miracles in Vrindavana, the destruction of Kamsa's tyranny, his role as charioteer and counselor to the Pandavas, and his teachings in the Bhagavad Gita. He represents the synthesis of jnana (knowledge), bhakti (devotion), and karma (selfless action).",
+    "sanskritPassages": [
+      {
+        "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज । अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+        "transliteration": "sarvadharmān parityajya mām ekaṃ śaraṇaṃ vraja | ahaṃ tvāṃ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||",
+        "translation": "Abandoning all dharmas, take refuge in Me alone. I will liberate you from all sins; do not grieve.",
+        "source": {
+          "text": "Bhagavad Gita 18.66",
+          "section": "18.66"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Bhagavad Gita 18.66", "section": "18.66" },
+      { "text": "Bhagavata Purana 10.1.1 (Krishna janma)", "section": "10.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-rama",
+    "slug": "rama",
+    "nameDevanagari": "राम",
+    "nameTransliteration": "Rāma",
+    "nameEnglish": "Rama",
+    "meaningEnglish": "The One who delights (from root ram = to delight, to be pleased)",
+    "domain": "deity",
+    "category": "Avatar of Vishnu",
+    "tier": "solar",
+    "historicalContext": "Rama is the seventh avatar of Vishnu and the hero of Valmiki's Ramayana. He is worshipped as Maryada Purushottama — the ideal man who perfectly upholds dharma. The Valmiki Ramayana is dated approximately 500–100 BCE; the events it narrates are placed in the Treta Yuga.",
+    "explanation": "Rama's life — his birth in Ayodhya, exile, the abduction of his wife Sita by the demon king Ravana, the building of the Setu bridge with the help of the monkey army (Vanarasena) led by Hanuman, the defeat of Ravana, and his return to Ayodhya — forms the narrative arc of the Ramayana. His rule (Rama Rajya) is the Hindu ideal of a just kingdom.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "रामो विग्रहवान् धर्मः साधुः सत्यपराक्रमः ।",
+        "transliteration": "rāmo vigrahaṃvān dharmaḥ sādhuḥ satyaparākramaḥ",
+        "translation": "Rama is dharma embodied, virtuous, and of truly heroic might.",
+        "source": {
+          "text": "Valmiki Ramayana 3.37.13",
+          "section": "3.37.13"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Valmiki Ramayana 1.1.1 (Bala Kanda)", "section": "1.1.1" },
+      { "text": "Valmiki Ramayana 3.37.13", "section": "3.37.13" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-lakshmi",
+    "slug": "lakshmi",
+    "nameDevanagari": "लक्ष्मी",
+    "nameTransliteration": "Lakṣmī",
+    "nameEnglish": "Lakshmi",
+    "meaningEnglish": "She who is a mark or sign (lakṣmī from lakṣ = to mark; associated with auspiciousness and good fortune)",
+    "domain": "deity",
+    "category": "Goddess",
+    "tier": "solar",
+    "historicalContext": "Lakshmi is the goddess of wealth, fortune, power, and beauty, and the consort of Vishnu. She is said to have arisen from the churning of the cosmic ocean (Samudra Manthan). The Sri Sukta of the Rigveda (a later appendix) is the oldest textual reference to her as Shri.",
+    "explanation": "Lakshmi represents not just material wealth but all forms of prosperity — physical, spiritual, and intellectual. In Vaishnavism, she is inseparable from Vishnu and accompanies him in all his avatars (as Sita with Rama, Rukmini with Krishna). The festival of Diwali celebrates her worship. Her eight forms (Ashta Lakshmi) represent different aspects of abundance.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "हिरण्यवर्णां हरिणीं सुवर्णरजतस्रजाम् । चन्द्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह ॥",
+        "transliteration": "hiraṇyavarṇāṃ hariṇīṃ suvarṇarajatasrajām | candrāṃ hiraṇmayīṃ lakṣmīṃ jātavedo ma āvaha ||",
+        "translation": "O Jataveda, bring to me Lakshmi, golden-coloured, luminous, wearing garlands of gold and silver, moonlike and radiant.",
+        "source": {
+          "text": "Sri Sukta 1 (Rigveda Khila 2.6.1)",
+          "section": "1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Sri Sukta 1–16 (Rigveda Khila 2.6)", "section": "1" },
+      { "text": "Vishnu Purana 1.9 (Samudra Manthan)", "section": "1.9" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-saraswati",
+    "slug": "saraswati",
+    "nameDevanagari": "सरस्वती",
+    "nameTransliteration": "Sarasvatī",
+    "nameEnglish": "Saraswati",
+    "meaningEnglish": "She who flows (sarasvatī = possessing water/speech; from saras = lake, water + vatī = possessing)",
+    "domain": "deity",
+    "category": "Goddess",
+    "tier": "solar",
+    "historicalContext": "Saraswati was originally a Vedic river goddess praised in the Rigveda. Over time she became the goddess of speech, learning, music, wisdom, and the arts. She is the consort of Brahma. In South Asian tradition, she is invoked at the start of any scholarly or artistic endeavour.",
+    "explanation": "Saraswati holds the vina (lute), the Vedas, a water pot (kamandalu), and a rosary (mala). She is worshipped on Vasant Panchami. As Vak (Speech), she is the goddess of Vedic utterance and is praised in the Rigveda's Vak Sukta. The Saraswati river is also considered a sacred (and largely mythological-subterranean) river.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "या देवी सर्वभूतेषु विद्यारूपेण संस्थिता ।",
+        "transliteration": "yā devī sarvabhūteṣu vidyārūpeṇa saṃsthitā",
+        "translation": "The goddess who dwells in all beings in the form of knowledge.",
+        "source": {
+          "text": "Devi Mahatmya 5.14 (Markandeya Purana)",
+          "section": "5.14"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 6.61 (Saraswati hymn)", "section": "6.61" },
+      { "text": "Rigveda 10.125 (Vak Sukta)", "section": "10.125" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-durga",
+    "slug": "durga",
+    "nameDevanagari": "दुर्गा",
+    "nameTransliteration": "Durgā",
+    "nameEnglish": "Durga",
+    "meaningEnglish": "The Inaccessible or Remover of Difficulties (dur = difficult; gā = to go; she who is difficult to approach, or who makes difficulties impossible)",
+    "domain": "deity",
+    "category": "Goddess",
+    "tier": "solar",
+    "historicalContext": "Durga emerges prominently in the Devi Mahatmya (c. 400–600 CE), where she is created from the combined energies (tejas) of all the gods to defeat the buffalo-demon Mahishasura. She is the form of Devi that embodies divine wrath against adharma.",
+    "explanation": "Durga rides a lion and carries multiple weapons given to her by the gods — the trident from Shiva, the discus from Vishnu, the bow from Vayu, and so on. She embodies shakti (divine power) in its most dynamic protective form. The Navratri festival celebrates her nine-night worship. The Durga Saptashati (700 verses) from the Markandeya Purana narrates her battles.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "दुर्गे स्मृता हरसि भीतिमशेषजन्तोः स्वस्थैः स्मृता मतिमतीव शुभां ददासि ।",
+        "transliteration": "durge smṛtā harasi bhītim aśeṣajantoḥ svasthaiḥ smṛtā matim atīva śubhāṃ dadāsi",
+        "translation": "O Durga, when remembered by those in distress you remove all fear; when remembered by those at ease, you bestow an exceptionally auspicious mind.",
+        "source": {
+          "text": "Devi Mahatmya 4.17 (Markandeya Purana)",
+          "section": "4.17"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Devi Mahatmya 1.68 (Markandeya Purana)", "section": "1.68" },
+      { "text": "Devi Mahatmya 4.17", "section": "4.17" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-kali",
+    "slug": "kali",
+    "nameDevanagari": "काली",
+    "nameTransliteration": "Kālī",
+    "nameEnglish": "Kali",
+    "meaningEnglish": "The Dark One or She of Time (kālī = feminine of kāla = time or black)",
+    "domain": "deity",
+    "category": "Goddess",
+    "tier": "solar",
+    "historicalContext": "Kali first appears in the Devi Mahatmya as a ferocious form emanating from Durga's brow to defeat the demon Raktabija. She is the supreme deity of the Shakta tradition of Bengal and is closely associated with the Tantric tradition. Dakshineswar and Kalighat temples in Kolkata are her most celebrated shrines.",
+    "explanation": "Kali is depicted as dark-skinned, with a garland of skulls, wearing a skirt of severed arms, holding a sword and a severed head, and standing on the supine Shiva. These terrifying symbols represent her as the destroyer of ego and time. In the Shakta Tantra, she is the supreme Reality (Para Brahman) in its dynamic aspect. Ramakrishna Paramahamsa's devotion to Kali at Dakshineswar is one of the most celebrated examples of modern Shakta practice.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "कालिके कालरूपिणि महाकाले च तत्परे ।",
+        "transliteration": "kālike kālarūpiṇi mahākāle ca tatpare",
+        "translation": "O Kali, one who has the form of Time, devoted to the great Time (Mahakala, i.e., Shiva).",
+        "source": {
+          "text": "Mahanirvana Tantra 7.9",
+          "section": "7.9"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Devi Mahatmya 7.6–8 (Kali's emergence)", "section": "7.6" },
+      { "text": "Mahanirvana Tantra 7.9", "section": "7.9" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-ganesha",
+    "slug": "ganesha",
+    "nameDevanagari": "गणेश",
+    "nameTransliteration": "Gaṇeśa",
+    "nameEnglish": "Ganesha",
+    "meaningEnglish": "Lord of Hosts (gaṇa = group, host of attendants; īśa = lord)",
+    "domain": "deity",
+    "category": "God",
+    "tier": "solar",
+    "historicalContext": "Ganesha is the elephant-headed son of Shiva and Parvati. He is the patron of beginnings, wisdom, and the remover of obstacles (Vighnaharta). The Ganesha Purana and Mudgala Purana are dedicated to him. His worship as a primary deity became prominent around 400–900 CE.",
+    "explanation": "Ganesha is invoked at the start of any ritual, journey, or undertaking. His elephant head, broken tusk, mouse vehicle (vahana), and plump form all carry symbolic significance. He is considered the lord of the Ganas (Shiva's attendants) and is worshipped across all Hindu traditions as an auspicious deity. The Atharva Shiras Upanishad identifies him with Brahman.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "गणानां त्वा गणपतिं हवामहे कविं कवीनामुपमश्रवस्तमम् ।",
+        "transliteration": "gaṇānāṃ tvā gaṇapatiṃ havāmahe kaviṃ kavīnām upamaśravastamam",
+        "translation": "O Ganapati, lord of the ganas, we invoke you, the poet among poets, the most renowned.",
+        "source": {
+          "text": "Rigveda 2.23.1",
+          "section": "2.23.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 2.23.1 (Brahmanaspati hymn, applied to Ganesha by tradition)", "section": "2.23.1" },
+      { "text": "Ganesha Purana 1.1.1", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-hanuman",
+    "slug": "hanuman",
+    "nameDevanagari": "हनुमान्",
+    "nameTransliteration": "Hanumān",
+    "nameEnglish": "Hanuman",
+    "meaningEnglish": "One with a disfigured jaw (hanu = jaw; mān = prominent; the name refers to his injury from childhood)",
+    "domain": "deity",
+    "category": "God",
+    "tier": "solar",
+    "historicalContext": "Hanuman is the son of the wind god Vayu and the monkey Anjana. He is the greatest devotee of Rama and the embodiment of selfless service (seva) and devotion (bhakti). The Hanuman Chalisa (40 verses) by Tulsidas (16th century) is among the most widely recited Hindu texts.",
+    "explanation": "Hanuman's actions in the Ramayana — crossing the ocean to find Sita, burning Lanka, carrying the Dronagiri mountain with life-saving herbs — represent the supernatural power available to pure devotion. He is considered a Chiranjivi (immortal) who is present wherever the name of Rama is sung. He is also associated with strength, scholarship (he is a great grammarian in some traditions), and protection.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "बुद्धिर्बलं यशो धैर्यं निर्भयत्वमरोगिता । अजाड्यं वाक्पटुत्वं च हनूमत्स्मरणाद्भवेत् ।",
+        "transliteration": "buddhir balaṃ yaśo dhairyaṃ nirbhayatvam arogitā | ajāḍyaṃ vākpaṭutvaṃ ca hanūmatsmraṇād bhavet",
+        "translation": "By remembrance of Hanuman arise intelligence, strength, fame, courage, fearlessness, health, freedom from sloth, and eloquence.",
+        "source": {
+          "text": "Valmiki Ramayana (traditional stotra attributed to context of 5.1)",
+          "section": "5.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Valmiki Ramayana 5.1 (Sundara Kanda, Hanuman crossing the ocean)", "section": "5.1" },
+      { "text": "Hanuman Chalisa (Tulsidas, 16th century)", "section": "1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-indra",
+    "slug": "indra",
+    "nameDevanagari": "इन्द्र",
+    "nameTransliteration": "Indra",
+    "nameEnglish": "Indra",
+    "meaningEnglish": "The Powerful One (from root ind = to be powerful; king of the gods)",
+    "domain": "deity",
+    "category": "Vedic Deity",
+    "tier": "solar",
+    "historicalContext": "Indra is the king of the gods in the Rigveda, where more hymns are addressed to him than to any other deity — approximately 250 hymns. He is the god of thunder, rain, and war. His prominence declined significantly in the Puranic period relative to his Vedic importance.",
+    "explanation": "Indra's most celebrated exploit is his slaying of the serpent-demon Vritra, which released the cosmic waters and allowed creation to proceed. He wields the thunderbolt weapon (vajra) forged by the craftsman god Tvashtr. He rides the white elephant Airavata. His palace is Svarga (heaven) on Mount Meru.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "इन्द्रं वो विश्वतस्परि हवामहे जनेभ्यः । अस्माकमस्तु केवलः ॥",
+        "transliteration": "indraṃ vo viśvatasopari havāmahe janebhyaḥ | asmākam astu kevalaḥ ||",
+        "translation": "We invoke Indra, who surpasses all people; may he be ours alone.",
+        "source": {
+          "text": "Rigveda 8.61.1",
+          "section": "8.61.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 1.32 (Indra slays Vritra)", "section": "1.32" },
+      { "text": "Rigveda 8.61.1", "section": "8.61.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-agni",
+    "slug": "agni",
+    "nameDevanagari": "अग्नि",
+    "nameTransliteration": "Agni",
+    "nameEnglish": "Agni",
+    "meaningEnglish": "Fire (agni = fire; cognate with Latin ignis)",
+    "domain": "deity",
+    "category": "Vedic Deity",
+    "tier": "solar",
+    "historicalContext": "Agni is the fire deity and the divine mediator between humans and the gods. The Rigveda opens with a hymn to Agni. He is the priest of the gods, carrying offerings to heaven in the fire sacrifice. He is closely linked to the domestic hearth, the funeral pyre, and the sacrificial fire (yajna).",
+    "explanation": "Agni exists on earth as the cooking fire and sacrifice fire, in the atmosphere as lightning, and in heaven as the sun. He is the divine witness of human actions and the purifier. The Agni Stoma is the simplest Vedic soma sacrifice. All Vedic yajnas require Agni's presence, making him the most practically important of all Vedic deities.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातमम् ॥",
+        "transliteration": "agnim īḷe purohitaṃ yajñasya devam ṛtvijam | hotāraṃ ratnadhātamam ||",
+        "translation": "I praise Agni, the purohita of the sacrifice, the divine ritualist, the hotr priest, the greatest bestower of wealth.",
+        "source": {
+          "text": "Rigveda 1.1.1",
+          "section": "1.1.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 1.1 (the opening hymn to Agni)", "section": "1.1" },
+      { "text": "Rigveda 1.1.1–9", "section": "1.1.1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-varuna",
+    "slug": "varuna",
+    "nameDevanagari": "वरुण",
+    "nameTransliteration": "Varuṇa",
+    "nameEnglish": "Varuna",
+    "meaningEnglish": "The All-enveloper (from root vṛ = to cover, envelop; also related to Greek Ouranos)",
+    "domain": "deity",
+    "category": "Vedic Deity",
+    "tier": "solar",
+    "historicalContext": "Varuna is the guardian of cosmic order (rita) and divine law in the Rigveda. He is paired with Mitra as a dual deity (Mitra-Varuna). He later became the god of the oceans and waters. His ethical dimension — monitoring human conduct and forgiving sins — anticipates the concept of karma.",
+    "explanation": "Varuna is associated with the night sky, the stars (his spies — spashas), and the cosmic waters. He punishes transgressions of rita (cosmic order) with his noose (pasha) and can be propitiated with prayers of confession. The Varuna hymns in the Rigveda are among the most personal and devotionally profound in Vedic literature.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "यत्किञ्चिदेमि मनसा द्रवन्तं ततो बिभेमि वरुणात् ।",
+        "transliteration": "yat kiñcid emi manasā dravantaṃ tato bibhemi varuṇāt",
+        "translation": "Whatever offence I may have committed in my movements, thought, or actions — I fear from that (I turn) to Varuna.",
+        "source": {
+          "text": "Rigveda 7.86.6",
+          "section": "7.86.6"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 7.86 (Varuna forgiveness hymn)", "section": "7.86" },
+      { "text": "Rigveda 1.25 (Varuna hymn)", "section": "1.25" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-surya",
+    "slug": "surya",
+    "nameDevanagari": "सूर्य",
+    "nameTransliteration": "Sūrya",
+    "nameEnglish": "Surya",
+    "meaningEnglish": "The Sun (sūrya = the sun; from root svar = to shine)",
+    "domain": "deity",
+    "category": "Vedic Deity",
+    "tier": "solar",
+    "historicalContext": "Surya is the sun god, one of the Adityas (sons of Aditi). He is worshipped in the Vedas, Puranas, and in Smarta practice. The Konark Sun Temple in Odisha and the Modhera Sun Temple in Gujarat are dedicated to him. The Gayatri Mantra is addressed to Savitr, an aspect of Surya.",
+    "explanation": "Surya traverses the sky in his golden chariot drawn by seven horses, dispelling darkness and ignorance. He is considered the visible form of Brahman (Surya Brahman) in some Vedantic texts. The Aditya Hridayam, recited by Agastya to Rama before his battle with Ravana (Valmiki Ramayana 6.105), is a famous Surya hymn.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "उद्यन्तमस्तं यन्तमादित्यमभिध्यायन्कुर्वन्ब्राह्मणो विद्वान् सकलं भद्रमश्नुते ।",
+        "transliteration": "udyantam astaṃ yantam ādityam abhidhyāyan kurvan brāhmaṇo vidvān sakalaṃ bhadram aśnute",
+        "translation": "The learned one who meditates on the rising and setting Aditya (Surya) obtains all auspiciousness.",
+        "source": {
+          "text": "Taittiriya Aranyaka 2.2.1",
+          "section": "2.2.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Rigveda 1.50 (Surya hymn)", "section": "1.50" },
+      { "text": "Valmiki Ramayana 6.105 (Aditya Hridayam)", "section": "6.105" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-murugan",
+    "slug": "murugan",
+    "nameDevanagari": "मुरुगन्",
+    "nameTransliteration": "Murugan",
+    "nameEnglish": "Murugan (Kartikeya / Skanda)",
+    "meaningEnglish": "The Beautiful or the Youthful (Tamil: murugan = beautiful, young; Sanskrit: Skanda = leaper, Kartikeya = son of Krittikas)",
+    "domain": "deity",
+    "category": "God",
+    "tier": "solar",
+    "historicalContext": "Murugan is the son of Shiva and Parvati, born to lead the gods in battle against the demon Tarakasura. He is the most important deity of the Tamil tradition. The six Arupadai Veedu (his six battle houses) are major pilgrimage sites in Tamil Nadu. The Skanda Purana is the largest of the Mahapuranas.",
+    "explanation": "Murugan rides a peacock and wields a vel (spear/lance). The Tirumurugaarruppadai by Nakkirar (Sangam era) and the Tirupugazh by Arunagirinathar (15th century) are the finest devotional works in his honour. His worship integrates Vedic, Agamic, and Tamil bhakti traditions. He is associated with youth, beauty, wisdom, and military victory.",
+    "sanskritPassages": [
+      {
+        "sanskrit": "षण्मुखं शक्तिहस्तं च द्विभुजं च चतुर्भुजम् ।",
+        "transliteration": "ṣaṇmukhaṃ śaktihastam ca dvibhujaṃ ca caturbhujam",
+        "translation": "The six-faced one, holding the spear, with two or four arms.",
+        "source": {
+          "text": "Skanda Purana 1.1.2",
+          "section": "1.1.2"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Skanda Purana 1.1.1", "section": "1.1.1" },
+      { "text": "Tirumurugaarruppadai (Nakkirar, Sangam era)", "section": "1" }
+    ],
+    "confidence": "traditional"
+  },
+  {
+    "id": "deity-radha",
+    "slug": "radha",
+    "nameDevanagari": "राधा",
+    "nameTransliteration": "Rādhā",
+    "nameEnglish": "Radha",
+    "meaningEnglish": "The Successful or Propitious (rādhā from rādh = to succeed, to accomplish; also the brightest star in Scorpius)",
+    "domain": "deity",
+    "category": "Goddess",
+    "tier": "solar",
+    "historicalContext": "Radha is the supreme goddess and eternal consort of Krishna in the Gaudiya Vaishnava tradition. She first becomes prominent in the Brahma Vaivarta Purana and the Gita Govinda of Jayadeva (12th century CE). In Chaitanya's theology, she represents the highest form of devotion (mahabhava).",
+    "explanation": "Radha's love for Krishna is considered the paradigm of pure devotion (prema-bhakti) — a love that transcends all social and domestic obligation. The Gita Govinda dramatises their union and separation. In Gaudiya Vaishnavism, she is considered superior to Krishna in devotional power — the embodiment of his own pleasure-giving energy (hladini-shakti).",
+    "sanskritPassages": [
+      {
+        "sanskrit": "राधाकृष्णे त्वं भज मनसा प्रेम्णा भक्तिं कुरुष्व ।",
+        "transliteration": "rādhākṛṣṇe tvaṃ bhaja manasā premṇā bhaktiṃ kuruṣva",
+        "translation": "Worship Radha-Krishna with your mind; practise devotion with love.",
+        "source": {
+          "text": "Brahma Vaivarta Purana (Krishna Janma Khanda 15.1)",
+          "section": "15.1"
+        }
+      }
+    ],
+    "sources": [
+      { "text": "Gita Govinda 1.1 (Jayadeva, 12th century CE)", "section": "1.1" },
+      { "text": "Brahma Vaivarta Purana, Krishna Janma Khanda 15", "section": "15" }
+    ],
+    "confidence": "traditional"
+  }
+]
