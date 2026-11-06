@@ -28,7 +28,7 @@ export function SearchBar({ onNodeSelect, query, setQuery, results }: SearchBarP
 
   return (
     <div
-      style={{ position: 'fixed', top: 16, left: 16, zIndex: 50, width: 320 }}
+      style={{ position: 'fixed', top: 16, left: 16, right: 16, zIndex: 50, maxWidth: 400 }}
     >
       <input
         ref={inputRef}

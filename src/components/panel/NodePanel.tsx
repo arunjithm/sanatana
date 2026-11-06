@@ -48,24 +48,27 @@ export function NodePanel({ node, onClose, onNavigateTo, onSwitchView }: NodePan
 
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-96 z-50 flex flex-col transition-transform duration-300 shadow-2xl ${
+      className={`fixed top-0 right-0 h-full z-50 flex flex-col transition-transform duration-300 shadow-2xl ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
       style={{
         background: '#0a0a1a',
         borderTop: `3px solid ${domainColor}`,
         borderLeft: '1px solid rgba(255, 255, 255, 0.08)',
+        width: 'min(100vw, 384px)',
+        maxWidth: '100vw',
+        boxSizing: 'border-box',
       }}
     >
       {node && (
         <>
           {/* Header */}
-          <div className="flex items-start justify-between p-4 border-b border-gray-800/80 bg-gray-950/40">
-            <div className="flex-1 min-w-0">
-              <div className="text-2xl text-yellow-400 font-devanagari leading-tight font-bold">
+          <div className="flex items-start justify-between p-4 border-b border-gray-800/80 bg-gray-950/40" style={{ minWidth: 0 }}>
+            <div className="flex-1 min-w-0 pr-2">
+              <div className="text-2xl text-yellow-400 font-devanagari leading-tight font-bold truncate">
                 {node.nameDevanagari}
               </div>
-              <div className="text-sm italic text-gray-400 mt-0.5">{node.nameTransliteration}</div>
+              <div className="text-sm italic text-gray-400 mt-0.5 truncate">{node.nameTransliteration}</div>
               <div className="text-base text-white mt-1 font-semibold">{node.nameEnglish}</div>
               {node.meaningEnglish && (
                 <div className="text-xs text-gray-300 mt-0.5 leading-relaxed">{node.meaningEnglish}</div>
@@ -73,7 +76,7 @@ export function NodePanel({ node, onClose, onNavigateTo, onSwitchView }: NodePan
             </div>
             <button
               onClick={onClose}
-              className="ml-2 w-7 h-7 flex items-center justify-center rounded-lg hover:bg-gray-800 text-gray-400 hover:text-white text-xl leading-none flex-shrink-0 transition-colors"
+              className="ml-2 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-gray-800 text-gray-400 hover:text-white text-2xl leading-none flex-shrink-0 transition-colors"
               aria-label="Close panel"
             >
               ×

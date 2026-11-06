@@ -113,7 +113,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-screen h-screen overflow-hidden relative bg-[#050510]">
+    <main className="overflow-hidden bg-[#050510]" style={{ position: 'fixed', inset: 0 }}>
       {/* Top Floating View Navigation HUD */}
       <ViewSwitcher
         currentView={viewMode}
