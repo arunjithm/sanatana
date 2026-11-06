@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate": "jest src/data/repository.test.ts --testNamePattern='validateGraph returns no errors'"
   },
   "dependencies": {
     "@fontsource/noto-serif": "^5.0.0",

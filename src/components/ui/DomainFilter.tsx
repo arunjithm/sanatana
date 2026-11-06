@@ -28,7 +28,7 @@ export function DomainFilter({ activeDomains, onToggle, onReset }: DomainFilterP
             style={isActive ? { backgroundColor: domain.color } : undefined}
             title={domain.nameDevanagari}
           >
-            {domain.nameEnglish}
+            {domain.name}
           </button>
         );
       })}
